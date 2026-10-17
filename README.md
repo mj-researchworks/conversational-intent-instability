@@ -25,7 +25,7 @@ Table numbering refers to the current revised manuscript.
 
 | Manuscript results | Package location |
 |---|---|
-| Table 8, classical machine-learning baselines | `ML BASELINE/` |
+| Table 8, classical machine-learning baselines | `ML BASELINE/ML_baselines.ipynb` |
 | Tables 9 and 14, unaugmented encoder baselines | `5Class_single_split_baseline/` and `4Class_single_split_baseline/` |
 | Table 10, decoder configurations | `DECODER_ALLEXPTS/` |
 | Table 11, complete five-class single split | `5Class_single_split/` |
