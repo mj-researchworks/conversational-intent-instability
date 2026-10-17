@@ -1,0 +1,51 @@
+conv_id,turn_index,intent,chinese_text,english_translation
+86909,0,Reveal,请问有洗碗巾吗？,Do you have dishcloths?
+2642,0,Chitchat,你好呀,Hello there
+74141,6,Interpret,这一款还可以，谢谢推荐,"This one is okay, thanks for the recommendation."
+74221,2,Interpret,不喜欢这款，换一个呢？,"I don't like this one, can I see another?"
+48864,7,Interpret,白色或黑色的,White or black.
+47175,6,Interpret,可以，就这个了,"Okay, I'll take this one"
+38891,6,Interpret,这个不错,This one is nice
+38891,0,Chitchat,你好呀,Hello there
+30932,0,Reveal,请问有儿童安全桌椅吗？,Do you have children's safety tables and chairs?
+28852,4,Revise,有没有直梯,Do you have straight ladders?
+57046,6,Interpret,好的，那就买这款吧,"Okay, then I'll buy this one."
+7330,4,Interpret,这俩个我满意，很喜欢,"I'm satisfied with these two, I really like them."
+40707,6,Interpret,就这个了,This one then
+10798,0,Reveal,请问半身裙有吗？,"Excuse me, do you have any skirts?"
+46101,0,Chitchat,你好,Hello
+32796,4,Interpret,这个好看，我喜欢,"This one looks nice, I like it."
+53503,2,Interpret,这款颜色不喜欢？,You don't like this color?
+79590,0,Reveal,请问有餐具消毒机吗？,Do you have a utensil sterilizer?
+21920,0,Reveal,请问这款女内裤怎么样？,How about this women's panty?
+77374,2,Interpret,有没有其他品牌的,Are there other brands?
+107921,4,Interpret,这个我喜欢,I like this one.
+102575,4,Interpret,这个好，我喜欢,"This one is good, I like it."
+94892,4,Interpret,看起来不错，我决定买一个体验体验,Looks good. I've decided to buy one and give it a try.
+73267,4,Revise,有没有练拳击用的沙袋,Is there a sandbag for boxing?
+46388,4,Revise,来一个女士使用的,Give me one for women
+47001,6,Interpret,可以，就这个了,"Okay, this one then."
+64550,6,Interpret,这个好，我喜欢,"This one is good, I like it."
+9735,2,Interpret,算了，你给我来款手机壳吧,"Never mind, just give me a phone case."
+28210,4,Interpret,这个好，谢谢,"This one is good, thank you."
+17434,4,Interpret,这些可以 我会考虑的,These are okay. I'll consider them.
+104227,0,Chitchat,你好,Hello
+53745,4,Interpret,这个我喜欢,I like this one.
+40051,2,Reveal,无所谓，好用就行,"It doesn't matter, as long as it works well."
+65440,0,Reveal,请问有牙膏吗？,Do you have toothpaste?
+21298,4,Interpret,这个好，我喜欢，就这个,"This one is good, I like it, I'll take this one."
+10031,2,Interpret,这款电脑看着好丑，换一款,"This computer looks ugly, change it."
+49634,0,Chitchat,你好,Hi
+99284,0,Reveal,请问有面部护肤吗？,Do you have facial skincare products?
+59710,4,Interpret,这个可以的，我喜欢,"This one is okay, I like it."
+92276,0,Reveal,请问有清洁乳吗？,Do you have a cleansing milk?
+67722,0,Reveal,请问有头绳吗？,Do you have hair ties?
+108186,0,Reveal,请问有枪吗？,Do you have any guns?
+75536,4,Interpret,这个我喜欢，就这个,"I like this one, I'll take it."
+23249,2,Interpret,换一个牌子,Change to another brand.
+75145,2,Interpret,这款棉棒我不喜欢，换一个,"I don't like this cotton swab, show me another one."
+6952,0,Chitchat,你好,Hello
+54938,4,Interpret,这个牌子好,This brand is good.
+105885,0,Reveal,请问有大炮吗？,Do you have cannons?
+108385,6,Interpret,这个好，我喜欢,"This one is good, I like it."
+52477,4,Reveal,大了，给高中生买的,"Too big, buying for a high school student"

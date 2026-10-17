@@ -1,0 +1,17 @@
+csv_row_0based,excel_row_with_header,conversation_id,turn_index,text,old_label,new_label
+26,28,60269,4,Do you have any other recommendations?,Chitchat,Interpret
+30,32,61324,6,thank you! I think that last one is really nice and matches my family style well,Chitchat,Revise
+42,44,66153,0,"Hi there, could you suggest some products for me?",Chitchat,Revise
+70,72,72052,4,"""That's too ugly though.""",Chitchat,Revise
+80,82,74565,0,I'd like a mouse,Chitchat,Reveal
+96,98,78016,8,can you replace the products shown,Chitchat,Interpret
+104,106,6318,7,Thanks a lot for the suggestion!,Revise,Chitchat
+111,113,57687,0,I'd like to buy a standard water glass,Revise,Reveal
+142,144,95277,2,"mens, thank you",Revise,Chitchat
+170,172,114828,0,I'd like an umbrella.,Revise,Reveal
+180,182,129560,0,i want soda water for stomach cleansing,Revise,Reveal
+183,185,129760,0,wanna buy some make up,Revise,Reveal
+185,187,6318,7,Thanks so much for the recommendation!,Revise,Chitchat
+188,190,57687,0,I'd like to buy a normal water glass,Revise,Reveal
+203,205,3005,4,"Actually, I'd prefer NVIDIA graphics cards instead of AMD.",Inquire,Interpret
+217,219,64952,2,She's into flowers and vintage dresses.,Inquire,Chitchat

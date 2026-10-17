@@ -1,0 +1,11 @@
+Fold,Intent,Original F1,Expanded F1,Expanded - Original,True test turns,Conversations,Original TP,Original FP,Original FN,Expanded TP,Expanded FP,Expanded FN
+CV1,Revise,0.0,0.0,0.0,13,11,0,0,13,0,1,13
+CV1,Inquire,0.0,0.0,0.0,4,3,0,0,4,0,0,4
+CV2,Revise,0.0,0.0,0.0,13,9,0,3,13,0,5,13
+CV2,Inquire,0.0,0.0,0.0,4,2,0,0,4,0,3,4
+CV3,Revise,0.0,0.13333333333333333,0.13333333333333333,14,11,0,0,14,5,56,9
+CV3,Inquire,0.0,0.0,0.0,3,2,0,0,3,0,0,3
+CV4,Revise,0.0,0.1111111111111111,0.1111111111111111,13,12,0,0,13,2,21,11
+CV4,Inquire,0.0,0.0,0.0,3,3,0,0,3,0,0,3
+CV5,Revise,0.0,0.20689655172413793,0.20689655172413793,14,10,0,0,14,3,12,11
+CV5,Inquire,0.0,0.0,0.0,3,3,0,0,3,0,0,3

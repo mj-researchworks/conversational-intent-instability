@@ -1,0 +1,232 @@
+conversation_id,turn_index,role,text,intent,is_augmented,augmentation_type,source_user_text,source_system_text
+20771,14,user,"""Thank you! Goodbye!""",Chitchat,True,Natural Conversation,Thanks! Bye!,If you need computer memory to be used quickly for your job the last option is the best choice. 
+21152,0,user,hey there,Chitchat,True,User-only,hello,
+21152,0,user,hi,Chitchat,True,Natural Conversation,hello,
+23826,6,user,thank you,Chitchat,True,User-only,thanks,"It has high ratings from costumers on: value for money, flavor, scent and freshness."
+23826,6,user,"""thank you""",Chitchat,True,Natural Conversation,thanks,"It has high ratings from costumers on: value for money, flavor, scent and freshness."
+23826,6,user,"""thanks""",Chitchat,True,Abstracted Context,thanks,"It has high ratings from costumers on: value for money, flavor, scent and freshness."
+24741,4,user,"Thanks, I have a Note 10 Pro so the Note 12 Pro would be a nice upgrade.",Chitchat,True,User-only,"Thanks, I have a Note 10 Pro so the Note 12 Pro is a good upgrade.",how about this?
+24741,4,user,Thanks! I'm using a Note 10 Pro right now so the Note 12 Pro would be a great upgrade.,Chitchat,True,Natural Conversation,"Thanks, I have a Note 10 Pro so the Note 12 Pro is a good upgrade.",how about this?
+25045,2,user,Are there any bundles available? Like with a game?,Chitchat,True,Natural Conversation,Do you have bundles? With a game included? ,We have a Nintendo Switch Lite available. 
+25045,5,user,"Alright, thanks!",Chitchat,True,Natural Conversation,"Okay, thank you! ",Do let me know if you need any further support. 
+25602,0,user,how's it going?,Chitchat,True,User-only,how are you ?,
+25602,0,user,how are you doing?,Chitchat,True,Natural Conversation,how are you ?,
+25602,0,user,how are you?,Chitchat,True,Abstracted Context,how are you ?,
+25621,0,user,"hey, how are you doing?",Chitchat,True,Natural Conversation,how are you ?,
+26532,0,user,hey how's it going?,Chitchat,True,User-only,how are you ?,
+57173,0,user,"I'm feeling bored, got anything we can talk about?",Chitchat,True,User-only,"I'm bored now, is there any topic?",
+57173,0,user,"I'm kinda bored right now, any topics we could chat about?",Chitchat,True,Natural Conversation,"I'm bored now, is there any topic?",
+57173,2,user,"ok, Any recommendations?",Chitchat,True,User-only,ok，Any recommendations?,Do you wanna something about music?
+57173,2,user,"sure, got any recommendations?",Chitchat,True,Natural Conversation,ok，Any recommendations?,Do you wanna something about music?
+57173,6,user,"Alright, I'll go check it out now.",Chitchat,True,User-only,"Okay, I'll go listen to it now.",how about these two?
+57173,6,user,"""Sure, let me go listen to that real quick.""",Chitchat,True,Natural Conversation,"Okay, I'll go listen to it now.",how about these two?
+57173,6,user,"""Okay, I'll go listen to it now.""",Chitchat,True,Abstracted Context,"Okay, I'll go listen to it now.",how about these two?
+57764,0,user,hi there,Chitchat,True,Natural Conversation,hello,
+58575,0,user,hey there!,Chitchat,True,User-only,hello.,
+58575,0,user,hi there.,Chitchat,True,Natural Conversation,hello.,
+59012,0,user,hey,Chitchat,True,Natural Conversation,hello,
+60269,4,user,Do you have any other recommendations?,Chitchat,True,User-only,Are there any other recommendations?,Do you like these?
+60269,4,user,Got any other suggestions?,Chitchat,True,Natural Conversation,Are there any other recommendations?,Do you like these?
+60269,4,user,Are there other options you'd recommend?,Chitchat,True,Abstracted Context,Are there any other recommendations?,Do you like these?
+61324,6,user,thouk you! I think that last one you showed me is really good and fits my family style perfectly,Chitchat,True,User-only,thouk you. I think the last one is very good and very consistent with my family style,I recommend you two other styles of this brand.
+61324,6,user,thank you! I think that last one is really nice and matches my family style well,Chitchat,True,Natural Conversation,thouk you. I think the last one is very good and very consistent with my family style,I recommend you two other styles of this brand.
+61324,6,user,thouk you. the last one is great and really fits with my family style,Chitchat,True,Abstracted Context,thouk you. I think the last one is very good and very consistent with my family style,I recommend you two other styles of this brand.
+62582,2,user,it's for my family,Chitchat,True,User-only,my family,"OK, are you buying this as a gift or for your family?"
+62582,2,user,for my family,Chitchat,True,Natural Conversation,my family,"OK, are you buying this as a gift or for your family?"
+62582,8,user,"I don't really have anything specific in mind, can you just recommend something?",Chitchat,True,User-only,"I don't have a goal either, can you help me find something you can recommend?","Fine, waht do prefer?"
+62582,8,user,"""I'm not sure what I'm looking for, could you suggest something?""",Chitchat,True,Natural Conversation,"I don't have a goal either, can you help me find something you can recommend?","Fine, waht do prefer?"
+62582,8,user,"""I don't have a goal either, can you help me find something you can recommend?""",Chitchat,True,Abstracted Context,"I don't have a goal either, can you help me find something you can recommend?","Fine, waht do prefer?"
+62582,10,user,The first one is ok I guess,Chitchat,True,User-only,This first one is ok,how about these ones? They look cooool!
+62582,10,user,"""The first one's alright""",Chitchat,True,Natural Conversation,This first one is ok,how about these ones? They look cooool!
+62582,10,user,"""This first one is ok""",Chitchat,True,Abstracted Context,This first one is ok,how about these ones? They look cooool!
+64458,4,user,thank you!,Chitchat,True,Natural Conversation,thanks!,how about these two?
+64848,0,user,hello hello!,Chitchat,True,Natural Conversation,hi hi hi!,
+66153,0,user,"Hi there, could you suggest some products for me?",Chitchat,True,User-only,"Hello, can you recommend some products for me",
+66153,0,user,"Hi, can you suggest some products to me",Chitchat,True,Natural Conversation,"Hello, can you recommend some products for me",
+66212,0,user,hiya!,Chitchat,True,Abstracted Context,hi hi hi!,
+66251,4,user,My girlfriend says these are too cheap looking.,Chitchat,True,User-only,My girlfriend thinks these things are too cheap.,Sure! What do you want to buy her?
+66251,4,user,She thinks these kinds of things are too cheap.,Chitchat,True,Natural Conversation,My girlfriend thinks these things are too cheap.,Sure! What do you want to buy her?
+66251,6,user,"My girlfriend is a bit troublesome, is there anything better you can suggest?",Chitchat,True,User-only,"My girlfriend is a bit troublesome, is there any better option?",How about these?
+66251,6,user,"My girlfriend can be a bit difficult, do you have any better suggestions?",Chitchat,True,Natural Conversation,"My girlfriend is a bit troublesome, is there any better option?",How about these?
+68131,0,user,"hi there, i'd like to purchase some CDs.",Chitchat,True,User-only,"hello, i whould like to buy some CDs.",
+68131,0,user,"hey, i want to buy some CDs.",Chitchat,True,Natural Conversation,"hello, i whould like to buy some CDs.",
+68131,0,user,"hello, i would like to buy some CDs.",Chitchat,True,Abstracted Context,"hello, i whould like to buy some CDs.",
+68131,4,user,thanks for your help!,Chitchat,True,User-only,thank you.,That's all I could find for you.
+68131,4,user,thanks!,Chitchat,True,Natural Conversation,thank you.,That's all I could find for you.
+68595,6,user,Thanks so much,Chitchat,True,Natural Conversation,Thank you,"As per your requirement, I recommend this"
+68988,4,user,These both work great for what I need. Thanks so much.,Chitchat,True,Natural Conversation,Both of these meet my requirements very well. Thank you.,what about these
+69994,0,user,"hey there, good afternoon",Chitchat,True,User-only,good afternoon,
+69994,0,user,good afternoon to you,Chitchat,True,Natural Conversation,good afternoon,
+70170,2,user,I wanna practice my penmanship,Chitchat,True,Natural Conversation,I want to practice penmanship,What kind of pen do you wanna?
+70170,4,user,I'd like it to be white in appearance,Chitchat,True,Natural Conversation,I want the appearance to be white,how about these two?
+70170,6,user,I'd like one with a sharp tip,Chitchat,True,Natural Conversation,I want a sharp tip,how about these two?
+70170,8,user,I'd like to practice my penmanship,Chitchat,True,Natural Conversation,I want to practice penmanship,how about these?
+70478,4,user,"Yeah, thank you!",Chitchat,True,Natural Conversation,"Yes, thanks!",These two meet your brand requirements
+70823,0,user,嗨,Chitchat,True,User-only,你好,
+70823,0,user,你好呀,Chitchat,True,Natural Conversation,你好,
+71597,0,user,"Hey there, good morning!",Chitchat,True,User-only,"Good Morning, sir",
+71597,0,user,"Good morning to you, sir",Chitchat,True,Natural Conversation,"Good Morning, sir",
+71931,2,user,"Yeah, thanks.",Chitchat,True,Natural Conversation,"Yes, thank you.",What do you think of these?
+72052,2,user,"""I'm looking for a sweater that's on sale""",Chitchat,True,Natural Conversation,I want a sweater on sale,Do you have branding requirements?
+72052,4,user,That's way too ugly for me.,Chitchat,True,User-only,This is too ugly.,This one's on sale.
+72052,4,user,"""That's too ugly though.""",Chitchat,True,Natural Conversation,This is too ugly.,This one's on sale.
+72052,4,user,"""This is too ugly.""",Chitchat,True,Abstracted Context,This is too ugly.,This one's on sale.
+72052,6,user,"Oh well, that's unfortunate.",Chitchat,True,User-only,That’s a shame.,There's no more discounts.
+72052,6,user,That's a shame.,Chitchat,True,Abstracted Context,That’s a shame.,There's no more discounts.
+72507,2,user,"Yeah, the RYB HOME Bedroom Blackout Curtains work for me since they come in lots of rich colors",Chitchat,True,User-only,"Yes, the RYB HOME Bedroom Blackout Curtains fit my bill because it has a lot of rich colors",how about these two?
+72507,2,user,"Yeah, the RYB HOME Bedroom Blackout Curtains are perfect for what I need because they have so many rich colors",Chitchat,True,Natural Conversation,"Yes, the RYB HOME Bedroom Blackout Curtains fit my bill because it has a lot of rich colors",how about these two?
+72507,2,user,"Yes, the RYB HOME Bedroom Blackout Curtains work perfectly because they've got a lot of rich colors",Chitchat,True,Abstracted Context,"Yes, the RYB HOME Bedroom Blackout Curtains fit my bill because it has a lot of rich colors",how about these two?
+73367,8,user,"Alright, I'll just go with the first one then.",Chitchat,True,User-only,"OK,I will buy the first one.",It softer than the first one.
+73367,8,user,"""Okay, I'll take the first one.""",Chitchat,True,Natural Conversation,"OK,I will buy the first one.",It softer than the first one.
+73367,8,user,"OK, I will buy the first one.",Chitchat,True,Abstracted Context,"OK,I will buy the first one.",It softer than the first one.
+74565,0,user,I'd like a mouse,Chitchat,True,Natural Conversation,I want a mouse,
+74820,4,user,"""That's perfect, thanks!""",Chitchat,True,Natural Conversation,"That's great, thank you!",What about these products?
+74820,4,user,"""That's great, thank you!""",Chitchat,True,Abstracted Context,"That's great, thank you!",What about these products?
+74874,0,user,"hey there, how's it going?",Chitchat,True,User-only,good morning， sir,
+74874,0,user,"hello there, good morning",Chitchat,True,Natural Conversation,good morning， sir,
+74874,0,user,"good morning, how are you",Chitchat,True,Abstracted Context,good morning， sir,
+75059,0,user,hey there!!,Chitchat,True,User-only,hi hi hi hi!,
+75059,0,user,hello hello hello!,Chitchat,True,Natural Conversation,hi hi hi hi!,
+76958,0,user,it's raining outside today,Chitchat,True,User-only,today it's raining.,
+76958,0,user,it's raining today.,Chitchat,True,Natural Conversation,today it's raining.,
+76958,6,user,okay,Chitchat,True,User-only,"ok
+","Sorry, we can't recommend this for you"
+76958,6,user,alright,Chitchat,True,Natural Conversation,"ok
+","Sorry, we can't recommend this for you"
+77428,4,user,"Both of those look great, thank you!",Chitchat,True,Natural Conversation,"These two are great, thanks!","Fine.let me give you some advice of office chair,which is cheap and conformtable."
+78016,0,user,"Hey there, my friend",Chitchat,True,User-only,"Hello, good brother",
+78016,0,user,"Hi there, buddy",Chitchat,True,Natural Conversation,"Hello, good brother",
+78016,0,user,"What's up, pal",Chitchat,True,Abstracted Context,"Hello, good brother",
+78016,8,user,can you replace the products shown,Chitchat,True,User-only,please replace products,how about these
+78016,8,user,could you replace these products,Chitchat,True,Natural Conversation,please replace products,how about these
+78198,4,user,Those two are great,Chitchat,True,User-only,These two are great,these?
+78198,4,user,"""Yeah these two are great""",Chitchat,True,Natural Conversation,These two are great,these?
+5744,4,user,"I don't want a contract, I just want to buy the phone outright",Revise,True,User-only,I just want to buy the phone outright with no contract,How does this one look?
+5744,4,user,"""I'd rather just purchase the phone outright without any contract""",Revise,True,Natural Conversation,I just want to buy the phone outright with no contract,How does this one look?
+5744,4,user,"""I just want to buy the phone outright with no contract""",Revise,True,Abstracted Context,I just want to buy the phone outright with no contract,How does this one look?
+6318,7,user,Thanks so much for the suggestions!,Revise,True,User-only,Thank you very much for your recommendation!,These should meet your requirements
+6318,7,user,Thanks a lot for the suggestion!,Revise,True,Natural Conversation,Thank you very much for your recommendation!,These should meet your requirements
+17527,6,user,"Actually, I'd prefer a strong fragrance instead.",Revise,True,User-only,"On second thought, I'd prefer a strong fragrance.",Okay. Here are my recommendations for you:
+17527,6,user,"Wait, actually I'd rather have something with a strong fragrance.",Revise,True,Natural Conversation,"On second thought, I'd prefer a strong fragrance.",Okay. Here are my recommendations for you:
+18181,4,user,"Actually, I changed my mind. I'd rather have grape flavor instead.",Revise,True,User-only,"On second thought, I feel more like having grape flavor.","Okay, here are the recommendations:"
+18181,4,user,"Wait, actually I think I want grape flavor instead.",Revise,True,Natural Conversation,"On second thought, I feel more like having grape flavor.","Okay, here are the recommendations:"
+57687,0,user,I want to get a regular water glass,Revise,True,User-only,I'd like to buy a usual water glass,
+57687,0,user,I want to purchase a regular water glass,Revise,True,Natural Conversation,I'd like to buy a usual water glass,
+57687,0,user,I'd like to buy a standard water glass,Revise,True,Abstracted Context,I'd like to buy a usual water glass,
+57687,4,user,I need a cup that I can take with me.,Revise,True,User-only,I need cup  that I can take with me.,how about these?
+57687,4,user,I need a cup that's portable.,Revise,True,Natural Conversation,I need cup  that I can take with me.,how about these?
+57687,6,user,I need something with the right price and high quality. Preferably from a well-known brand,Revise,True,User-only,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+57687,6,user,"""I'm looking for something that's good quality and reasonably priced. A famous brand would be ideal""",Revise,True,Natural Conversation,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+57687,6,user,"""I need the right price point and high quality. A well-known brand would be best""",Revise,True,Abstracted Context,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+57687,8,user,I'll take the blue one from those options.,Revise,True,User-only,I'll take the blue one.,how about these two?
+57687,8,user,I'll go with the blue one.,Revise,True,Natural Conversation,I'll take the blue one.,how about these two?
+60018,4,user,Can you show me some product recommendations for the Apple series instead?,Revise,True,User-only,Give me some product recommendations for the Apple series,What do you think of these?
+60018,4,user,"""Show me some recommendations for the Apple series""",Revise,True,Natural Conversation,Give me some product recommendations for the Apple series,What do you think of these?
+60640,2,user,Yeah those are perfect! But I already have one of those. Can you show me something different?,Revise,True,User-only,Yes! thats what i want! But i already got one. I want some thing new!,how about these two?
+60640,2,user,Yes those are exactly what I'm looking for! But I've already got one. Can you show me something else?,Revise,True,Natural Conversation,Yes! thats what i want! But i already got one. I want some thing new!,how about these two?
+61169,1,user,"Hey, is anyone there? I'm looking for a gaming monitor.",Revise,True,User-only,"Hello, are you there? I need a computer screen for gaming.",
+61169,1,user,"Hi, can you help me? I'm trying to find a monitor for gaming.",Revise,True,Natural Conversation,"Hello, are you there? I need a computer screen for gaming.",
+61169,1,user,"Hello, are you available? I need to get a gaming display.",Revise,True,Abstracted Context,"Hello, are you there? I need a computer screen for gaming.",
+63808,7,user,grey works for me,Revise,True,Natural Conversation,grey is ok,Great! What color do you tend to like?
+67642,2,user,I don't care about the color. I need something for winter though. Got anything heated?,Revise,True,User-only,The color doesn't matter. I want something to use for winter. Do you have something that can be heated?,Are there any particular colors or patterns you have in mind?
+67642,2,user,Color isn't important to me. I need it for winter use. Got anything with heating?,Revise,True,Natural Conversation,The color doesn't matter. I want something to use for winter. Do you have something that can be heated?,Are there any particular colors or patterns you have in mind?
+75059,6,user,actually make it portable please,Revise,True,User-only,portable please!,this is good with second one
+75059,6,user,can you make it portable?,Revise,True,Natural Conversation,portable please!,this is good with second one
+82889,2,user,"actually i need a 4k, 240hz monitor",Revise,True,User-only,"i need a 4k, 240hz monitor.",how about these?
+82889,2,user,"i'm looking for a 4k, 240hz monitor.",Revise,True,Natural Conversation,"i need a 4k, 240hz monitor.",how about these?
+83771,4,user,i can only spend up to 60 dollars though,Revise,True,User-only,my budget is 60 dollars.,how about these
+83771,4,user,"""i can only go up to 60 bucks.""",Revise,True,Natural Conversation,my budget is 60 dollars.,how about these
+83771,4,user,"""my budget is 60 dollars.""",Revise,True,Abstracted Context,my budget is 60 dollars.,how about these
+84767,7,user,"fine, show me those above 100 dollars",Revise,True,User-only,fine,the cheapest washing machine is above 100 dollors.
+84767,7,user,okay fine,Revise,True,Natural Conversation,fine,the cheapest washing machine is above 100 dollors.
+89509,4,user,I need something under $300 though. Got any good budget options?,Revise,True,User-only,I want one under $300. Do you have any cost-effective recommendations?,how about these?
+89509,4,user,"""I'm looking for something under $300. Any good value picks you'd recommend?""",Revise,True,Natural Conversation,I want one under $300. Do you have any cost-effective recommendations?,how about these?
+89509,4,user,"""I want one under $300. Do you have any cost-effective recommendations?""",Revise,True,Abstracted Context,I want one under $300. Do you have any cost-effective recommendations?,how about these?
+91881,3,user,I'm looking for an electrostatic capacitive keyboard.,Revise,True,Natural Conversation,I need an electrostatic capacitive keyboard.,Do you want wired or wireless?
+95277,2,user,"mens, thank you",Revise,True,User-only,mens，thank you,Do you want a women's or a men's a stylish black down jacket？
+95277,2,user,"men's, thanks",Revise,True,Natural Conversation,mens，thank you,Do you want a women's or a men's a stylish black down jacket？
+95277,4,user,actually middle length would be better,Revise,True,User-only,middle,Do you want a long or short style？
+95277,6,user,no i want the north face 1996s,Revise,True,User-only,i want the north face 1996s,How about these?
+95277,6,user,"""i want the north face 1996s""",Revise,True,Natural Conversation,i want the north face 1996s,How about these?
+96077,4,user,I want plants instead.,Revise,True,User-only,I wanna plants.,What do you want?
+96077,4,user,I want plants.,Revise,True,Natural Conversation,I wanna plants.,What do you want?
+97592,0,user,"Actually, I want music records.",Revise,True,User-only,I wanna music records.,
+97592,0,user,I want music records.,Revise,True,Natural Conversation,I wanna music records.,
+97957,10,user,"that's not available? alright, show me toys then.",Revise,True,User-only,"ok, give me toys.","Sorry, we don’t have this item."
+97957,10,user,"okay, show me toys instead.",Revise,True,Natural Conversation,"ok, give me toys.","Sorry, we don’t have this item."
+98610,2,user,"Sorry, I actually want a leather jacket instead.",Revise,True,User-only,"I'm sorry, but I want a  jacket made of leather.",What color do you want
+98610,2,user,"Sorry, but I actually want a leather jacket.",Revise,True,Natural Conversation,"I'm sorry, but I want a  jacket made of leather.",What color do you want
+104361,0,user,I'm looking for a lightweight laptop for work and some light gaming. It needs to be under 1.5kg. What do you recommend?,Revise,True,User-only,"I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?",
+104361,0,user,"I'm interested in getting a lightweight laptop, mostly for work stuff and a bit of gaming. The weight should be less than 1.5kg if possible. Any suggestions?",Revise,True,Natural Conversation,"I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?",
+104361,4,user,I don't have a brand preference except no lenovo. Looking for around $500 budget and 15.6 inch screen.,Revise,True,User-only,"No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.","Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?"
+104361,4,user,"No brand preference really, just not lenovo. I'm thinking around $500 and want a 15.6 inch screen.",Revise,True,Natural Conversation,"No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.","Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?"
+104361,4,user,No preferred brand but I don't want lenovo. Budget is around $500 and I'm looking for 15.6 inches screen size.,Revise,True,Abstracted Context,"No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.","Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?"
+104361,6,user,"The second option is too pricey for me, and I don't want anything with apple system.",Revise,True,User-only,"The second is too expensive, and i do not want apple system.",Here are two excellent options for your needs
+104361,6,user,"The second one costs too much, and i don't want apple system.",Revise,True,Natural Conversation,"The second is too expensive, and i do not want apple system.",Here are two excellent options for your needs
+104558,4,user,"I don't need a camera, just want one with cartoon images on it",Revise,True,User-only,"camera is not necessary, I'd like the style with cartoon images","Do you prefer a specific design or brand, and would you need any additional features like a camera or step tracking?"
+104558,4,user,"no camera needed, I want the one with cartoon style designs",Revise,True,Natural Conversation,"camera is not necessary, I'd like the style with cartoon images","Do you prefer a specific design or brand, and would you need any additional features like a camera or step tracking?"
+105047,2,user,"""okay got it""",Revise,True,Natural Conversation,got it,"This is good, it can meet your needs"
+105047,2,user,"""got it""",Revise,True,Abstracted Context,got it,"This is good, it can meet your needs"
+114220,5,user,"I'd like a black thermos cup, 500ml",Revise,True,Natural Conversation,I want a 500ml thermos cup in black,"Do you prefer a specific size or style? For example, are you looking for something lightweight for travel or a larger one for keeping drinks hot all day?"
+114220,7,user,"Actually, I want a Japanese brand thermos cup",Revise,True,User-only,I want a Japanese brand thermos cup,this one ?
+114220,7,user,I'm looking for a Japanese brand thermos cup instead,Revise,True,Natural Conversation,I want a Japanese brand thermos cup,this one ?
+114828,0,user,I want an umbrella.,Revise,True,User-only,I wanna a umbrella.,
+114828,0,user,I'd like an umbrella.,Revise,True,Natural Conversation,I wanna a umbrella.,
+114828,0,user,I wanna get an umbrella.,Revise,True,Abstracted Context,I wanna a umbrella.,
+115124,2,user,"""I'm looking for other products though, like melatonin""",Revise,True,Natural Conversation,"I need other products, such as melatonin",It can help you with insomnia
+115124,2,user,"""I need other products, such as melatonin""",Revise,True,Abstracted Context,"I need other products, such as melatonin",It can help you with insomnia
+116141,2,user,I want a 3090 GPU.,Revise,True,Natural Conversation,I wanna 3090 GPU.,Do you have a favorite flavor？<br><br><br>
+117490,4,user,"No, I want a gym vest instead",Revise,True,User-only,Give me a gym vest,how about these?
+117490,4,user,"""I need a gym vest""",Revise,True,Natural Conversation,Give me a gym vest,how about these?
+117490,4,user,"""Give me a gym vest""",Revise,True,Abstracted Context,Give me a gym vest,how about these?
+129560,0,user,i need soda water for cleaning out my stomach,Revise,True,User-only,i want soda water to clean my stomach,
+129560,0,user,i need soda water to help clean out my stomach,Revise,True,Natural Conversation,i want soda water to clean my stomach,
+129560,0,user,i want soda water for stomach cleansing,Revise,True,Abstracted Context,i want soda water to clean my stomach,
+129760,0,user,looking to buy some makeup,Revise,True,User-only,want to buy some make up,
+129760,0,user,looking to purchase some makeup,Revise,True,Natural Conversation,want to buy some make up,
+129760,0,user,wanna buy some make up,Revise,True,Abstracted Context,want to buy some make up,
+5744,4,user,"I don't want a contract, just want to buy the phone outright",Revise,True,User-only,I just want to buy the phone outright with no contract,How does this one look?
+6318,7,user,Thanks so much for the recommendation!,Revise,True,User-only,Thank you very much for your recommendation!,These should meet your requirements
+18181,4,user,"Wait, actually I'd prefer grape flavor instead.",Revise,True,Natural Conversation,"On second thought, I feel more like having grape flavor.","Okay, here are the recommendations:"
+57687,0,user,I want to purchase a standard water glass,Revise,True,Natural Conversation,I'd like to buy a usual water glass,
+57687,0,user,I'd like to buy a normal water glass,Revise,True,Abstracted Context,I'd like to buy a usual water glass,
+57687,6,user,I need something that's good quality and reasonably priced. A well-known brand would be best,Revise,True,User-only,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+57687,6,user,"""I'm looking for something with the right price point and good quality. Would prefer a well-known brand""",Revise,True,Natural Conversation,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+57687,6,user,"""I need one at the right price and of high quality. Preferably a famous brand""",Revise,True,Abstracted Context,I need one at the right price and of high quality. Preferably a famous brand,I got it! how about these two?
+60018,4,user,"""Give me some product recommendations for the Apple series""",Revise,True,Abstracted Context,Give me some product recommendations for the Apple series,What do you think of these?
+60640,2,user,Yeah those look good but I already have one like that. Can you show me something different?,Revise,True,User-only,Yes! thats what i want! But i already got one. I want some thing new!,how about these two?
+60640,2,user,Yeah thats exactly it! But I actually already have one. Show me something else instead!,Revise,True,Natural Conversation,Yes! thats what i want! But i already got one. I want some thing new!,how about these two?
+61169,1,user,"Hi, can you help me? I'm looking for a monitor for gaming.",Revise,True,Natural Conversation,"Hello, are you there? I need a computer screen for gaming.",
+61169,1,user,"Hello, are you available? I need a display screen for gaming purposes.",Revise,True,Abstracted Context,"Hello, are you there? I need a computer screen for gaming.",
+63808,7,user,"""grey works for me""",Revise,True,Natural Conversation,grey is ok,Great! What color do you tend to like?
+63808,7,user,"""grey is ok""",Revise,True,Abstracted Context,grey is ok,Great! What color do you tend to like?
+67642,2,user,I don't really care about the color. I need something for winter though. Do you have anything that's heated?,Revise,True,User-only,The color doesn't matter. I want something to use for winter. Do you have something that can be heated?,Are there any particular colors or patterns you have in mind?
+23826,2,user,Can you show me how much it costs,Inquire,True,User-only,Could you include the cost ,Here is a suggestion of best value cat food.
+23826,2,user,Can you add the price info,Inquire,True,Natural Conversation,Could you include the cost ,Here is a suggestion of best value cat food.
+23826,2,user,Could you show the cost too,Inquire,True,Abstracted Context,Could you include the cost ,Here is a suggestion of best value cat food.
+3005,4,user,"Actually, I'd prefer NVIDIA graphics cards instead of AMD.",Inquire,True,Natural Conversation,"Actually, I prefer NVIDIA graphics cards over AMD's.",Are these okay with you?
+3340,6,user,I don't see any results showing up on my screen.,Inquire,True,User-only,It seems like you haven't displayed any recommendation result.,How about these ones?<br>
+3340,6,user,I'm not seeing any recommendations displayed yet.,Inquire,True,Natural Conversation,It seems like you haven't displayed any recommendation result.,How about these ones?<br>
+3340,6,user,Nothing's showing up - did the results load?,Inquire,True,Abstracted Context,It seems like you haven't displayed any recommendation result.,How about these ones?<br>
+57558,2,user,"No no, you got it wrong. I'm looking for phone accessories like a protective case.",Inquire,True,User-only,U missunderstand me. I want to buy some stuff for my phone like protect shell.,"you prefer iphone than huawei?
+"
+57558,2,user,No you misunderstood. I need accessories for my phone like a protective case.,Inquire,True,Natural Conversation,U missunderstand me. I want to buy some stuff for my phone like protect shell.,"you prefer iphone than huawei?
+"
+57764,6,user,Can you recommend me a white one instead?,Inquire,True,User-only,Then please recommend me a white one,"Sorry, i check the products, we have other colors but black."
+57764,6,user,Could you recommend a white one then?,Inquire,True,Natural Conversation,Then please recommend me a white one,"Sorry, i check the products, we have other colors but black."
+61253,2,user,"wait, what's bank? is that a style or something?",Inquire,True,User-only,bank? Is this a style?,Sure.Do you have any preference? like bank?
+61253,2,user,bank? what style is that?,Inquire,True,Natural Conversation,bank? Is this a style?,Sure.Do you have any preference? like bank?
+61253,2,user,what do you mean by bank? is that a style?,Inquire,True,Abstracted Context,bank? Is this a style?,Sure.Do you have any preference? like bank?
+64952,0,user,I'm looking for a gift for my wife's birthday.,Inquire,True,User-only,I want to buy a present for my wife to celebrate her birthday.,
+64952,0,user,"I need to get something for my wife, it's her birthday coming up.",Inquire,True,Natural Conversation,I want to buy a present for my wife to celebrate her birthday.,
+64952,0,user,I want to find a birthday present for my wife.,Inquire,True,Abstracted Context,I want to buy a present for my wife to celebrate her birthday.,
+64952,2,user,She's into flowers and vintage dresses.,Inquire,True,User-only,She likes flowers and vintage dress.,"sure, What does your wife like? Like cooking, can I recommend some kitchen supplies?"
+64952,2,user,She's really into flowers and vintage dresses.,Inquire,True,Natural Conversation,She likes flowers and vintage dress.,"sure, What does your wife like? Like cooking, can I recommend some kitchen supplies?"
+66237,0,user,"looking for a birthday gift for my wife, any ideas?",Inquire,True,User-only,i want to buy a present for my wife to celebrate her birthday,
+66237,0,user,i need to find a gift for my wife's birthday,Inquire,True,Natural Conversation,i want to buy a present for my wife to celebrate her birthday,
+66237,0,user,what can i get my wife for her birthday?,Inquire,True,Abstracted Context,i want to buy a present for my wife to celebrate her birthday,
+66237,2,user,"no those won't work, she's into flowers and vintage dresses",Inquire,True,User-only,"not good,she likes flowers and vintage dress.",how about these two?
+66237,2,user,"those aren't good, she likes flowers and vintage style dresses",Inquire,True,Natural Conversation,"not good,she likes flowers and vintage dress.",how about these two?
+66237,2,user,"not good, she likes flowers and vintage dress.",Inquire,True,Abstracted Context,"not good,she likes flowers and vintage dress.",how about these two?
+66237,6,user,what kind of awful robot is this?,Inquire,True,User-only,awful robot！,these two?
+66237,6,user,terrible robot!,Inquire,True,Natural Conversation,awful robot！,these two?

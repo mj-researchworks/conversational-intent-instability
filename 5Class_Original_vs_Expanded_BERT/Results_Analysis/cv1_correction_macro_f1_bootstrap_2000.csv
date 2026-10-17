@@ -1,0 +1,3 @@
+Comparison,Observed Macro F1 difference,Lower 95% limit,Upper 95% limit,resamples,seed,test_conversations,test_turns
+Corrected - Expanded,0.012341259323922216,-0.001918328666769778,0.028155407182735556,2000,42,166,640
+Corrected - Original,-0.0014886480293624937,-0.02073841529468546,0.016539538603519643,2000,42,166,640

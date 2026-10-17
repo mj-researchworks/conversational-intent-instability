@@ -1,0 +1,51 @@
+conv_id,turn_index,intent,chinese_text,english_translation,meaning_preserved,intent_preserved,detail_faithfulness,brief_reason
+86909,0,Reveal,请问有洗碗巾吗？,Do you have dishcloths?,5,5,5,The translation accurately conveys the original meaning and intent of asking for dishcloths without omitting or altering any important details.
+2642,0,Chitchat,你好呀,Hello there,5,5,5,The translation accurately conveys the greeting without adding or omitting any important details.
+74141,6,Interpret,这一款还可以，谢谢推荐,"This one is okay, thanks for the recommendation.",5,5,5,"The translation accurately conveys the original meaning, maintains the intent of appreciation, and does not omit or alter any important details."
+74221,2,Interpret,不喜欢这款，换一个呢？,"I don't like this one, can I see another?",5,5,5,"The translation accurately conveys the original meaning, maintains the intent of seeking an alternative, and preserves all relevant details without adding or omitting any important information."
+48864,7,Interpret,白色或黑色的,White or black.,5,5,5,The translation accurately conveys the color options without losing any meaning or intent.
+47175,6,Interpret,可以，就这个了,"Okay, I'll take this one",5,5,5,The translation accurately conveys the meaning and intent of the original Chinese phrase without adding or omitting any important details.
+38891,6,Interpret,这个不错,This one is nice,5,5,5,The translation accurately conveys the meaning and intent of the original phrase without adding or omitting important details.
+38891,0,Chitchat,你好呀,Hello there,5,5,5,The translation accurately conveys the greeting and maintains the casual tone of the original phrase.
+30932,0,Reveal,请问有儿童安全桌椅吗？,Do you have children's safety tables and chairs?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+28852,4,Revise,有没有直梯,Do you have straight ladders?,1,1,1,"The translation misinterprets '直梯' (which means 'elevator') as 'straight ladders', leading to a complete loss of meaning and intent."
+57046,6,Interpret,好的，那就买这款吧,"Okay, then I'll buy this one.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or alterations."
+7330,4,Interpret,这俩个我满意，很喜欢,"I'm satisfied with these two, I really like them.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+40707,6,Interpret,就这个了,This one then,5,5,5,The translation accurately conveys the meaning and intent of the original phrase without adding or omitting any important details.
+10798,0,Reveal,请问半身裙有吗？,"Excuse me, do you have any skirts?",5,5,3,"The translation captures the general meaning and intent but fails to specify that the inquiry is about 'half-length skirts' specifically, instead using the broader term 'skirts'."
+46101,0,Chitchat,你好,Hello,5,5,5,The translation accurately conveys the meaning and intent of the original phrase without adding or omitting any details.
+32796,4,Interpret,这个好看，我喜欢,"This one looks nice, I like it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+53503,2,Interpret,这款颜色不喜欢？,You don't like this color?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or alterations."
+79590,0,Reveal,请问有餐具消毒机吗？,Do you have a utensil sterilizer?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or alterations."
+21920,0,Reveal,请问这款女内裤怎么样？,How about this women's panty?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+77374,2,Interpret,有没有其他品牌的,Are there other brands?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+107921,4,Interpret,这个我喜欢,I like this one.,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+102575,4,Interpret,这个好，我喜欢,"This one is good, I like it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+94892,4,Interpret,看起来不错，我决定买一个体验体验,Looks good. I've decided to buy one and give it a try.,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+73267,4,Revise,有没有练拳击用的沙袋,Is there a sandbag for boxing?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+46388,4,Revise,来一个女士使用的,Give me one for women,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+47001,6,Interpret,可以，就这个了,"Okay, this one then.",5,5,5,The translation accurately conveys the meaning and intent of the original Chinese phrase without adding or omitting any important details.
+64550,6,Interpret,这个好，我喜欢,"This one is good, I like it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+9735,2,Interpret,算了，你给我来款手机壳吧,"Never mind, just give me a phone case.",5,5,5,"The translation accurately conveys the original meaning, maintains the intent of requesting a phone case, and does not omit or alter any important details."
+28210,4,Interpret,这个好，谢谢,"This one is good, thank you.",5,5,5,The translation accurately conveys the meaning and intent of the original Chinese phrase without adding or omitting any important details.
+17434,4,Interpret,这些可以 我会考虑的,These are okay. I'll consider them.,5,5,5,The translation accurately conveys the original meaning and intent without omitting or altering any important details.
+104227,0,Chitchat,你好,Hello,5,5,5,The translation accurately conveys the meaning and intent of the original Chinese greeting without adding or omitting any details.
+53745,4,Interpret,这个我喜欢,I like this one.,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+40051,2,Reveal,无所谓，好用就行,"It doesn't matter, as long as it works well.",5,5,5,"The translation accurately conveys the original meaning, maintains the intent of indifference towards specifics, and does not omit or alter any important details."
+65440,0,Reveal,请问有牙膏吗？,Do you have toothpaste?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or alterations."
+21298,4,Interpret,这个好，我喜欢，就这个,"This one is good, I like it, I'll take this one.",5,5,5,"The translation accurately conveys the meaning, intent, and details of the original Chinese sentence without any omissions or additions."
+10031,2,Interpret,这款电脑看着好丑，换一款,"This computer looks ugly, change it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+49634,0,Chitchat,你好,Hi,5,5,5,The translation accurately conveys the greeting without any loss of meaning or intent.
+99284,0,Reveal,请问有面部护肤吗？,Do you have facial skincare products?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+59710,4,Interpret,这个可以的，我喜欢,"This one is okay, I like it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+92276,0,Reveal,请问有清洁乳吗？,Do you have a cleansing milk?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+67722,0,Reveal,请问有头绳吗？,Do you have hair ties?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or additions."
+108186,0,Reveal,请问有枪吗？,Do you have any guns?,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any omissions or alterations."
+75536,4,Interpret,这个我喜欢，就这个,"I like this one, I'll take it.",5,5,5,"The translation accurately conveys the meaning, intent, and details of the original Chinese sentence without any additions or omissions."
+23249,2,Interpret,换一个牌子,Change to another brand.,5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+75145,2,Interpret,这款棉棒我不喜欢，换一个,"I don't like this cotton swab, show me another one.",5,5,5,"The translation accurately conveys the original meaning, maintains the intent of requesting a different product, and preserves all important details."
+6952,0,Chitchat,你好,Hello,5,5,5,The translation accurately conveys the meaning and intent of the original Chinese phrase without adding or omitting any details.
+54938,4,Interpret,这个牌子好,This brand is good.,5,5,5,"The translation accurately conveys the meaning, intent, and details of the original Chinese sentence without any loss or addition."
+105885,0,Reveal,请问有大炮吗？,Do you have cannons?,5,5,5,The translation accurately conveys the original meaning and intent of asking about the availability of cannons without omitting or altering any important details.
+108385,6,Interpret,这个好，我喜欢,"This one is good, I like it.",5,5,5,"The translation accurately conveys the original meaning, intent, and details without any loss or addition."
+52477,4,Reveal,大了，给高中生买的,"Too big, buying for a high school student",4,5,4,The translation conveys the general idea but slightly misrepresents the size context and lacks clarity on the intended use for a high school student.

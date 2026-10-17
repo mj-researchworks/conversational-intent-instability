@@ -1,0 +1,2837 @@
+conversation_id,turn_index,role,text,intent,input_text,true_label,predicted_label,correct,user_turn_number,turn_bucket,token_len_no_truncation,would_truncate_at_MAX_LEN
+100485,0,user,I want a model airplane,Reveal,USER: I want a model airplane,Reveal,Reveal,True,1,1,9,False
+100485,3,user,I want something bigger.,Reveal,"USER: I want a model airplane
+SYSTEM: Okay, these are great.
+SYSTEM: What type of model airplane do you want, such as the Airplane Boeing 747
+USER: I want something bigger.",Reveal,Interpret,False,2,2,41,False
+100485,5,user,ok,Reveal,"USER: I want a model airplane
+SYSTEM: Okay, these are great.
+SYSTEM: What type of model airplane do you want, such as the Airplane Boeing 747
+USER: I want something bigger.
+SYSTEM: Okay, here are some bigger models
+USER: ok",Reveal,Interpret,False,3,3,53,False
+100796,0,user,hi!,Chitchat,USER: hi!,Chitchat,Chitchat,True,1,1,6,False
+100796,2,user,I wanna a bicycle!!,Reveal,"USER: hi!
+SYSTEM: hi
+USER: I wanna a bicycle!!",Reveal,Reveal,True,2,2,17,False
+100796,4,user,for man. it should look good!,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a bicycle!!
+SYSTEM: What kind of bike do you want?
+USER: for man. it should look good!",Interpret,Interpret,True,3,3,37,False
+100796,6,user,the last one is good!,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a bicycle!!
+SYSTEM: What kind of bike do you want?
+USER: for man. it should look good!
+SYSTEM: how about these？
+USER: the last one is good!",Interpret,Interpret,True,4,4,51,False
+100891,0,user,I want to buy an electronic lock,Reveal,USER: I want to buy an electronic lock,Reveal,Reveal,True,1,1,11,False
+100891,2,user,The second one  is best,Interpret,"USER: I want to buy an electronic lock
+SYSTEM: how about these
+USER: The second one  is best",Interpret,Interpret,True,2,2,23,False
+101059,0,user,I want a cotton slippers.,Reveal,USER: I want a cotton slippers.,Reveal,Reveal,True,1,1,11,False
+101059,2,user,For women.,Reveal,"USER: I want a cotton slippers.
+SYSTEM: do you need it for women or man?<br>
+USER: For women.",Reveal,Interpret,False,2,2,30,False
+101059,4,user,"OK, I like it.",Reveal,"USER: I want a cotton slippers.
+SYSTEM: do you need it for women or man?<br>
+USER: For women.
+SYSTEM: this is very nice, do you like it?
+USER: OK, I like it.",Reveal,Interpret,False,3,3,50,False
+103102,0,user,I want to buy a school bag,Reveal,USER: I want to buy a school bag,Reveal,Reveal,True,1,1,11,False
+103102,2,user,Want a white one,Reveal,"USER: I want to buy a school bag
+SYSTEM: what about this?Which do you prefer, a backpack or a shoulder bag?
+USER: Want a white one",Reveal,Interpret,False,2,2,35,False
+103102,4,user,OK,Chitchat,"USER: I want to buy a school bag
+SYSTEM: what about this?Which do you prefer, a backpack or a shoulder bag?
+USER: Want a white one
+SYSTEM: how about this?
+USER: OK",Chitchat,Chitchat,True,3,3,44,False
+104037,0,user,I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?,Reveal,USER: I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?,Reveal,Reveal,True,1,1,22,False
+104037,2,user,"No preferred brands yet, but I prefer bright colors",Interpret,"USER: I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?
+SYSTEM: Sure!Excuse me, are you using it yourself? What brand do you like?
+USER: No preferred brands yet, but I prefer bright colors",Interpret,Interpret,True,2,2,53,False
+104239,0,user,I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?,Reveal,USER: I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?,Reveal,Reveal,True,1,1,22,False
+104239,2,user,I'd prefer to bright colors.,Interpret,"USER: I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?
+SYSTEM: Sure waht color do u like?
+USER: I'd prefer to bright colors.",Interpret,Interpret,True,2,2,42,False
+104239,4,user,I'll take the first one. thanks ,Interpret,"USER: I am a badminton enthusiast. Could you recommend some badminton skirts or similar items for me?
+SYSTEM: Sure waht color do u like?
+USER: I'd prefer to bright colors.
+SYSTEM: Do you like these styles? White appears white
+USER: I'll take the first one. thanks",Interpret,Interpret,True,3,3,64,False
+104361,0,user,"I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?",Revise,"USER: I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?",Revise,Reveal,False,1,1,38,False
+104361,2,user,"I mainly use office software like Word, Excel, and PowerPoint, and for gaming, I play casual games like Overcooked and League of Legends.",Interpret,"USER: I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?
+SYSTEM: Could you tell me more about the type of work you do and the games you plan to play? Also, do you have a budget or screen size preference?
+USER: I mainly use office software like Word, Excel, and PowerPoint, and for gaming, I play casual games like Overcooked and League of Legends.",Interpret,Interpret,True,2,2,105,False
+104361,4,user,"No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.",Revise,"USER: I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?
+SYSTEM: Could you tell me more about the type of work you do and the games you plan to play? Also, do you have a budget or screen size preference?
+USER: I mainly use office software like Word, Excel, and PowerPoint, and for gaming, I play casual games like Overcooked and League of Legends.
+SYSTEM: Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?
+USER: No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.",Revise,Interpret,False,3,3,167,False
+104361,6,user,"The second is too expensive, and i do not want apple system.",Revise,"USER: I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?
+SYSTEM: Could you tell me more about the type of work you do and the games you plan to play? Also, do you have a budget or screen size preference?
+USER: I mainly use office software like Word, Excel, and PowerPoint, and for gaming, I play casual games like Overcooked and League of Legends.
+SYSTEM: Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?
+USER: No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.
+SYSTEM: Here are two excellent options for your needs
+USER: The second is too expensive, and i do not want apple system.",Revise,Interpret,False,4,4,193,False
+104361,8,user,"The second one is what i want, thanks.",Interpret,"USER: I want to buy a lightweight laptop, mainly for work and light gaming. Ideally, the weight should be under 1.5kg. Do you have any recommendations?
+SYSTEM: Could you tell me more about the type of work you do and the games you plan to play? Also, do you have a budget or screen size preference?
+USER: I mainly use office software like Word, Excel, and PowerPoint, and for gaming, I play casual games like Overcooked and League of Legends.
+SYSTEM: Got it! Do you have a specific budget in mind, or do you prefer a particular screen size or brand?
+USER: No prefered brand, but I don't want lenovo.The budget is about $500, and the size of screen is expected to be 15.6 inches.
+SYSTEM: Here are two excellent options for your needs
+USER: The second is too expensive, and i do not want apple system.
+SYSTEM: Here are two budget-friendly options for your needs: the HP 14 and the ASUS Vivobook Go. Both are lightweight and affordable, making them great choices for everyday tasks and light gaming without breaking the bank.
+USER: The second one is what i want, thanks.",Interpret,Interpret,True,5,5+,250,False
+104558,0,user,"I’m looking for a smartwatch for kids, which could dial phones. Do you have any recommendations?",Reveal,"USER: I’m looking for a smartwatch for kids, which could dial phones. Do you have any recommendations?",Reveal,Reveal,True,1,1,26,False
+104558,2,user,"about 100$, better with gps",Interpret,"USER: I’m looking for a smartwatch for kids, which could dial phones. Do you have any recommendations?
+SYSTEM: Do you need additional features like GPS or messaging, and do you have a specific budget in mind?
+USER: about 100$, better with gps",Interpret,Interpret,True,2,2,57,False
+104558,4,user,"camera is not necessary, I'd like the style with cartoon images",Revise,"USER: I’m looking for a smartwatch for kids, which could dial phones. Do you have any recommendations?
+SYSTEM: Do you need additional features like GPS or messaging, and do you have a specific budget in mind?
+USER: about 100$, better with gps
+SYSTEM: Do you prefer a specific design or brand, and would you need any additional features like a camera or step tracking?
+USER: camera is not necessary, I'd like the style with cartoon images",Revise,Interpret,False,3,3,98,False
+104558,6,user,"The first one is good, tks",Interpret,"USER: I’m looking for a smartwatch for kids, which could dial phones. Do you have any recommendations?
+SYSTEM: Do you need additional features like GPS or messaging, and do you have a specific budget in mind?
+USER: about 100$, better with gps
+SYSTEM: Do you prefer a specific design or brand, and would you need any additional features like a camera or step tracking?
+USER: camera is not necessary, I'd like the style with cartoon images
+SYSTEM: sorry we dont have tyle with cartoon images, but these two color is also cute
+USER: The first one is good, tks",Interpret,Interpret,True,4,4,128,False
+105164,0,user,Do you know Cordless Handheld Vacuum？ I want one for on bed cleaning.,Reveal,USER: Do you know Cordless Handheld Vacuum？ I want one for on bed cleaning.,Reveal,Reveal,True,1,1,20,False
+105164,2,user,got it,Interpret,"USER: Do you know Cordless Handheld Vacuum？ I want one for on bed cleaning.
+SYSTEM: Sure, how about these, i have one too! They are greet!
+USER: got it",Interpret,Interpret,True,2,2,41,False
+106131,0,user,I want some scented candles,Reveal,USER: I want some scented candles,Reveal,Reveal,True,1,1,9,False
+106131,2,user,Do you have jasmine or osmanthus-scented candles?,Interpret,"USER: I want some scented candles
+SYSTEM: ok, any prefer smells?
+USER: Do you have jasmine or osmanthus-scented candles?",Interpret,Revise,False,2,2,30,False
+106131,4,user,Looks good,Interpret,"USER: I want some scented candles
+SYSTEM: ok, any prefer smells?
+USER: Do you have jasmine or osmanthus-scented candles?
+SYSTEM: Sure
+USER: Looks good",Interpret,Interpret,True,3,3,37,False
+106603,0,user,Do you have smokeless induction cookers?,Reveal,USER: Do you have smokeless induction cookers?,Reveal,Reveal,True,1,1,13,False
+106603,2,user,No plug? How can I use it without a plug? Show me others,Interpret,"USER: Do you have smokeless induction cookers?
+SYSTEM: u mean this type?
+USER: No plug? How can I use it without a plug? Show me others",Interpret,Interpret,True,2,2,37,False
+106603,4,user,got it ,Interpret,"USER: Do you have smokeless induction cookers?
+SYSTEM: u mean this type?
+USER: No plug? How can I use it without a plug? Show me others
+SYSTEM: This is electronic, no smoke
+USER: got it",Interpret,Interpret,True,3,3,49,False
+107353,0,user,Please recommend me a baby stroller,Reveal,USER: Please recommend me a baby stroller,Reveal,Reveal,True,1,1,11,False
+107353,2,user,"lightweight and beautiful
+",Reveal,"USER: Please recommend me a baby stroller
+SYSTEM: Could you please share your budget and any specific features you’re looking for in a baby stroller? For example, do you need it to be lightweight, suitable for jogging, or have extra storage space?
+USER: lightweight and beautiful",Reveal,Interpret,False,2,2,60,False
+107353,4,user,an older baby,Reveal,"USER: Please recommend me a baby stroller
+SYSTEM: Could you please share your budget and any specific features you’re looking for in a baby stroller? For example, do you need it to be lightweight, suitable for jogging, or have extra storage space?
+USER: lightweight and beautiful
+SYSTEM: Do you prefer a specific color or design, and is it for a newborn or an older baby?
+USER: an older baby",Reveal,Interpret,False,3,3,87,False
+107353,6,user,"i need baby stroller
+
+",Reveal,"USER: Please recommend me a baby stroller
+SYSTEM: Could you please share your budget and any specific features you’re looking for in a baby stroller? For example, do you need it to be lightweight, suitable for jogging, or have extra storage space?
+USER: lightweight and beautiful
+SYSTEM: Do you prefer a specific color or design, and is it for a newborn or an older baby?
+USER: an older baby
+SYSTEM: how about these？
+USER: i need baby stroller",Reveal,Chitchat,False,4,4,100,False
+107353,8,user,that's good,Reveal,"USER: Please recommend me a baby stroller
+SYSTEM: Could you please share your budget and any specific features you’re looking for in a baby stroller? For example, do you need it to be lightweight, suitable for jogging, or have extra storage space?
+USER: lightweight and beautiful
+SYSTEM: Do you prefer a specific color or design, and is it for a newborn or an older baby?
+USER: an older baby
+SYSTEM: how about these？
+USER: i need baby stroller
+SYSTEM: sorry, these are what u need
+USER: that's good",Reveal,Chitchat,False,5,5+,115,False
+107495,0,user,I want to buy a book of classical literature,Reveal,USER: I want to buy a book of classical literature,Reveal,Reveal,True,1,1,13,False
+107495,2,user,"physical book,No other requirements",Reveal,"USER: I want to buy a book of classical literature
+SYSTEM: Do you have a specific author or genre in mind, or are you open to any classic? Also, do you prefer a physical book or an e-book?
+USER: physical book,No other requirements",Reveal,Interpret,False,2,2,56,False
+107495,4,user,You're looking for the wrong thing. What I need is classical literature.,Reveal,"USER: I want to buy a book of classical literature
+SYSTEM: Do you have a specific author or genre in mind, or are you open to any classic? Also, do you prefer a physical book or an e-book?
+USER: physical book,No other requirements
+SYSTEM: how about these Both are great picks depending on your mood—one is more reflective, and the other is playful. Let me know if you’d like more suggestions!
+USER: You're looking for the wrong thing. What I need is classical literature.",Reveal,Interpret,False,3,3,110,False
+107495,6,user,OK,Chitchat,"USER: I want to buy a book of classical literature
+SYSTEM: Do you have a specific author or genre in mind, or are you open to any classic? Also, do you prefer a physical book or an e-book?
+USER: physical book,No other requirements
+SYSTEM: how about these Both are great picks depending on your mood—one is more reflective, and the other is playful. Let me know if you’d like more suggestions!
+USER: You're looking for the wrong thing. What I need is classical literature.
+SYSTEM: are these what u need?
+USER: OK",Chitchat,Interpret,False,4,4,121,False
+107743,0,user,I want a keyboard.,Reveal,USER: I want a keyboard.,Reveal,Reveal,True,1,1,9,False
+107743,2,user,standard keyboard,Chitchat,"USER: I want a keyboard.
+SYSTEM: Do you need it for gaming, work, or general use? Also, do you prefer a mechanical or standard keyboard?
+USER: standard keyboard",Chitchat,Interpret,False,2,2,39,False
+108080,0,user,hello!,Chitchat,USER: hello!,Chitchat,Chitchat,True,1,1,6,False
+108080,2,user,I wanna coffee.,Reveal,"USER: hello!
+SYSTEM: Hi
+USER: I wanna coffee.",Reveal,Reveal,True,2,2,15,False
+108080,4,user,I wanna coffee beans.,Reveal,"USER: hello!
+SYSTEM: Hi
+USER: I wanna coffee.
+SYSTEM: Do you prefer instant coffee, ground coffee, or coffee beans? And do you like it strong or mild?
+USER: I wanna coffee beans.",Reveal,Interpret,False,3,3,46,False
+108080,6,user,"I don't care about these, I just wanna a type from China.",Interpret,"USER: hello!
+SYSTEM: Hi
+USER: I wanna coffee.
+SYSTEM: Do you prefer instant coffee, ground coffee, or coffee beans? And do you like it strong or mild?
+USER: I wanna coffee beans.
+SYSTEM: Do you have a preference for the roast level (light, medium, or dark), or are you looking for a specific origin or flavor profile?
+USER: I don't care about these, I just wanna a type from China.",Interpret,Interpret,True,4,4,96,False
+108080,8,user,fine.,Interpret,"USER: hello!
+SYSTEM: Hi
+USER: I wanna coffee.
+SYSTEM: Do you prefer instant coffee, ground coffee, or coffee beans? And do you like it strong or mild?
+USER: I wanna coffee beans.
+SYSTEM: Do you have a preference for the roast level (light, medium, or dark), or are you looking for a specific origin or flavor profile?
+USER: I don't care about these, I just wanna a type from China.
+SYSTEM: Sorry, we dont have products from china
+USER: fine.",Interpret,Interpret,True,5,5+,111,False
+108786,0,user,hi!,Chitchat,USER: hi!,Chitchat,Chitchat,True,1,1,6,False
+108786,2,user,I wanna a monitor.,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a monitor.",Interpret,Reveal,False,2,2,16,False
+108786,4,user,for game.,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a monitor.
+SYSTEM: What size monitor do you need? For gaming or office use?
+USER: for game.",Interpret,Interpret,True,3,3,36,False
+108786,6,user,I wanna AOC.,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a monitor.
+SYSTEM: What size monitor do you need? For gaming or office use?
+USER: for game.
+SYSTEM: how about these
+USER: I wanna AOC.",Interpret,Interpret,True,4,4,48,False
+108786,8,user,the first one is good!,Interpret,"USER: hi!
+SYSTEM: hi
+USER: I wanna a monitor.
+SYSTEM: What size monitor do you need? For gaming or office use?
+USER: for game.
+SYSTEM: how about these
+USER: I wanna AOC.
+SYSTEM: these may suit for you
+USER: the first one is good!",Interpret,Interpret,True,5,5+,63,False
+109193,0,user,"hi,",Chitchat,"USER: hi,",Chitchat,Chitchat,True,1,1,6,False
+109193,2,user,I need a sweater,Reveal,"USER: hi,
+SYSTEM: Hi! what can i do for u!
+USER: I need a sweater",Reveal,Reveal,True,2,2,23,False
+109193,4,user,"I want a pattern, the best wool one",Interpret,"USER: hi,
+SYSTEM: Hi! what can i do for u!
+USER: I need a sweater
+SYSTEM: Do you have a preference for the style (e.g., pullover, cardigan) or material (e.g., wool, cotton)? And do you want something plain or with patterns?
+USER: I want a pattern, the best wool one",Interpret,Interpret,True,3,3,79,False
+109193,6,user,I lile a specific fit,Interpret,"USER: hi,
+SYSTEM: Hi! what can i do for u!
+USER: I need a sweater
+SYSTEM: Do you have a preference for the style (e.g., pullover, cardigan) or material (e.g., wool, cotton)? And do you want something plain or with patterns?
+USER: I want a pattern, the best wool one
+SYSTEM: Do you have a preferred color or design style, like Fair Isle or cable knit? Also, would you like a specific fit, such as oversized or fitted?
+USER: I lile a specific fit",Interpret,Interpret,True,4,4,121,False
+109193,8,user,"the first is very good, thank you",Interpret,"USER: hi,
+SYSTEM: Hi! what can i do for u!
+USER: I need a sweater
+SYSTEM: Do you have a preference for the style (e.g., pullover, cardigan) or material (e.g., wool, cotton)? And do you want something plain or with patterns?
+USER: I want a pattern, the best wool one
+SYSTEM: Do you have a preferred color or design style, like Fair Isle or cable knit? Also, would you like a specific fit, such as oversized or fitted?
+USER: I lile a specific fit
+SYSTEM: these are cool！
+USER: the first is very good, thank you",Interpret,Interpret,True,5,5+,137,False
+109367,0,user,I want a headset.,Reveal,USER: I want a headset.,Reveal,Reveal,True,1,1,10,False
+109367,2,user,Bluetooth,Reveal,"USER: I want a headset.
+SYSTEM: Bluetooth headset or wired headset？
+USER: Bluetooth",Reveal,Reveal,True,2,2,25,False
+109367,4,user,Head-worn,Reveal,"USER: I want a headset.
+SYSTEM: Bluetooth headset or wired headset？
+USER: Bluetooth
+SYSTEM: Head-worn or in-ear？
+USER: Head-worn",Reveal,Chitchat,False,3,3,40,False
+109367,5,user,Head-worn,Chitchat,"USER: I want a headset.
+SYSTEM: Bluetooth headset or wired headset？
+USER: Bluetooth
+SYSTEM: Head-worn or in-ear？
+USER: Head-worn
+USER: Head-worn",Chitchat,Chitchat,True,4,4,45,False
+109367,7,user,Do you have another color?,Chitchat,"USER: I want a headset.
+SYSTEM: Bluetooth headset or wired headset？
+USER: Bluetooth
+SYSTEM: Head-worn or in-ear？
+USER: Head-worn
+USER: Head-worn
+SYSTEM: how about these
+USER: Do you have another color?",Chitchat,Chitchat,True,5,5+,58,False
+109367,9,user,Ok，I like the first,Reveal,"USER: I want a headset.
+SYSTEM: Bluetooth headset or wired headset？
+USER: Bluetooth
+SYSTEM: Head-worn or in-ear？
+USER: Head-worn
+USER: Head-worn
+SYSTEM: how about these
+USER: Do you have another color?
+SYSTEM: these are so suit for you
+USER: Ok，I like the first",Reveal,Interpret,False,6,5+,74,False
+109511,0,user,mouse,Reveal,USER: mouse,Reveal,Chitchat,False,1,1,5,False
+109511,2,user,Logitech Mouse,Interpret,"USER: mouse
+SYSTEM: What brand of mouse do you need？
+USER: Logitech Mouse",Interpret,Reveal,False,2,2,21,False
+109511,4,user,wired mouse,Interpret,"USER: mouse
+SYSTEM: What brand of mouse do you need？
+USER: Logitech Mouse
+SYSTEM: Here are some nice Logitech mice
+USER: wired mouse",Interpret,Interpret,True,3,3,35,False
+109711,0,user,hi,Chitchat,USER: hi,Chitchat,Chitchat,True,1,1,5,False
+109711,2,user,I want a gallium nitride charging head,Reveal,"USER: hi
+SYSTEM: Hi
+USER: I want a gallium nitride charging head",Reveal,Reveal,True,2,2,20,False
+109711,4,user,"I need more power, like 100W or 120W and bigger. for my macbook",Interpret,"USER: hi
+SYSTEM: Hi
+USER: I want a gallium nitride charging head
+SYSTEM: is this what u want? sorry maybe i misundersand your need
+USER: I need more power, like 100W or 120W and bigger. for my macbook",Interpret,Revise,False,3,3,57,False
+109711,6,user,this look like very good do you have other color?,Interpret,"USER: hi
+SYSTEM: Hi
+USER: I want a gallium nitride charging head
+SYSTEM: is this what u want? sorry maybe i misundersand your need
+USER: I need more power, like 100W or 120W and bigger. for my macbook
+SYSTEM: this must is what u want!
+USER: this look like very good do you have other color?",Interpret,Interpret,True,4,4,79,False
+109711,8,user,it is so perfect!,Interpret,"USER: hi
+SYSTEM: Hi
+USER: I want a gallium nitride charging head
+SYSTEM: is this what u want? sorry maybe i misundersand your need
+USER: I need more power, like 100W or 120W and bigger. for my macbook
+SYSTEM: this must is what u want!
+USER: this look like very good do you have other color?
+SYSTEM: we only have black but 100w
+USER: it is so perfect!",Interpret,Interpret,True,5,5+,95,False
+110061,0,user,hi,Chitchat,USER: hi,Chitchat,Chitchat,True,1,1,5,False
+110061,2,user,i want to buy some books about chinese history,Reveal,"USER: hi
+SYSTEM: hello!
+USER: i want to buy some books about chinese history",Reveal,Reveal,True,2,2,20,False
+110061,4,user,thank you!,Interpret,"USER: hi
+SYSTEM: hello!
+USER: i want to buy some books about chinese history
+SYSTEM: how about these?
+USER: thank you!",Interpret,Chitchat,False,3,3,31,False
+110518,0,user,how are you going?,Chitchat,USER: how are you going?,Chitchat,Chitchat,True,1,1,9,False
+110518,2,user,I wanna a girl.,Reveal,"USER: how are you going?
+SYSTEM: im fine and u?
+USER: I wanna a girl.",Reveal,Reveal,True,2,2,23,False
+110518,4,user,What? I just wanna a toy girl that all girl love.,Interpret,"USER: how are you going?
+SYSTEM: im fine and u?
+USER: I wanna a girl.
+SYSTEM: Sorry, the day has been past
+USER: What? I just wanna a toy girl that all girl love.",Interpret,Interpret,True,3,3,47,False
+110518,6,user,are you kidding me?,Interpret,"USER: how are you going?
+SYSTEM: im fine and u?
+USER: I wanna a girl.
+SYSTEM: Sorry, the day has been past
+USER: What? I just wanna a toy girl that all girl love.
+SYSTEM: u mean dolls? like Barbie?
+USER: are you kidding me?",Interpret,Interpret,True,4,4,63,False
+111659,0,user,"I want a chilli bar from childhood, do you can help me",Reveal,"USER: I want a chilli bar from childhood, do you can help me",Reveal,Reveal,True,1,1,18,False
+111659,2,user,"I know it comes from Hunan. It's very spicy, not sweet",Interpret,"USER: I want a chilli bar from childhood, do you can help me
+SYSTEM: Do you remember the brand or packaging of the chili bar, or any specific flavors or textures? And do you know if it’s still available or a regional specialty?
+USER: I know it comes from Hunan. It's very spicy, not sweet",Interpret,Interpret,True,2,2,71,False
+111659,4,user,I don't like it,Interpret,"USER: I want a chilli bar from childhood, do you can help me
+SYSTEM: Do you remember the brand or packaging of the chili bar, or any specific flavors or textures? And do you know if it’s still available or a regional specialty?
+USER: I know it comes from Hunan. It's very spicy, not sweet
+SYSTEM: sorry we dont have, but we have this! it is good too!!!!!
+USER: I don't like it",Interpret,Interpret,True,3,3,101,False
+111678,0,user,I want chili fries.,Reveal,USER: I want chili fries.,Reveal,Reveal,True,1,1,9,False
+111678,2,user,anything else？,Reveal,"USER: I want chili fries.
+SYSTEM: how about these？
+USER: anything else？",Reveal,Reveal,True,2,2,20,False
+111678,4,user,I don‘t like these！,Reveal,"USER: I want chili fries.
+SYSTEM: how about these？
+USER: anything else？
+SYSTEM: how about these？
+USER: I don‘t like these！",Reveal,Interpret,False,3,3,35,False
+112179,0,user,I wanna air.,Reveal,USER: I wanna air.,Reveal,Reveal,True,1,1,8,False
+112179,2,user,air from remote places.,Interpret,"USER: I wanna air.
+SYSTEM: just breath
+USER: air from remote places.",Interpret,Revise,False,2,2,19,False
+112179,4,user,"fine, I don't like this.",Interpret,"USER: I wanna air.
+SYSTEM: just breath
+USER: air from remote places.
+SYSTEM: i can only give u this!
+USER: fine, I don't like this.",Interpret,Interpret,True,3,3,39,False
+11301,0,user,"hi, i'd like to buy a big bottle for travelling",Reveal,"USER: hi, i'd like to buy a big bottle for travelling",Reveal,Reveal,True,1,1,17,False
+11301,2,user,'m looking for a stainless steel water bottle with a capacity of at least 24 ounces (710 ml) that is suitable for both hot and cold beverages.,Interpret,"USER: hi, i'd like to buy a big bottle for travelling
+SYSTEM: Do you need insulation function
+USER: 'm looking for a stainless steel water bottle with a capacity of at least 24 ounces (710 ml) that is suitable for both hot and cold beverages.",Interpret,Revise,False,2,2,58,False
+11301,4,user,I like the second one; please show me more similar black water bottles.,Interpret,"USER: hi, i'd like to buy a big bottle for travelling
+SYSTEM: Do you need insulation function
+USER: 'm looking for a stainless steel water bottle with a capacity of at least 24 ounces (710 ml) that is suitable for both hot and cold beverages.
+SYSTEM: what about the following choices
+USER: I like the second one; please show me more similar black water bottles.",Interpret,Interpret,True,3,3,82,False
+11301,6,user,"I like the first one,thank you",Interpret,"USER: hi, i'd like to buy a big bottle for travelling
+SYSTEM: Do you need insulation function
+USER: 'm looking for a stainless steel water bottle with a capacity of at least 24 ounces (710 ml) that is suitable for both hot and cold beverages.
+SYSTEM: what about the following choices
+USER: I like the second one; please show me more similar black water bottles.
+SYSTEM: these are black ones
+USER: I like the first one,thank you",Interpret,Interpret,True,4,4,98,False
+113164,0,user,Hello,Chitchat,USER: Hello,Chitchat,Chitchat,True,1,1,5,False
+113164,2,user,I have been suffering from insomnia recently. Do you have any good product recommendations?,Reveal,"USER: Hello
+SYSTEM: Hi! What I can help you?
+USER: I have been suffering from insomnia recently. Do you have any good product recommendations?",Reveal,Reveal,True,2,2,35,False
+113164,4,user,I have no price limit.,Interpret,"USER: Hello
+SYSTEM: Hi! What I can help you?
+USER: I have been suffering from insomnia recently. Do you have any good product recommendations?
+SYSTEM: What price range of products do you want?<br><br>
+USER: I have no price limit.",Interpret,Interpret,True,3,3,60,False
+113164,6,user,Thank you!,Interpret,"USER: Hello
+SYSTEM: Hi! What I can help you?
+USER: I have been suffering from insomnia recently. Do you have any good product recommendations?
+SYSTEM: What price range of products do you want?<br><br>
+USER: I have no price limit.
+SYSTEM: These products may help you fall asleep better.
+USER: Thank you!",Interpret,Interpret,True,4,4,76,False
+114248,0,user,"Hello, I am looking to buy a mobile phone recently.",Reveal,"USER: Hello, I am looking to buy a mobile phone recently.",Reveal,Reveal,True,1,1,16,False
+114248,2,user,"I want the latest iPhone, the bigger the screen.",Interpret,"USER: Hello, I am looking to buy a mobile phone recently.
+SYSTEM: Could you please specify your budget, preferred operating system (iOS or Android), and any particular features you’re looking for, such as camera quality, battery life, or screen size?
+USER: I want the latest iPhone, the bigger the screen.",Interpret,Interpret,True,2,2,69,False
+114684,0,user,"hi, bro.",Chitchat,"USER: hi, bro.",Chitchat,Chitchat,True,1,1,8,False
+114684,2,user,I wanna a glasses.,Reveal,"USER: hi, bro.
+SYSTEM: what do you want
+USER: I wanna a glasses.",Reveal,Reveal,True,2,2,21,False
+114684,4,user,you clever boy!,Interpret,"USER: hi, bro.
+SYSTEM: what do you want
+USER: I wanna a glasses.
+SYSTEM: Sunglasses?
+USER: you clever boy!",Interpret,Interpret,True,3,3,31,False
+114684,6,user,more fashion!,Interpret,"USER: hi, bro.
+SYSTEM: what do you want
+USER: I wanna a glasses.
+SYSTEM: Sunglasses?
+USER: you clever boy!
+SYSTEM: how ablout these
+USER: more fashion!",Interpret,Interpret,True,4,4,43,False
+114684,8,user,The third is good!,Interpret,"USER: hi, bro.
+SYSTEM: what do you want
+USER: I wanna a glasses.
+SYSTEM: Sunglasses?
+USER: you clever boy!
+SYSTEM: how ablout these
+USER: more fashion!
+SYSTEM: these are very fashion
+USER: The third is good!",Interpret,Interpret,True,5,5+,56,False
+116453,0,user,Any movies you can recommend?,Reveal,USER: Any movies you can recommend?,Reveal,Reveal,True,1,1,10,False
+116453,2,user, romance and comedy,Reveal,"USER: Any movies you can recommend?
+SYSTEM: What kind of movies do you like? For example, action, romance, comedy, or something else? And do you prefer newer releases or classics?
+USER: romance and comedy",Reveal,Interpret,False,2,2,47,False
+116453,4,user,modern romantic and lighthearted,Reveal,"USER: Any movies you can recommend?
+SYSTEM: What kind of movies do you like? For example, action, romance, comedy, or something else? And do you prefer newer releases or classics?
+USER: romance and comedy
+SYSTEM: Do you have a preference for modern romantic comedies or classics? Also, would you like something lighthearted or with a deeper emotional storyline?
+USER: modern romantic and lighthearted",Reveal,Interpret,False,3,3,83,False
+116855,0,user,I want a humidifier. It's too dry indoors in winter in the north,Reveal,USER: I want a humidifier. It's too dry indoors in winter in the north,Reveal,Reveal,True,1,1,21,False
+116855,2,user,"Excuse me, do you have a Chinese brand, such as Xiaomi, etc.",Interpret,"USER: I want a humidifier. It's too dry indoors in winter in the north
+SYSTEM: How about these？
+USER: Excuse me, do you have a Chinese brand, such as Xiaomi, etc.",Interpret,Revise,False,2,2,46,False
+116855,4,user,"very nice,  thank you!",Interpret,"USER: I want a humidifier. It's too dry indoors in winter in the north
+SYSTEM: How about these？
+USER: Excuse me, do you have a Chinese brand, such as Xiaomi, etc.
+SYSTEM: How about these？
+USER: very nice,  thank you!",Interpret,Interpret,True,3,3,60,False
+118813,0,user,I want a pair of black stockings with a higher denier.,Reveal,USER: I want a pair of black stockings with a higher denier.,Reveal,Reveal,True,1,1,17,False
+120411,0,user,I would like to buy some detergent suitable for down jackets.,Reveal,USER: I would like to buy some detergent suitable for down jackets.,Reveal,Reveal,True,1,1,17,False
+120411,2,user,"as long as it’s suitable for down jackets, both liquid and powder are fine",Interpret,"USER: I would like to buy some detergent suitable for down jackets.
+SYSTEM: Are you looking for a specific type of detergent, like liquid or powder, or is any type fine as long as it’s suitable for down jackets?
+USER: as long as it’s suitable for down jackets, both liquid and powder are fine",Interpret,Interpret,True,2,2,70,False
+120411,4,user,"I'm buying detergent, not down jackets",Interpret,"USER: I would like to buy some detergent suitable for down jackets.
+SYSTEM: Are you looking for a specific type of detergent, like liquid or powder, or is any type fine as long as it’s suitable for down jackets?
+USER: as long as it’s suitable for down jackets, both liquid and powder are fine
+SYSTEM: These are perfect for your down jackets as it effectively cleans while preserving their softness and insulation. It’s a practical choice for keeping your jackets in top condition.
+USER: I'm buying detergent, not down jackets",Interpret,Interpret,True,3,3,117,False
+120411,6,user,"ok
+",Interpret,"USER: I would like to buy some detergent suitable for down jackets.
+SYSTEM: Are you looking for a specific type of detergent, like liquid or powder, or is any type fine as long as it’s suitable for down jackets?
+USER: as long as it’s suitable for down jackets, both liquid and powder are fine
+SYSTEM: These are perfect for your down jackets as it effectively cleans while preserving their softness and insulation. It’s a practical choice for keeping your jackets in top condition.
+USER: I'm buying detergent, not down jackets
+SYSTEM: sorry, i missunderstand u! These detergents are excellent choices for cleaning down jackets as they are gentle on delicate materials while maintaining their insulation and softness. They’ll help keep your jackets fresh and in great shape.
+USER: ok",Interpret,Interpret,True,4,4,168,False
+121100,0,user,"I am a badminton enthusiast, and recently, I often feel discomfort in my knee when playing. Could you recommend some knee braces?",Reveal,"USER: I am a badminton enthusiast, and recently, I often feel discomfort in my knee when playing. Could you recommend some knee braces?",Reveal,Reveal,True,1,1,31,False
+121100,2,user,the  first time,Interpret,"USER: I am a badminton enthusiast, and recently, I often feel discomfort in my knee when playing. Could you recommend some knee braces?
+SYSTEM: Have you tried any specific knee braces before, or is this your first time considering one?
+USER: the  first time",Interpret,Interpret,True,2,2,57,False
+121100,4,user,"idk, I haven't tried yet, but i'd prefer to starting from the former one ",Interpret,"USER: I am a badminton enthusiast, and recently, I often feel discomfort in my knee when playing. Could you recommend some knee braces?
+SYSTEM: Have you tried any specific knee braces before, or is this your first time considering one?
+USER: the  first time
+SYSTEM: Do you prefer a lightweight brace for more flexibility or a sturdier one for extra support?
+USER: idk, I haven't tried yet, but i'd prefer to starting from the former one",Interpret,Interpret,True,3,3,101,False
+121100,6,user,ok I'll have a try.,Interpret,"USER: I am a badminton enthusiast, and recently, I often feel discomfort in my knee when playing. Could you recommend some knee braces?
+SYSTEM: Have you tried any specific knee braces before, or is this your first time considering one?
+USER: the  first time
+SYSTEM: Do you prefer a lightweight brace for more flexibility or a sturdier one for extra support?
+USER: idk, I haven't tried yet, but i'd prefer to starting from the former one
+SYSTEM: This option could be a great choice as it provides light support and flexibility, perfect for starting out without feeling too restrictive. It’s ideal for activities like badminton to reduce knee strain.
+USER: ok I'll have a try.",Interpret,Interpret,True,4,4,150,False
+123127,0,user,Do you have complete NAS disk arrays?,Reveal,USER: Do you have complete NAS disk arrays?,Reveal,Reveal,True,1,1,12,False
+123127,2,user,good enough,Interpret,"USER: Do you have complete NAS disk arrays?
+SYSTEM: sure, are these what you want?
+USER: good enough",Interpret,Interpret,True,2,2,26,False
+123440,0,user,Can you introduce some common men's perfumes?,Reveal,USER: Can you introduce some common men's perfumes?,Reveal,Reveal,True,1,1,15,False
+123440,2,user,None yet.,Interpret,"USER: Can you introduce some common men's perfumes?
+SYSTEM: sure, What brand have you used before?
+USER: None yet.",Interpret,Interpret,True,2,2,31,False
+123440,4,user,"For everyday use, to add some fragrance to my image.",Interpret,"USER: Can you introduce some common men's perfumes?
+SYSTEM: sure, What brand have you used before?
+USER: None yet.
+SYSTEM: So, So, what do you use it for? What are your needs?
+USER: For everyday use, to add some fragrance to my image.",Interpret,Interpret,True,3,3,63,False
+123440,6,user,tks,Interpret,"USER: Can you introduce some common men's perfumes?
+SYSTEM: sure, What brand have you used before?
+USER: None yet.
+SYSTEM: So, So, what do you use it for? What are your needs?
+USER: For everyday use, to add some fragrance to my image.
+SYSTEM: sure, how about Cologne, Can increase your masculinity
+USER: tks",Interpret,Interpret,True,4,4,82,False
+123909,0,user,"Do you sell head-shaping devices? Recently, I feel like my head is pointed.",Reveal,"USER: Do you sell head-shaping devices? Recently, I feel like my head is pointed.",Reveal,Reveal,True,1,1,22,False
+123909,2,user,ok I'll take a shot,Interpret,"USER: Do you sell head-shaping devices? Recently, I feel like my head is pointed.
+SYSTEM: I suggest you use this to scratch your head, maybe it will be useful
+USER: ok I'll take a shot",Interpret,Interpret,True,2,2,48,False
+124299,0,user,Do you have tape that doesn't leave adhesive marks?,Reveal,USER: Do you have tape that doesn't leave adhesive marks?,Reveal,Reveal,True,1,1,17,False
+124299,2,user,Are you sure? I didn't find this feature in the product information.,Interpret,"USER: Do you have tape that doesn't leave adhesive marks?
+SYSTEM: this one
+USER: Are you sure? I didn't find this feature in the product information.",Interpret,Interpret,True,2,2,39,False
+124299,4,user,These two seem more reliable.,Interpret,"USER: Do you have tape that doesn't leave adhesive marks?
+SYSTEM: this one
+USER: Are you sure? I didn't find this feature in the product information.
+SYSTEM: Of course, if you don't believe it, you can try this
+USER: These two seem more reliable.",Interpret,Interpret,True,3,3,64,False
+125032,0,user,"Hi. I want to buy lipstick, which should be more affordable.",Reveal,"USER: Hi. I want to buy lipstick, which should be more affordable.",Reveal,Reveal,True,1,1,18,False
+125032,2,user,"I want moisturizing lipstick, not lipstick",Interpret,"USER: Hi. I want to buy lipstick, which should be more affordable.
+SYSTEM: May I ask which color shade you need?
+USER: I want moisturizing lipstick, not lipstick",Interpret,Interpret,True,2,2,40,False
+125032,4,user,Fine,Interpret,"USER: Hi. I want to buy lipstick, which should be more affordable.
+SYSTEM: May I ask which color shade you need?
+USER: I want moisturizing lipstick, not lipstick
+SYSTEM: Are you satisfied with these?
+USER: Fine",Interpret,Interpret,True,3,3,51,False
+125164,0,user,"hI, I want to buy some facial mask, which have no function. I add facial mask liquid myself",Reveal,"USER: hI, I want to buy some facial mask, which have no function. I add facial mask liquid myself",Reveal,Reveal,True,1,1,25,False
+125164,2,user,YEs，any one cheaper?,Interpret,"USER: hI, I want to buy some facial mask, which have no function. I add facial mask liquid myself
+SYSTEM: Are you satisfied with this
+USER: YEs，any one cheaper?",Interpret,Interpret,True,2,2,40,False
+125164,4,user,Fine,Interpret,"USER: hI, I want to buy some facial mask, which have no function. I add facial mask liquid myself
+SYSTEM: Are you satisfied with this
+USER: YEs，any one cheaper?
+SYSTEM: I’m sorry, I couldn’t find a cheaper version. Do you think this one could be a suitable alternative?
+USER: Fine",Interpret,Interpret,True,3,3,70,False
+12535,0,user,Good day! I want a headphone to listen to music.,Reveal,USER: Good day! I want a headphone to listen to music.,Reveal,Reveal,True,1,1,17,False
+12535,2,user,"Yes. Besides, I prefer headphones from Audio-Technica or AKG.",Interpret,"USER: Good day! I want a headphone to listen to music.
+SYSTEM: Do you prefer a wireless headphone with Bluetooth connectivity?
+USER: Yes. Besides, I prefer headphones from Audio-Technica or AKG.",Interpret,Interpret,True,2,2,50,False
+12535,4,user,"Actually, I don't really like over-the-head headphones. I'd prefer in-ear ones, as they are more lightweight.",Interpret,"USER: Good day! I want a headphone to listen to music.
+SYSTEM: Do you prefer a wireless headphone with Bluetooth connectivity?
+USER: Yes. Besides, I prefer headphones from Audio-Technica or AKG.
+SYSTEM: Is there anything in here you're satisfied with?
+USER: Actually, I don't really like over-the-head headphones. I'd prefer in-ear ones, as they are more lightweight.",Interpret,Interpret,True,3,3,96,False
+12535,6,user,The third choice is great. Place the order for me.,Interpret,"USER: Good day! I want a headphone to listen to music.
+SYSTEM: Do you prefer a wireless headphone with Bluetooth connectivity?
+USER: Yes. Besides, I prefer headphones from Audio-Technica or AKG.
+SYSTEM: Is there anything in here you're satisfied with?
+USER: Actually, I don't really like over-the-head headphones. I'd prefer in-ear ones, as they are more lightweight.
+SYSTEM: These are selling well.
+USER: The third choice is great. Place the order for me.",Interpret,Interpret,True,4,4,117,False
+125443,0,user,I want to buy some concealer,Reveal,USER: I want to buy some concealer,Reveal,Reveal,True,1,1,11,False
+125443,2,user,"Good breathability, do not harm the skin. I am a college student and I hope to find a more affordable one",Interpret,"USER: I want to buy some concealer
+SYSTEM: What type of concealer do you need? Do you have any preferences for the shade, sunscreen, or breathability?
+USER: Good breathability, do not harm the skin. I am a college student and I hope to find a more affordable one",Interpret,Interpret,True,2,2,64,False
+125443,4,user,Fine,Interpret,"USER: I want to buy some concealer
+SYSTEM: What type of concealer do you need? Do you have any preferences for the shade, sunscreen, or breathability?
+USER: Good breathability, do not harm the skin. I am a college student and I hope to find a more affordable one
+SYSTEM: Are you satisfied with these?
+USER: Fine",Interpret,Interpret,True,3,3,75,False
+125544,0,user,"Hello, the weather is a bit cold, I would like to buy a cute pair of socks",Interpret,"USER: Hello, the weather is a bit cold, I would like to buy a cute pair of socks",Interpret,Reveal,False,1,1,23,False
+125544,2,user,They are not cute! I want SpongeBob SquarePants,Interpret,"USER: Hello, the weather is a bit cold, I would like to buy a cute pair of socks
+SYSTEM: Are these expected?
+USER: They are not cute! I want SpongeBob SquarePants",Interpret,Interpret,True,2,2,43,False
+125544,4,user,fine,Interpret,"USER: Hello, the weather is a bit cold, I would like to buy a cute pair of socks
+SYSTEM: Are these expected?
+USER: They are not cute! I want SpongeBob SquarePants
+SYSTEM: OK, what about these?
+USER: fine",Interpret,Interpret,True,3,3,54,False
+125729,0,user,"Hello, I would like to buy a teapot. Give it to my grandfather",Reveal,"USER: Hello, I would like to buy a teapot. Give it to my grandfather",Reveal,Reveal,True,1,1,20,False
+125729,2,user,No！i want traditional clay teapot,Interpret,"USER: Hello, I would like to buy a teapot. Give it to my grandfather
+SYSTEM: Ok, are these satisfy your need?
+USER: No！i want traditional clay teapot",Interpret,Revise,False,2,2,40,False
+125729,4,user,"yes, They look good",Interpret,"USER: Hello, I would like to buy a teapot. Give it to my grandfather
+SYSTEM: Ok, are these satisfy your need?
+USER: No！i want traditional clay teapot
+SYSTEM: Are these what you expect?
+USER: yes, They look good",Interpret,Interpret,True,3,3,55,False
+126060,0,user,"Christmas is coming soon, and I want to buy a gift for my boyfriend",Reveal,"USER: Christmas is coming soon, and I want to buy a gift for my boyfriend",Reveal,Reveal,True,1,1,19,False
+126060,2,user,what？ ,Interpret,"USER: Christmas is coming soon, and I want to buy a gift for my boyfriend
+SYSTEM: Are you looking for : Christmas-themed lingerie?
+USER: what？",Interpret,Interpret,True,2,2,36,False
+127477,0,user,I want to buy some seasoning packs for braised lamb chops. Do you have any recommendations?,Interpret,USER: I want to buy some seasoning packs for braised lamb chops. Do you have any recommendations?,Interpret,Reveal,False,1,1,25,False
+127477,2,user,These aren't seasoning packs for soups. They’re for stir-frying and grilling.,Interpret,"USER: I want to buy some seasoning packs for braised lamb chops. Do you have any recommendations?
+SYSTEM: How about this?
+USER: These aren't seasoning packs for soups. They’re for stir-frying and grilling.",Interpret,Interpret,True,2,2,56,False
+127477,4,user,fine.,Interpret,"USER: I want to buy some seasoning packs for braised lamb chops. Do you have any recommendations?
+SYSTEM: How about this?
+USER: These aren't seasoning packs for soups. They’re for stir-frying and grilling.
+SYSTEM: We only have these
+USER: fine.",Interpret,Interpret,True,3,3,66,False
+128661,0,user,i like something to make me younger,Reveal,USER: i like something to make me younger,Reveal,Reveal,True,1,1,11,False
+128661,2,user,cosmetics plz,Interpret,"USER: i like something to make me younger
+SYSTEM: Do you want some cosmetics or health products?
+USER: cosmetics plz",Interpret,Interpret,True,2,2,27,False
+128661,4,user,the third one,Interpret,"USER: i like something to make me younger
+SYSTEM: Do you want some cosmetics or health products?
+USER: cosmetics plz
+SYSTEM: Sure, are u finding  Face Makeup, Facial Serums or Face Moisturizers?
+USER: the third one",Interpret,Interpret,True,3,3,51,False
+128661,6,user,the second the ,Interpret,"USER: i like something to make me younger
+SYSTEM: Do you want some cosmetics or health products?
+USER: cosmetics plz
+SYSTEM: Sure, are u finding  Face Makeup, Facial Serums or Face Moisturizers?
+USER: the third one
+SYSTEM: ok
+USER: the second the",Interpret,Interpret,True,4,4,59,False
+129760,0,user,want to buy some make up,Revise,USER: want to buy some make up,Revise,Reveal,False,1,1,10,False
+129760,2,user,lip gloss,Interpret,"USER: want to buy some make up
+SYSTEM: what do u want? Face Blushes , Lip Gloss?
+USER: lip gloss",Interpret,Reveal,False,2,2,28,False
+129760,4,user,like blood,Interpret,"USER: want to buy some make up
+SYSTEM: what do u want? Face Blushes , Lip Gloss?
+USER: lip gloss
+SYSTEM: what color do u like?
+USER: like blood",Interpret,Interpret,True,3,3,40,False
+129760,6,user,second one,Interpret,"USER: want to buy some make up
+SYSTEM: what do u want? Face Blushes , Lip Gloss?
+USER: lip gloss
+SYSTEM: what color do u like?
+USER: like blood
+SYSTEM: these are blood
+USER: second one",Interpret,Interpret,True,4,4,49,False
+130145,0,user,want a recipe,Reveal,USER: want a recipe,Reveal,Reveal,True,1,1,7,False
+130145,2,user,american food,Interpret,"USER: want a recipe
+SYSTEM: whick kind of food do u want?
+USER: american food",Interpret,Reveal,False,2,2,23,False
+130145,4,user,first one,Interpret,"USER: want a recipe
+SYSTEM: whick kind of food do u want?
+USER: american food
+SYSTEM: here!
+USER: first one",Interpret,Interpret,True,3,3,31,False
+13518,0,user,I want to buy an alarm clock.,Reveal,USER: I want to buy an alarm clock.,Reveal,Reveal,True,1,1,12,False
+13518,2,user,"Doesn't matter, as long as it has an alarm function",Interpret,"USER: I want to buy an alarm clock.
+SYSTEM: Are you asking for an electronic alarm clock?
+USER: Doesn't matter, as long as it has an alarm function",Interpret,Interpret,True,2,2,38,False
+13518,4,user,"Peakeep is not a bad brand, recommend a few more!",Interpret,"USER: I want to buy an alarm clock.
+SYSTEM: Are you asking for an electronic alarm clock?
+USER: Doesn't matter, as long as it has an alarm function
+SYSTEM: I think you'll like them.
+USER: Peakeep is not a bad brand, recommend a few more!",Interpret,Interpret,True,3,3,64,False
+13518,6,user,I like the first one. Thank you.,Interpret,"USER: I want to buy an alarm clock.
+SYSTEM: Are you asking for an electronic alarm clock?
+USER: Doesn't matter, as long as it has an alarm function
+SYSTEM: I think you'll like them.
+USER: Peakeep is not a bad brand, recommend a few more!
+SYSTEM: These are good choices.
+USER: I like the first one. Thank you.",Interpret,Interpret,True,4,4,82,False
+13719,0,user,Please recommend a chair for me.,Reveal,USER: Please recommend a chair for me.,Reveal,Reveal,True,1,1,11,False
+13719,2,user,"No, I want a wooden chair.",Interpret,"USER: Please recommend a chair for me.
+SYSTEM: What material do you want? Is metal acceptable?
+USER: No, I want a wooden chair.",Interpret,Interpret,True,2,2,33,False
+13719,4,user,sure,Interpret,"USER: Please recommend a chair for me.
+SYSTEM: What material do you want? Is metal acceptable?
+USER: No, I want a wooden chair.
+SYSTEM: Would you be willing to buy it for around $50
+USER: sure",Interpret,Interpret,True,3,3,49,False
+13719,6,user,Thank you very much.,Interpret,"USER: Please recommend a chair for me.
+SYSTEM: What material do you want? Is metal acceptable?
+USER: No, I want a wooden chair.
+SYSTEM: Would you be willing to buy it for around $50
+USER: sure
+SYSTEM: These should meet your requirements
+USER: Thank you very much.",Interpret,Interpret,True,4,4,63,False
+14794,0,user,I want to buy a bed.,Reveal,USER: I want to buy a bed.,Reveal,Reveal,True,1,1,11,False
+14794,2,user,Preferably made of wood,Interpret,"USER: I want to buy a bed.
+SYSTEM: What kind of material do you want the bed to be made of, like steel?
+USER: Preferably made of wood",Interpret,Interpret,True,2,2,37,False
+14794,4,user,"Looks good, recommend a few more",Interpret,"USER: I want to buy a bed.
+SYSTEM: What kind of material do you want the bed to be made of, like steel?
+USER: Preferably made of wood
+SYSTEM: What do you think of this one?
+USER: Looks good, recommend a few more",Interpret,Interpret,True,3,3,56,False
+14794,6,user,Recommend more of this brand：ZINUS,Interpret,"USER: I want to buy a bed.
+SYSTEM: What kind of material do you want the bed to be made of, like steel?
+USER: Preferably made of wood
+SYSTEM: What do you think of this one?
+USER: Looks good, recommend a few more
+SYSTEM: I hope you find one you're satisfied with!
+USER: Recommend more of this brand：ZINUS",Interpret,Interpret,True,4,4,79,False
+14794,8,user,Thank you,Interpret,"USER: I want to buy a bed.
+SYSTEM: What kind of material do you want the bed to be made of, like steel?
+USER: Preferably made of wood
+SYSTEM: What do you think of this one?
+USER: Looks good, recommend a few more
+SYSTEM: I hope you find one you're satisfied with!
+USER: Recommend more of this brand：ZINUS
+SYSTEM: I hope you find something you like.
+USER: Thank you",Interpret,Interpret,True,5,5+,93,False
+16241,0,user,I want to buy a bag.,Reveal,USER: I want to buy a bag.,Reveal,Reveal,True,1,1,11,False
+16241,2,user,It's for sports. Give me your recommendation.,Interpret,"USER: I want to buy a bag.
+SYSTEM: What is your main use for this bag, if it's for sports, I recommend the Adidas brand!
+USER: It's for sports. Give me your recommendation.",Interpret,Interpret,True,2,2,49,False
+16241,4,user,I don't like adidas.,Interpret,"USER: I want to buy a bag.
+SYSTEM: What is your main use for this bag, if it's for sports, I recommend the Adidas brand!
+USER: It's for sports. Give me your recommendation.
+SYSTEM: How about this?
+USER: I don't like adidas.",Interpret,Interpret,True,3,3,65,False
+16241,6,user,not bad,Interpret,"USER: I want to buy a bag.
+SYSTEM: What is your main use for this bag, if it's for sports, I recommend the Adidas brand!
+USER: It's for sports. Give me your recommendation.
+SYSTEM: How about this?
+USER: I don't like adidas.
+SYSTEM: What about puma?
+USER: not bad",Interpret,Interpret,True,4,4,76,False
+16241,8,user,Thank you,Interpret,"USER: I want to buy a bag.
+SYSTEM: What is your main use for this bag, if it's for sports, I recommend the Adidas brand!
+USER: It's for sports. Give me your recommendation.
+SYSTEM: How about this?
+USER: I don't like adidas.
+SYSTEM: What about puma?
+USER: not bad
+SYSTEM: I hope you like it.
+USER: Thank you",Interpret,Interpret,True,5,5+,88,False
+17180,0,user,Greetings! I want to buy a climbing backpack on Amazon. Can you give me some advice?,Reveal,USER: Greetings! I want to buy a climbing backpack on Amazon. Can you give me some advice?,Reveal,Reveal,True,1,1,24,False
+17180,2,user,Any color is fine except for black.,Interpret,"USER: Greetings! I want to buy a climbing backpack on Amazon. Can you give me some advice?
+SYSTEM: OK. Any preference on color?
+USER: Any color is fine except for black.",Interpret,Interpret,True,2,2,43,False
+17180,4,user,Please provide some more options. I don't really like the backpacks you showed me.,Interpret,"USER: Greetings! I want to buy a climbing backpack on Amazon. Can you give me some advice?
+SYSTEM: OK. Any preference on color?
+USER: Any color is fine except for black.
+SYSTEM: Understood. What about these ones?
+USER: Please provide some more options. I don't really like the backpacks you showed me.",Interpret,Interpret,True,3,3,73,False
+17180,6,user,The third one looks good. Please place the order for me!,Interpret,"USER: Greetings! I want to buy a climbing backpack on Amazon. Can you give me some advice?
+SYSTEM: OK. Any preference on color?
+USER: Any color is fine except for black.
+SYSTEM: Understood. What about these ones?
+USER: Please provide some more options. I don't really like the backpacks you showed me.
+SYSTEM: Alright. I've found more products that might meet your needs. Please take a look:
+USER: The third one looks good. Please place the order for me!",Interpret,Interpret,True,4,4,109,False
+17316,0,user,I would like to buy a peanut butter.,Reveal,USER: I would like to buy a peanut butter.,Reveal,Reveal,True,1,1,13,False
+17316,2,user,"Yes, I want peanut butter with added sugar.",Interpret,"USER: I would like to buy a peanut butter.
+SYSTEM: Okay, could you please provide me with more information? For example, does the peanut butter you need have added sugar?
+USER: Yes, I want peanut butter with added sugar.",Interpret,Revise,False,2,2,51,False
+17316,4,user,"Wonderful! I want the third one, could you kindly order it for me?",Interpret,"USER: I would like to buy a peanut butter.
+SYSTEM: Okay, could you please provide me with more information? For example, does the peanut butter you need have added sugar?
+USER: Yes, I want peanut butter with added sugar.
+SYSTEM: How about the followings?
+USER: Wonderful! I want the third one, could you kindly order it for me?",Interpret,Interpret,True,3,3,77,False
+17787,0,user,"Hello, I want to buy a desk lamp on Amazon.",Reveal,"USER: Hello, I want to buy a desk lamp on Amazon.",Reveal,Reveal,True,1,1,16,False
+17787,2,user,"Something affordable, under 20 dollars would be good.",Interpret,"USER: Hello, I want to buy a desk lamp on Amazon.
+SYSTEM: Alright, do you have any price range in mind?
+USER: Something affordable, under 20 dollars would be good.",Interpret,Interpret,True,2,2,41,False
+17787,4,user,I don't really like the style of these desk lamps. Can you find a black version?,Interpret,"USER: Hello, I want to buy a desk lamp on Amazon.
+SYSTEM: Alright, do you have any price range in mind?
+USER: Something affordable, under 20 dollars would be good.
+SYSTEM: Okay, here are my recommendations for you:
+USER: I don't really like the style of these desk lamps. Can you find a black version?",Interpret,Interpret,True,3,3,74,False
+17787,6,user,I'll take the first one. Thanks!,Interpret,"USER: Hello, I want to buy a desk lamp on Amazon.
+SYSTEM: Alright, do you have any price range in mind?
+USER: Something affordable, under 20 dollars would be good.
+SYSTEM: Okay, here are my recommendations for you:
+USER: I don't really like the style of these desk lamps. Can you find a black version?
+SYSTEM: Sure thing. How about these ones?
+USER: I'll take the first one. Thanks!",Interpret,Interpret,True,4,4,96,False
+18047,0,user,Help me pick a laptop on Amazon.,Reveal,USER: Help me pick a laptop on Amazon.,Reveal,Reveal,True,1,1,12,False
+18047,2,user,For gaming. A gaming laptop would be more suitable for me.,Interpret,"USER: Help me pick a laptop on Amazon.
+SYSTEM: Sure. Is it mainly for gaming or for work?
+USER: For gaming. A gaming laptop would be more suitable for me.",Interpret,Interpret,True,2,2,40,False
+18047,4,user,Lenovo. My last laptop was from this brand.,Interpret,"USER: Help me pick a laptop on Amazon.
+SYSTEM: Sure. Is it mainly for gaming or for work?
+USER: For gaming. A gaming laptop would be more suitable for me.
+SYSTEM: Alright. Do you have a preferred brand, like Lenovo or HP?<br>
+USER: Lenovo. My last laptop was from this brand.",Interpret,Interpret,True,3,3,73,False
+18047,6,user,"The third one is cool. I'll buy it, thanks for your recommendations!",Interpret,"USER: Help me pick a laptop on Amazon.
+SYSTEM: Sure. Is it mainly for gaming or for work?
+USER: For gaming. A gaming laptop would be more suitable for me.
+SYSTEM: Alright. Do you have a preferred brand, like Lenovo or HP?<br>
+USER: Lenovo. My last laptop was from this brand.
+SYSTEM: How do you feel about the following recommendations?
+USER: The third one is cool. I'll buy it, thanks for your recommendations!",Interpret,Interpret,True,4,4,103,False
+1911,0,user,I need a mirror.,Reveal,USER: I need a mirror.,Reveal,Reveal,True,1,1,9,False
+1911,2,user,I want to use it as a full-length mirror at home,Interpret,"USER: I need a mirror.
+SYSTEM: Can you tell us what your main purpose for buying mirrors is?
+USER: I want to use it as a full-length mirror at home",Interpret,Revise,False,2,2,39,False
+1911,4,user,"I think they are too expensive, are there any under 30 dollars",Interpret,"USER: I need a mirror.
+SYSTEM: Can you tell us what your main purpose for buying mirrors is?
+USER: I want to use it as a full-length mirror at home
+SYSTEM: Do you like them?
+USER: I think they are too expensive, are there any under 30 dollars",Interpret,Interpret,True,3,3,61,False
+1911,6,user,sure,Interpret,"USER: I need a mirror.
+SYSTEM: Can you tell us what your main purpose for buying mirrors is?
+USER: I want to use it as a full-length mirror at home
+SYSTEM: Do you like them?
+USER: I think they are too expensive, are there any under 30 dollars
+SYSTEM: Do you think $15 to $25 is acceptable to you?
+USER: sure",Interpret,Interpret,True,4,4,79,False
+1911,8,user,Thank you,Interpret,"USER: I need a mirror.
+SYSTEM: Can you tell us what your main purpose for buying mirrors is?
+USER: I want to use it as a full-length mirror at home
+SYSTEM: Do you like them?
+USER: I think they are too expensive, are there any under 30 dollars
+SYSTEM: Do you think $15 to $25 is acceptable to you?
+USER: sure
+SYSTEM: How about this one?
+USER: Thank you",Interpret,Interpret,True,5,5+,90,False
+21951,0,user,"Hi there, I am searching for computer science books, suitable for teaching children.",Reveal,"USER: Hi there, I am searching for computer science books, suitable for teaching children.",Reveal,Reveal,True,1,1,20,False
+21951,2,user,"They are high school students, between the ages of 15 and 18.",Interpret,"USER: Hi there, I am searching for computer science books, suitable for teaching children.
+SYSTEM: How old are the children?
+USER: They are high school students, between the ages of 15 and 18.",Interpret,Interpret,True,2,2,44,False
+21951,4,user,"Does the first recommendation ""Must Know High School Computer Programming"" include homework exercises?",Interpret,"USER: Hi there, I am searching for computer science books, suitable for teaching children.
+SYSTEM: How old are the children?
+USER: They are high school students, between the ages of 15 and 18.
+SYSTEM: How about these products?
+USER: Does the first recommendation ""Must Know High School Computer Programming"" include homework exercises?",Interpret,Interpret,True,3,3,69,False
+2481,0,user,I'd like to buy a sport coat.,Reveal,USER: I'd like to buy a sport coat.,Reveal,Reveal,True,1,1,14,False
+2481,2,user,man,Interpret,"USER: I'd like to buy a sport coat.
+SYSTEM: Do you want a man's or a woman's?
+USER: man",Interpret,Reveal,False,2,2,32,False
+2481,4,user,Are you kidding me? This is a sport coat?,Interpret,"USER: I'd like to buy a sport coat.
+SYSTEM: Do you want a man's or a woman's?
+USER: man
+SYSTEM: How about this one?
+USER: Are you kidding me? This is a sport coat?",Interpret,Interpret,True,3,3,52,False
+2481,6,user,"No suits, okay? I'm gonna wear a sport coat.",Interpret,"USER: I'd like to buy a sport coat.
+SYSTEM: Do you want a man's or a woman's?
+USER: man
+SYSTEM: How about this one?
+USER: Are you kidding me? This is a sport coat?
+SYSTEM: I hope you find it satisfactory
+USER: No suits, okay? I'm gonna wear a sport coat.",Interpret,Interpret,True,4,4,76,False
+2481,8,user,"Okay, okay.",Interpret,"USER: I'd like to buy a sport coat.
+SYSTEM: Do you want a man's or a woman's?
+USER: man
+SYSTEM: How about this one?
+USER: Are you kidding me? This is a sport coat?
+SYSTEM: I hope you find it satisfactory
+USER: No suits, okay? I'm gonna wear a sport coat.
+SYSTEM: Do you like this?
+USER: Okay, okay.",Interpret,Interpret,True,5,5+,89,False
+25602,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+25602,2,user,"please, do you sell pens?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pens?",Reveal,Reveal,True,2,2,28,False
+25602,4,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pens?
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,3,3,48,False
+25602,6,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pens?
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: How about this one?
+USER: This one works. I like it",Interpret,Interpret,True,4,4,64,False
+25849,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+25849,2,user,"please, do you sell pajamas?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pajamas?",Reveal,Reveal,True,2,2,28,False
+25849,4,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pajamas?
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,3,3,48,False
+25849,6,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pajamas?
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,4,4,68,False
+25849,8,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell pajamas?
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: How about this one?
+USER: This one works. I like it",Interpret,Interpret,True,5,5+,84,False
+26736,0,user,"Hi there, I'm looking to buy a chair. Can you recommend something?",Reveal,"USER: Hi there, I'm looking to buy a chair. Can you recommend something?",Reveal,Reveal,True,1,1,21,False
+26736,2,user,"  I need a comfortable chair for my home office, something ergonomic would be great.",Interpret,"USER: Hi there, I'm looking to buy a chair. Can you recommend something?
+SYSTEM: Of course! What kind of chair are you looking for, and do you have any specific preferences?
+USER: I need a comfortable chair for my home office, something ergonomic would be great.",Interpret,Interpret,True,2,2,63,False
+26736,4,user,Thanks for the suggestion. Any other options?,Interpret,"USER: Hi there, I'm looking to buy a chair. Can you recommend something?
+SYSTEM: Of course! What kind of chair are you looking for, and do you have any specific preferences?
+USER: I need a comfortable chair for my home office, something ergonomic would be great.
+SYSTEM: I'd suggest the Herman Miller Aeron chair. It's known for its ergonomic design, perfect for long hours at a desk. It provides excellent support and comfort.
+USER: Thanks for the suggestion. Any other options?",Interpret,Interpret,True,3,3,113,False
+26736,6,user," Great, I'll check out both options. ",Interpret,"USER: Hi there, I'm looking to buy a chair. Can you recommend something?
+SYSTEM: Of course! What kind of chair are you looking for, and do you have any specific preferences?
+USER: I need a comfortable chair for my home office, something ergonomic would be great.
+SYSTEM: I'd suggest the Herman Miller Aeron chair. It's known for its ergonomic design, perfect for long hours at a desk. It provides excellent support and comfort.
+USER: Thanks for the suggestion. Any other options?
+SYSTEM: Certainly, you might also like the Steelcase Leap chair. It's another top-notch ergonomic chair with customizable features to ensure a comfortable working experience.
+USER: Great, I'll check out both options.",Interpret,Interpret,True,4,4,162,False
+26902,0,user,"Hello, I'm looking to buy baby bottles. Can you recommend some options?",Reveal,"USER: Hello, I'm looking to buy baby bottles. Can you recommend some options?",Reveal,Reveal,True,1,1,21,False
+26902,2,user,"I prefer glass bottles, and I'm open to suggestions on brands.",Interpret,"USER: Hello, I'm looking to buy baby bottles. Can you recommend some options?
+SYSTEM: Of course! Are you looking for glass or plastic bottles, and do you have any specific brands in mind?
+USER: I prefer glass bottles, and I'm open to suggestions on brands.",Interpret,Interpret,True,2,2,62,False
+26902,4,user,Thank you for the suggestion. Any other options?,Interpret,"USER: Hello, I'm looking to buy baby bottles. Can you recommend some options?
+SYSTEM: Of course! Are you looking for glass or plastic bottles, and do you have any specific brands in mind?
+USER: I prefer glass bottles, and I'm open to suggestions on brands.
+SYSTEM: I recommend the Philips Avent Natural Glass Baby Bottles. They are known for their durability and have a natural nipple shape for easy feeding.
+USER: Thank you for the suggestion. Any other options?",Interpret,Interpret,True,3,3,105,False
+26902,6,user, I'll check out both options. ,Interpret,"USER: Hello, I'm looking to buy baby bottles. Can you recommend some options?
+SYSTEM: Of course! Are you looking for glass or plastic bottles, and do you have any specific brands in mind?
+USER: I prefer glass bottles, and I'm open to suggestions on brands.
+SYSTEM: I recommend the Philips Avent Natural Glass Baby Bottles. They are known for their durability and have a natural nipple shape for easy feeding.
+USER: Thank you for the suggestion. Any other options?
+SYSTEM: Sure, you might also like the Dr. Brown's Options+ Glass Baby Bottles. They feature an anti-colic vent system for your baby's comfort and are widely trusted by parents.
+USER: I'll check out both options.",Interpret,Interpret,True,4,4,157,False
+27109,0,user,"Hello, I'm looking to buy some soda. Can you recommend some options?",Reveal,"USER: Hello, I'm looking to buy some soda. Can you recommend some options?",Reveal,Reveal,True,1,1,21,False
+27109,2,user," I'd like regular soda, and I enjoy fruity flavors.",Interpret,"USER: Hello, I'm looking to buy some soda. Can you recommend some options?
+SYSTEM: Of course! Are you looking for regular soda or diet soda, and do you have any favorite flavors?
+USER: I'd like regular soda, and I enjoy fruity flavors.",Interpret,Interpret,True,2,2,60,False
+27109,4,user, Thank you for the suggestion. Any other options?,Interpret,"USER: Hello, I'm looking to buy some soda. Can you recommend some options?
+SYSTEM: Of course! Are you looking for regular soda or diet soda, and do you have any favorite flavors?
+USER: I'd like regular soda, and I enjoy fruity flavors.
+SYSTEM: In that case, I recommend trying Coca-Cola's Classic Cherry flavor. It combines the classic taste of Coca-Cola with a hint of sweet cherry for a refreshing twist.
+USER: Thank you for the suggestion. Any other options?",Interpret,Interpret,True,3,3,110,False
+27109,6,user,I'll try both options,Interpret,"USER: Hello, I'm looking to buy some soda. Can you recommend some options?
+SYSTEM: Of course! Are you looking for regular soda or diet soda, and do you have any favorite flavors?
+USER: I'd like regular soda, and I enjoy fruity flavors.
+SYSTEM: In that case, I recommend trying Coca-Cola's Classic Cherry flavor. It combines the classic taste of Coca-Cola with a hint of sweet cherry for a refreshing twist.
+USER: Thank you for the suggestion. Any other options?
+SYSTEM: Sure, you might also like Pepsi Wild Cherry. It has a bold cherry flavor that pairs well with Pepsi's classic taste.
+USER: I'll try both options",Interpret,Interpret,True,4,4,146,False
+27891,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+27891,2,user,"please, do you sell sneakers?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell sneakers?",Reveal,Reveal,True,2,2,28,False
+27891,4,user,Men's sneakers,Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell sneakers?
+SYSTEM: Which do you prefer?<br><br><br><br>
+USER: Men's sneakers",Reveal,Interpret,False,3,3,53,False
+27891,6,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell sneakers?
+SYSTEM: Which do you prefer?<br><br><br><br>
+USER: Men's sneakers
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,4,4,73,False
+27891,8,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell sneakers?
+SYSTEM: Which do you prefer?<br><br><br><br>
+USER: Men's sneakers
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: How about this one?
+USER: This one works. I like it",Interpret,Interpret,True,5,5+,89,False
+28076,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+28076,2,user,"please, do you sell outdoor shoes?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell outdoor shoes?",Reveal,Reveal,True,2,2,29,False
+28076,4,user,Let me look at the specific pictures of the goods first,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell outdoor shoes?
+SYSTEM: Which do you prefer?<br><br><br>
+USER: Let me look at the specific pictures of the goods first",Interpret,Interpret,True,3,3,58,False
+28076,6,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell outdoor shoes?
+SYSTEM: Which do you prefer?<br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: How about this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,4,4,75,False
+28076,8,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell outdoor shoes?
+SYSTEM: Which do you prefer?<br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: How about this one?
+USER: Don't like it. Change it
+SYSTEM: What do you think of this one?
+USER: This one works. I like it",Interpret,Interpret,True,5,5+,94,False
+28400,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+28400,2,user,"please, do you sell canvas shoes?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell canvas shoes?",Reveal,Reveal,True,2,2,29,False
+28400,4,user,Let me look at the specific pictures of the goods first,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell canvas shoes?
+SYSTEM: Which do you prefer?<br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first",Interpret,Interpret,True,3,3,64,False
+28400,6,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell canvas shoes?
+SYSTEM: Which do you prefer?<br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,4,4,84,False
+28400,8,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell canvas shoes?
+SYSTEM: Which do you prefer?<br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: How about this one?
+USER: This one works. I like it",Interpret,Interpret,True,5,5+,100,False
+29305,0,user,how are you ?,Chitchat,USER: how are you ?,Chitchat,Chitchat,True,1,1,8,False
+29305,2,user,"please, do you sell boots?",Reveal,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell boots?",Reveal,Reveal,True,2,2,28,False
+29305,4,user,Let me look at the specific pictures of the goods first,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell boots?
+SYSTEM: Which do you prefer?<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first",Interpret,Interpret,True,3,3,96,False
+29305,6,user,Don't like it. Change it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell boots?
+SYSTEM: Which do you prefer?<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it",Interpret,Interpret,True,4,4,116,False
+29305,8,user,This one works. I like it,Interpret,"USER: how are you ?
+SYSTEM: Fine.What can I do for you ?
+USER: please, do you sell boots?
+SYSTEM: Which do you prefer?<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+USER: Let me look at the specific pictures of the goods first
+SYSTEM: What do you think of this one?
+USER: Don't like it. Change it
+SYSTEM: How about this one?
+USER: This one works. I like it",Interpret,Interpret,True,5,5+,132,False
+3182,0,user,"I'm going to go mountain climbing, but I'm lacking a suitable pair of climbing boots. Could you help me with a recommendation, please?",Reveal,"USER: I'm going to go mountain climbing, but I'm lacking a suitable pair of climbing boots. Could you help me with a recommendation, please?",Reveal,Reveal,True,1,1,35,False
+3182,2,user,"I'm not so interested in the brand of the boots, as long as they are within 100 dollars.",Interpret,"USER: I'm going to go mountain climbing, but I'm lacking a suitable pair of climbing boots. Could you help me with a recommendation, please?
+SYSTEM: Sure! Any preference on the brand?
+USER: I'm not so interested in the brand of the boots, as long as they are within 100 dollars.",Interpret,Interpret,True,2,2,69,False
+3182,4,user,"Preferably in brown, thanks.",Interpret,"USER: I'm going to go mountain climbing, but I'm lacking a suitable pair of climbing boots. Could you help me with a recommendation, please?
+SYSTEM: Sure! Any preference on the brand?
+USER: I'm not so interested in the brand of the boots, as long as they are within 100 dollars.
+SYSTEM: OK. And any preference on color?
+USER: Preferably in brown, thanks.",Interpret,Interpret,True,3,3,88,False
+3182,6,user,The third one is fine. You did a good job!,Interpret,"USER: I'm going to go mountain climbing, but I'm lacking a suitable pair of climbing boots. Could you help me with a recommendation, please?
+SYSTEM: Sure! Any preference on the brand?
+USER: I'm not so interested in the brand of the boots, as long as they are within 100 dollars.
+SYSTEM: OK. And any preference on color?
+USER: Preferably in brown, thanks.
+SYSTEM: How about these ones?
+USER: The third one is fine. You did a good job!",Interpret,Interpret,True,4,4,109,False
+32159,0,user,"Hi, I'm looking to buy some tea. Can you recommend some options?",Reveal,"USER: Hi, I'm looking to buy some tea. Can you recommend some options?",Reveal,Reveal,True,1,1,21,False
+32159,2,user," I prefer green tea, and I like fruity flavors.",Interpret,"USER: Hi, I'm looking to buy some tea. Can you recommend some options?
+SYSTEM: Of course! Are you interested in black, green, or herbal tea, and do you have any specific flavors in mind?<br><br><br>
+USER: I prefer green tea, and I like fruity flavors.",Interpret,Interpret,True,2,2,71,False
+32159,4,user,Thanks for the suggestion. Any other options?,Interpret,"USER: Hi, I'm looking to buy some tea. Can you recommend some options?
+SYSTEM: Of course! Are you interested in black, green, or herbal tea, and do you have any specific flavors in mind?<br><br><br>
+USER: I prefer green tea, and I like fruity flavors.
+SYSTEM: I recommend trying out  green tea .
+USER: Thanks for the suggestion. Any other options?",Interpret,Interpret,True,3,3,91,False
+32159,6,user,I'll give both a try.,Interpret,"USER: Hi, I'm looking to buy some tea. Can you recommend some options?
+SYSTEM: Of course! Are you interested in black, green, or herbal tea, and do you have any specific flavors in mind?<br><br><br>
+USER: I prefer green tea, and I like fruity flavors.
+SYSTEM: I recommend trying out  green tea .
+USER: Thanks for the suggestion. Any other options?
+SYSTEM: : Certainly, you might also enjoy the Celestial Seasonings Raspberry Zinger Green Tea. It combines the freshness of green tea with the tangy sweetness of raspberries.
+USER: I'll give both a try.",Interpret,Interpret,True,4,4,140,False
+32913,0,user,Do you sell scarves?,Reveal,USER: Do you sell scarves?,Reveal,Reveal,True,1,1,10,False
+32913,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell scarves?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+32913,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell scarves?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,74,False
+32913,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell scarves?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,104,False
+32913,8,user,Don't like that.,Interpret,"USER: Do you sell scarves?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this kind of product OK?
+USER: Don't like that.",Interpret,Interpret,True,5,5+,121,False
+32913,10,user,"Yes, I like this one",Interpret,"USER: Do you sell scarves?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this kind of product OK?
+USER: Don't like that.
+SYSTEM: Is this kind of product OK?
+USER: Yes, I like this one",Interpret,Interpret,True,6,5+,138,False
+33693,0,user,Do you sell glasses?,Reveal,USER: Do you sell glasses?,Reveal,Reveal,True,1,1,9,False
+33693,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell glasses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,42,False
+33693,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell glasses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,70,False
+33693,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell glasses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,100,False
+33693,8,user,Don'y like this.,Interpret,"USER: Do you sell glasses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this kind of product OK?
+USER: Don'y like this.",Interpret,Interpret,True,5,5+,117,False
+33693,10,user,"Yes, I like this one",Interpret,"USER: Do you sell glasses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this kind of product OK?
+USER: Don'y like this.
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,6,5+,131,False
+34164,0,user,Do you sell cleaner?,Reveal,USER: Do you sell cleaner?,Reveal,Reveal,True,1,1,9,False
+34164,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell cleaner?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,39,False
+34164,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell cleaner?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,64,False
+34164,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell cleaner?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,94,False
+34164,8,user,Don't like this.,Interpret,"USER: Do you sell cleaner?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Don't like this.",Interpret,Interpret,True,5,5+,108,False
+34164,10,user,"Yes, I like this one",Interpret,"USER: Do you sell cleaner?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Don't like this.
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,6,5+,122,False
+34388,0,user,Do you sell laundry?,Reveal,USER: Do you sell laundry?,Reveal,Reveal,True,1,1,9,False
+34388,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell laundry?
+SYSTEM: What price of goods do you want?<br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,36,False
+34388,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell laundry?
+SYSTEM: What price of goods do you want?<br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,58,False
+34388,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell laundry?
+SYSTEM: What price of goods do you want?<br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,85,False
+34388,8,user,Don't like this.,Interpret,"USER: Do you sell laundry?
+SYSTEM: What price of goods do you want?<br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Don't like this.",Interpret,Interpret,True,5,5+,99,False
+34388,10,user,"Yes, I like this one",Interpret,"USER: Do you sell laundry?
+SYSTEM: What price of goods do you want?<br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Don't like this.
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,6,5+,113,False
+35204,0,user,Do you sell scent beads?,Reveal,USER: Do you sell scent beads?,Reveal,Reveal,True,1,1,10,False
+35204,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell scent beads?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+35204,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell scent beads?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,68,False
+35204,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell scent beads?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,98,False
+35204,8,user,"Yes, I like this one",Interpret,"USER: Do you sell scent beads?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,112,False
+3542,0,user,I need your help to find a suitable new phone.,Reveal,USER: I need your help to find a suitable new phone.,Reveal,Reveal,True,1,1,15,False
+3542,2,user,Sure. I only want the latest iPhone.,Interpret,"USER: I need your help to find a suitable new phone.
+SYSTEM: May I ask what brand of phone you want?
+USER: Sure. I only want the latest iPhone.",Interpret,Interpret,True,2,2,38,False
+3542,4,user,128G is okay for me.,Interpret,"USER: I need your help to find a suitable new phone.
+SYSTEM: May I ask what brand of phone you want?
+USER: Sure. I only want the latest iPhone.
+SYSTEM: Very well. Do you have requirements on storage capacity?
+USER: 128G is okay for me.",Interpret,Interpret,True,3,3,60,False
+3542,6,user,Great. The first one is exactly what I want.,Interpret,"USER: I need your help to find a suitable new phone.
+SYSTEM: May I ask what brand of phone you want?
+USER: Sure. I only want the latest iPhone.
+SYSTEM: Very well. Do you have requirements on storage capacity?
+USER: 128G is okay for me.
+SYSTEM: Here are the results I recommend for you:
+USER: Great. The first one is exactly what I want.",Interpret,Interpret,True,4,4,84,False
+38050,0,user,Do you sell soap box?,Reveal,USER: Do you sell soap box?,Reveal,Reveal,True,1,1,10,False
+38050,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell soap box?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+38050,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell soap box?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,68,False
+38050,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell soap box?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,98,False
+38050,8,user,"Yes, I like this one",Interpret,"USER: Do you sell soap box?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,112,False
+38251,0,user,Do you sell the basin?,Reveal,USER: Do you sell the basin?,Reveal,Reveal,True,1,1,10,False
+38251,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell the basin?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,40,False
+38251,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell the basin?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,65,False
+38251,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell the basin?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,92,False
+38251,8,user,"Yes, I like this one",Interpret,"USER: Do you sell the basin?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this kind of product OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,109,False
+38443,0,user,Do you sell brush?,Reveal,USER: Do you sell brush?,Reveal,Reveal,True,1,1,9,False
+38443,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell brush?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,39,False
+38443,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell brush?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,64,False
+38443,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell brush?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,94,False
+38443,8,user,"Yes, I like this one",Interpret,"USER: Do you sell brush?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,108,False
+41276,0,user,Do you sell hair tools?,Reveal,USER: Do you sell hair tools?,Reveal,Reveal,True,1,1,10,False
+41276,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell hair tools?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,40,False
+41276,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell hair tools?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,65,False
+41276,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell hair tools?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,95,False
+41276,8,user,"Yes, I like this one",Interpret,"USER: Do you sell hair tools?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,109,False
+41676,0,user,Do you sell liquid foundation?,Reveal,USER: Do you sell liquid foundation?,Reveal,Reveal,True,1,1,10,False
+41676,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell liquid foundation?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,40,False
+41676,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell liquid foundation?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,65,False
+41676,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell liquid foundation?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,95,False
+41676,8,user,"Yes, I like this one",Interpret,"USER: Do you sell liquid foundation?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,109,False
+45402,0,user,Do you sell facial mask?,Reveal,USER: Do you sell facial mask?,Reveal,Reveal,True,1,1,10,False
+45402,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell facial mask?
+SYSTEM: What price of goods do you want?
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,34,False
+45402,4,user,Which style do you prefer?,Interpret,"USER: Do you sell facial mask?
+SYSTEM: What price of goods do you want?
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Which style do you prefer?",Interpret,Interpret,True,3,3,59,False
+45402,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell facial mask?
+SYSTEM: What price of goods do you want?
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Which style do you prefer?
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,89,False
+45402,8,user,"Yes, I like this one",Interpret,"USER: Do you sell facial mask?
+SYSTEM: What price of goods do you want?
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Which style do you prefer?
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,103,False
+48191,0,user,Do you sell contact lenses?,Reveal,USER: Do you sell contact lenses?,Reveal,Reveal,True,1,1,10,False
+48191,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell contact lenses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+48191,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell contact lenses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,71,False
+48191,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell contact lenses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,98,False
+48191,8,user,"Yes, I like this one",Interpret,"USER: Do you sell contact lenses?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,112,False
+49238,0,user,Do you sell oil pan skillet?,Reveal,USER: Do you sell oil pan skillet?,Reveal,Reveal,True,1,1,12,False
+49238,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell oil pan skillet?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,42,False
+49238,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell oil pan skillet?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,67,False
+49238,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell oil pan skillet?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,97,False
+49238,8,user,"Yes, I like this one",Interpret,"USER: Do you sell oil pan skillet?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,111,False
+50063,0,user,Do you sell juicer cup hot kettle?,Reveal,USER: Do you sell juicer cup hot kettle?,Reveal,Reveal,True,1,1,13,False
+50063,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell juicer cup hot kettle?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+50063,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell juicer cup hot kettle?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,68,False
+50063,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell juicer cup hot kettle?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,92,False
+50063,8,user,"Yes, I like this one",Interpret,"USER: Do you sell juicer cup hot kettle?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,106,False
+50846,0,user,Do you sell tongs?,Reveal,USER: Do you sell tongs?,Reveal,Reveal,True,1,1,10,False
+50846,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell tongs?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,43,False
+50846,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell tongs?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,68,False
+50846,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell tongs?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,95,False
+50846,8,user,"Yes, I like this one",Interpret,"USER: Do you sell tongs?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,109,False
+51449,0,user,Do you sell egg beater?,Reveal,USER: Do you sell egg beater?,Reveal,Reveal,True,1,1,11,False
+51449,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell egg beater?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,41,False
+51449,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell egg beater?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,66,False
+51449,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell egg beater?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,99,False
+51449,8,user,"Yes, I like this one",Interpret,"USER: Do you sell egg beater?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,113,False
+52234,0,user,Do you sell drain rack?,Reveal,USER: Do you sell drain rack?,Reveal,Reveal,True,1,1,10,False
+52234,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell drain rack?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,40,False
+52234,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell drain rack?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,65,False
+52234,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell drain rack?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,95,False
+52234,8,user,"Yes, I like this one",Interpret,"USER: Do you sell drain rack?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,109,False
+52625,0,user,Do you sell crisper?,Reveal,USER: Do you sell crisper?,Reveal,Reveal,True,1,1,10,False
+52625,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell crisper?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,40,False
+52625,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell crisper?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,65,False
+52625,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell crisper?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,92,False
+52625,8,user,"Yes, I like this one",Interpret,"USER: Do you sell crisper?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,106,False
+53002,0,user,Do you sell apron?,Reveal,USER: Do you sell apron?,Reveal,Reveal,True,1,1,9,False
+53002,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell apron?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,39,False
+53002,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell apron?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,64,False
+53002,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell apron?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,91,False
+53002,8,user,?,Interpret,"USER: Do you sell apron?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?<br><br><br>
+USER: ?",Interpret,Interpret,True,5,5+,109,False
+53002,10,user,"Yes, I like this one",Interpret,"USER: Do you sell apron?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?<br><br><br>
+USER: ?
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,6,5+,123,False
+53255,0,user,Do you sell gloves?,Reveal,USER: Do you sell gloves?,Reveal,Reveal,True,1,1,9,False
+53255,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell gloves?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,39,False
+53255,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell gloves?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,64,False
+53255,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell gloves?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,91,False
+53255,8,user,"Yes, I like this one",Interpret,"USER: Do you sell gloves?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,105,False
+53660,0,user,Do you sell bowls?,Reveal,USER: Do you sell bowls?,Reveal,Reveal,True,1,1,9,False
+53660,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell bowls?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,42,False
+53660,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell bowls?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,67,False
+53660,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell bowls?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,97,False
+53660,8,user,"Yes, I like this one",Interpret,"USER: Do you sell bowls?
+SYSTEM: What price of goods do you want?<br><br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,111,False
+53863,0,user,Do you sell chopsticks?,Reveal,USER: Do you sell chopsticks?,Reveal,Reveal,True,1,1,11,False
+53863,2,user,"Any price will do, as long as the quality is good",Interpret,"USER: Do you sell chopsticks?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good",Interpret,Interpret,True,2,2,41,False
+53863,4,user,"Anything, as long as it's normal",Interpret,"USER: Do you sell chopsticks?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal",Interpret,Interpret,True,3,3,66,False
+53863,6,user,Please show me a specific product picture for my choice,Interpret,"USER: Do you sell chopsticks?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice",Interpret,Interpret,True,4,4,96,False
+53863,8,user,"Yes, I like this one",Interpret,"USER: Do you sell chopsticks?
+SYSTEM: What price of goods do you want?<br><br>
+USER: Any price will do, as long as the quality is good
+SYSTEM: Which style do you prefer?<br><br>
+USER: Anything, as long as it's normal
+SYSTEM: Is this kind of product OK?<br><br><br>
+USER: Please show me a specific product picture for my choice
+SYSTEM: Is this OK?
+USER: Yes, I like this one",Interpret,Interpret,True,5,5+,110,False
+56584,0,user,Hi! I like starcraft2 very much! Please give me some thing about it!,Reveal,USER: Hi! I like starcraft2 very much! Please give me some thing about it!,Reveal,Reveal,True,1,1,22,False
+56584,2,user,Of course i have the game. I like Tyran very much. Give me the Marine model.,Interpret,"USER: Hi! I like starcraft2 very much! Please give me some thing about it!
+SYSTEM: Sure ! U must be the senior player of it. Do u want the Online Game Code? Or i can give u some model of it.
+USER: Of course i have the game. I like Tyran very much. Give me the Marine model.",Interpret,Interpret,True,2,2,75,False
+57173,0,user,"I'm bored now, is there any topic?",Chitchat,"USER: I'm bored now, is there any topic?",Chitchat,Reveal,False,1,1,15,False
+57173,2,user,ok，Any recommendations?,Chitchat,"USER: I'm bored now, is there any topic?
+SYSTEM: Do you wanna something about music?
+USER: ok，Any recommendations?",Chitchat,Interpret,False,2,2,31,False
+57173,4,user,Rock,Reveal,"USER: I'm bored now, is there any topic?
+SYSTEM: Do you wanna something about music?
+USER: ok，Any recommendations?
+SYSTEM: any preferred singer?
+USER: Rock",Reveal,Interpret,False,3,3,40,False
+57173,6,user,"Okay, I'll go listen to it now.",Chitchat,"USER: I'm bored now, is there any topic?
+SYSTEM: Do you wanna something about music?
+USER: ok，Any recommendations?
+SYSTEM: any preferred singer?
+USER: Rock
+SYSTEM: how about these two?
+USER: Okay, I'll go listen to it now.",Chitchat,Interpret,False,4,4,60,False
+58575,0,user,hello.,Chitchat,USER: hello.,Chitchat,Chitchat,True,1,1,6,False
+58575,2,user,"Yes, I  want a jump rope.",Reveal,"USER: hello.
+SYSTEM: Do you need any help from me?
+USER: Yes, I  want a jump rope.",Reveal,Reveal,True,2,2,26,False
+60018,0,user,hello,Chitchat,USER: hello,Chitchat,Chitchat,True,1,1,5,False
+60018,2,user,I want a pair of over-ear wireless headphones.,Reveal,"USER: hello
+SYSTEM: Hello. Is there anything you need?
+USER: I want a pair of over-ear wireless headphones.",Reveal,Reveal,True,2,2,29,False
+60018,4,user,Give me some product recommendations for the Apple series,Revise,"USER: hello
+SYSTEM: Hello. Is there anything you need?
+USER: I want a pair of over-ear wireless headphones.
+SYSTEM: What do you think of these?
+USER: Give me some product recommendations for the Apple series",Revise,Revise,True,3,3,49,False
+60018,6,user,Thanks for the recommendations，i like the red one.,Interpret,"USER: hello
+SYSTEM: Hello. Is there anything you need?
+USER: I want a pair of over-ear wireless headphones.
+SYSTEM: What do you think of these?
+USER: Give me some product recommendations for the Apple series
+SYSTEM: They are very good. Are you satisfied?
+USER: Thanks for the recommendations，i like the red one.",Interpret,Interpret,True,4,4,73,False
+61169,0,user,I need to buy a computer screen.,Reveal,USER: I need to buy a computer screen.,Reveal,Reveal,True,1,1,12,False
+61169,1,user,"Hello, are you there? I need a computer screen for gaming.",Revise,"USER: I need to buy a computer screen.
+USER: Hello, are you there? I need a computer screen for gaming.",Revise,Reveal,False,2,2,28,False
+62410,0,user,I need a thermos cup.,Reveal,USER: I need a thermos cup.,Reveal,Reveal,True,1,1,12,False
+62410,2,user,"large one,please
+",Interpret,"USER: I need a thermos cup.
+SYSTEM: sure, do you need a large capacity or a relatively small one?
+USER: large one,please",Interpret,Interpret,True,2,2,34,False
+62410,4,user,Are there any other recommendations? I don't like the ones with straws.,Interpret,"USER: I need a thermos cup.
+SYSTEM: sure, do you need a large capacity or a relatively small one?
+USER: large one,please
+SYSTEM: how about these?
+USER: Are there any other recommendations? I don't like the ones with straws.",Interpret,Interpret,True,3,3,59,False
+62410,6,user,I need a cup with a handle.,Reveal,"USER: I need a thermos cup.
+SYSTEM: sure, do you need a large capacity or a relatively small one?
+USER: large one,please
+SYSTEM: how about these?
+USER: Are there any other recommendations? I don't like the ones with straws.
+SYSTEM: how about these?
+USER: I need a cup with a handle.",Reveal,Interpret,False,4,4,75,False
+62410,8,user,"I like the second one,thanks.",Interpret,"USER: I need a thermos cup.
+SYSTEM: sure, do you need a large capacity or a relatively small one?
+USER: large one,please
+SYSTEM: how about these?
+USER: Are there any other recommendations? I don't like the ones with straws.
+SYSTEM: how about these?
+USER: I need a cup with a handle.
+SYSTEM: these?
+USER: I like the second one,thanks.",Interpret,Interpret,True,5,5+,89,False
+62504,0,user,I'm going to buy a mobile phone.,Reveal,USER: I'm going to buy a mobile phone.,Reveal,Reveal,True,1,1,14,False
+62504,2,user,"Yes, I like Huawei.",Interpret,"USER: I'm going to buy a mobile phone.
+SYSTEM: Do you have some preferred brands? such as HUAWEI, APPLE?
+USER: Yes, I like Huawei.",Interpret,Interpret,True,2,2,39,False
+62504,4,user,I'm going to buy a huawei mate xt,Interpret,"USER: I'm going to buy a mobile phone.
+SYSTEM: Do you have some preferred brands? such as HUAWEI, APPLE?
+USER: Yes, I like Huawei.
+SYSTEM: how about these two?
+USER: I'm going to buy a huawei mate xt",Interpret,Interpret,True,3,3,60,False
+63211,0,user,I'm going to buy a school bag.,Reveal,USER: I'm going to buy a school bag.,Reveal,Reveal,True,1,1,14,False
+63211,2,user,"I'm a current graduate student, help me recommend the ones that fit my profile",Interpret,"USER: I'm going to buy a school bag.
+SYSTEM: how about these two? they looks cute.
+USER: I'm a current graduate student, help me recommend the ones that fit my profile",Interpret,Interpret,True,2,2,44,False
+63211,4,user,Do you have any bright colours?,Interpret,"USER: I'm going to buy a school bag.
+SYSTEM: how about these two? they looks cute.
+USER: I'm a current graduate student, help me recommend the ones that fit my profile
+SYSTEM: these two look good!
+USER: Do you have any bright colours?",Interpret,Interpret,True,3,3,60,False
+63211,6,user,Thank you. I thought the second one was very good.,Interpret,"USER: I'm going to buy a school bag.
+SYSTEM: how about these two? they looks cute.
+USER: I'm a current graduate student, help me recommend the ones that fit my profile
+SYSTEM: these two look good!
+USER: Do you have any bright colours?
+SYSTEM: these two are very beautiful!
+USER: Thank you. I thought the second one was very good.",Interpret,Interpret,True,4,4,82,False
+64524,0,user,Hi I need to buy a cleanser,Reveal,USER: Hi I need to buy a cleanser,Reveal,Reveal,True,1,1,12,False
+64524,2,user,foam,Interpret,"USER: Hi I need to buy a cleanser
+SYSTEM: what agent form do you want? We have bar, foam, spray ,etc..<br><br>
+USER: foam",Interpret,Interpret,True,2,2,41,False
+64524,4,user,facial cleanser,Interpret,"USER: Hi I need to buy a cleanser
+SYSTEM: what agent form do you want? We have bar, foam, spray ,etc..<br><br>
+USER: foam
+SYSTEM: Do you want makeup remover or facial cleanser?<br><br>
+USER: facial cleanser",Interpret,Interpret,True,3,3,65,False
+64777,0,user,hello!I want a handwarmer bag.,Interpret,USER: hello!I want a handwarmer bag.,Interpret,Reveal,False,1,1,14,False
+64777,2,user,I want a discount.,Interpret,"USER: hello!I want a handwarmer bag.
+SYSTEM: Do you like these?
+USER: I want a discount.",Interpret,Revise,False,2,2,28,False
+64952,0,user,I want to buy a present for my wife to celebrate her birthday.,Inquire,USER: I want to buy a present for my wife to celebrate her birthday.,Inquire,Reveal,False,1,1,18,False
+64952,2,user,She likes flowers and vintage dress.,Inquire,"USER: I want to buy a present for my wife to celebrate her birthday.
+SYSTEM: sure, What does your wife like? Like cooking, can I recommend some kitchen supplies?
+USER: She likes flowers and vintage dress.",Inquire,Interpret,False,2,2,47,False
+64998,0,user,"I want to buy a bouquet of flowers for my girlfriend, what kind should it be?",Reveal,"USER: I want to buy a bouquet of flowers for my girlfriend, what kind should it be?",Reveal,Reveal,True,1,1,22,False
+64998,2,user,birthday,Reveal,"USER: I want to buy a bouquet of flowers for my girlfriend, what kind should it be?
+SYSTEM: can you give me the reason for giving the flowers? such as  anniversary，celebration, birthday.
+USER: birthday",Reveal,Chitchat,False,2,2,46,False
+6508,0,user,I want a cell phone.,Reveal,USER: I want a cell phone.,Reveal,Reveal,True,1,1,10,False
+6508,2,user,I'll take it for under a thousand dollars.,Interpret,"USER: I want a cell phone.
+SYSTEM: What's your budget for this?
+USER: I'll take it for under a thousand dollars.",Interpret,Interpret,True,2,2,33,False
+6508,4,user,"No, I don't like it.",Interpret,"USER: I want a cell phone.
+SYSTEM: What's your budget for this?
+USER: I'll take it for under a thousand dollars.
+SYSTEM: What do you think of this one?
+USER: No, I don't like it.",Interpret,Interpret,True,3,3,54,False
+6508,6,user,"Sure, you recommend a few",Interpret,"USER: I want a cell phone.
+SYSTEM: What's your budget for this?
+USER: I'll take it for under a thousand dollars.
+SYSTEM: What do you think of this one?
+USER: No, I don't like it.
+SYSTEM: Do you like Xiaomi as a brand?
+USER: Sure, you recommend a few",Interpret,Interpret,True,4,4,73,False
+6508,8,user,Thank you,Interpret,"USER: I want a cell phone.
+SYSTEM: What's your budget for this?
+USER: I'll take it for under a thousand dollars.
+SYSTEM: What do you think of this one?
+USER: No, I don't like it.
+SYSTEM: Do you like Xiaomi as a brand?
+USER: Sure, you recommend a few
+SYSTEM: I hope you'll find something you're happy with.
+USER: Thank you",Interpret,Interpret,True,5,5+,92,False
+66169,0,user,"Hello, I want to buy watermelon",Reveal,"USER: Hello, I want to buy watermelon",Reveal,Reveal,True,1,1,13,False
+66169,2,user,"yes, Is your melon ripe?",Interpret,"USER: Hello, I want to buy watermelon
+SYSTEM: Are you buying the watermelon that's a fruit?
+USER: yes, Is your melon ripe?",Interpret,Interpret,True,2,2,38,False
+66169,4,user,Ok,Interpret,"USER: Hello, I want to buy watermelon
+SYSTEM: Are you buying the watermelon that's a fruit?
+USER: yes, Is your melon ripe?
+SYSTEM: Sorry, we don't sell watermelons on our platform
+USER: Ok",Interpret,Interpret,True,3,3,56,False
+66212,0,user,hi hi hi!,Chitchat,USER: hi hi hi!,Chitchat,Chitchat,True,1,1,8,False
+66212,2,user,I wanna a bicycle!,Reveal,"USER: hi hi hi!
+SYSTEM: Hi! How can i help you today
+USER: I wanna a bicycle!",Reveal,Reveal,True,2,2,25,False
+66212,4,user,road cycling? i think.,Interpret,"USER: hi hi hi!
+SYSTEM: Hi! How can i help you today
+USER: I wanna a bicycle!
+SYSTEM: Got it! What will you primarily use the bicycle for? such as commuting, mountain biking, road cycling, leisure
+USER: road cycling? i think.",Interpret,Interpret,True,3,3,60,False
+66212,6,user,the fisrt one looks good!,Interpret,"USER: hi hi hi!
+SYSTEM: Hi! How can i help you today
+USER: I wanna a bicycle!
+SYSTEM: Got it! What will you primarily use the bicycle for? such as commuting, mountain biking, road cycling, leisure
+USER: road cycling? i think.
+SYSTEM: Great choices! I will give you some products with more endurance!
+how about these?
+USER: the fisrt one looks good!",Interpret,Interpret,True,4,4,88,False
+66237,0,user,i want to buy a present for my wife to celebrate her birthday,Inquire,USER: i want to buy a present for my wife to celebrate her birthday,Inquire,Reveal,False,1,1,17,False
+66237,2,user,"not good,she likes flowers and vintage dress.",Inquire,"USER: i want to buy a present for my wife to celebrate her birthday
+SYSTEM: how about these two?
+USER: not good,she likes flowers and vintage dress.",Inquire,Interpret,False,2,2,36,False
+66237,4,user,"The dress has a pattern with flowers, and the color is in the cool spectrum.
+",Interpret,"USER: i want to buy a present for my wife to celebrate her birthday
+SYSTEM: how about these two?
+USER: not good,she likes flowers and vintage dress.
+SYSTEM: these two?
+USER: The dress has a pattern with flowers, and the color is in the cool spectrum.",Interpret,Interpret,True,3,3,60,False
+66237,6,user,awful robot！,Inquire,"USER: i want to buy a present for my wife to celebrate her birthday
+SYSTEM: how about these two?
+USER: not good,she likes flowers and vintage dress.
+SYSTEM: these two?
+USER: The dress has a pattern with flowers, and the color is in the cool spectrum.
+SYSTEM: these two?
+USER: awful robot！",Inquire,Interpret,False,4,4,70,False
+66404,0,user,I want to eat beef,Reveal,USER: I want to eat beef,Reveal,Reveal,True,1,1,9,False
+66404,2,user,I want to eat braised beef,Interpret,"USER: I want to eat beef
+SYSTEM: What kind of beef do you want?
+USER: I want to eat braised beef",Interpret,Reveal,False,2,2,28,False
+66404,4,user,"I change my mind, i want fresh meet",Revise,"USER: I want to eat beef
+SYSTEM: What kind of beef do you want?
+USER: I want to eat braised beef
+SYSTEM: How about these?
+USER: I change my mind, i want fresh meet",Revise,Inquire,False,3,3,45,False
+66404,6,user,"well, some snacks are ok too",Revise,"USER: I want to eat beef
+SYSTEM: What kind of beef do you want?
+USER: I want to eat braised beef
+SYSTEM: How about these?
+USER: I change my mind, i want fresh meet
+SYSTEM: I'm sorry. I couldn't find what you were looking for.
+USER: well, some snacks are ok too",Revise,Revise,True,4,4,72,False
+66404,8,user,fine,Interpret,"USER: I want to eat beef
+SYSTEM: What kind of beef do you want?
+USER: I want to eat braised beef
+SYSTEM: How about these?
+USER: I change my mind, i want fresh meet
+SYSTEM: I'm sorry. I couldn't find what you were looking for.
+USER: well, some snacks are ok too
+SYSTEM: How about these?
+USER: fine",Interpret,Interpret,True,5,5+,81,False
+66521,0,user,I want to buy a chair.,Reveal,USER: I want to buy a chair.,Reveal,Reveal,True,1,1,11,False
+66521,2,user,In the bedroom.,Interpret,"USER: I want to buy a chair.
+SYSTEM: is it for an office, dining room, or some other specific area?
+USER: In the bedroom.",Interpret,Interpret,True,2,2,34,False
+66521,4,user,Can you recommend a few more that are similar to the first one?,Interpret,"USER: I want to buy a chair.
+SYSTEM: is it for an office, dining room, or some other specific area?
+USER: In the bedroom.
+SYSTEM: what about these?
+USER: Can you recommend a few more that are similar to the first one?",Interpret,Interpret,True,3,3,56,False
+66521,6,user,Thank you. I want the last one.,Interpret,"USER: I want to buy a chair.
+SYSTEM: is it for an office, dining room, or some other specific area?
+USER: In the bedroom.
+SYSTEM: what about these?
+USER: Can you recommend a few more that are similar to the first one?
+SYSTEM: yes
+USER: Thank you. I want the last one.",Interpret,Interpret,True,4,4,70,False
+67473,0,user,"Hello, I want a t-shirt.",Reveal,"USER: Hello, I want a t-shirt.",Reveal,Reveal,True,1,1,13,False
+67473,2,user,A black one.,Reveal,"USER: Hello, I want a t-shirt.
+SYSTEM: What colour do you like?
+USER: A black one.",Reveal,Reveal,True,2,2,27,False
+67473,4,user,Thannks.I don't want to buy these.,Reveal,"USER: Hello, I want a t-shirt.
+SYSTEM: What colour do you like?
+USER: A black one.
+SYSTEM: Do you think these look good?
+USER: Thannks.I don't want to buy these.",Reveal,Interpret,False,3,3,51,False
+69994,0,user,good afternoon,Chitchat,USER: good afternoon,Chitchat,Chitchat,True,1,1,6,False
+69994,2,user,I want a pen,Reveal,"USER: good afternoon
+SYSTEM: hello
+USER: I want a pen",Reveal,Reveal,True,2,2,15,False
+69994,4,user,I want a pen with good texture and beautiful writing,Interpret,"USER: good afternoon
+SYSTEM: hello
+USER: I want a pen
+SYSTEM: OK!Can you tell me if you need a ballpoint pen, a gel pen, or a fountain pen?
+USER: I want a pen with good texture and beautiful writing",Interpret,Reveal,False,3,3,52,False
+69994,6,user,"These looks good. Judging from the description, it is handmade. Do you have a white style?",Interpret,"USER: good afternoon
+SYSTEM: hello
+USER: I want a pen
+SYSTEM: OK!Can you tell me if you need a ballpoint pen, a gel pen, or a fountain pen?
+USER: I want a pen with good texture and beautiful writing
+SYSTEM: what about these?
+USER: These looks good. Judging from the description, it is handmade. Do you have a white style?",Interpret,Interpret,True,4,4,81,False
+69994,8,user,"The white looks great, thank you so much",Interpret,"USER: good afternoon
+SYSTEM: hello
+USER: I want a pen
+SYSTEM: OK!Can you tell me if you need a ballpoint pen, a gel pen, or a fountain pen?
+USER: I want a pen with good texture and beautiful writing
+SYSTEM: what about these?
+USER: These looks good. Judging from the description, it is handmade. Do you have a white style?
+SYSTEM: of course,what about this one?
+USER: The white looks great, thank you so much",Interpret,Interpret,True,5,5+,102,False
+70170,0,user,I want a pen,Reveal,USER: I want a pen,Reveal,Reveal,True,1,1,8,False
+70170,2,user,I want to practice penmanship,Chitchat,"USER: I want a pen
+SYSTEM: What kind of pen do you wanna?
+USER: I want to practice penmanship",Chitchat,Reveal,False,2,2,26,False
+70170,4,user,I want the appearance to be white,Chitchat,"USER: I want a pen
+SYSTEM: What kind of pen do you wanna?
+USER: I want to practice penmanship
+SYSTEM: how about these two?
+USER: I want the appearance to be white",Chitchat,Chitchat,True,3,3,42,False
+70170,6,user,I want a sharp tip,Chitchat,"USER: I want a pen
+SYSTEM: What kind of pen do you wanna?
+USER: I want to practice penmanship
+SYSTEM: how about these two?
+USER: I want the appearance to be white
+SYSTEM: how about these two?
+USER: I want a sharp tip",Chitchat,Chitchat,True,4,4,56,False
+70170,8,user,I want to practice penmanship,Chitchat,"USER: I want a pen
+SYSTEM: What kind of pen do you wanna?
+USER: I want to practice penmanship
+SYSTEM: how about these two?
+USER: I want the appearance to be white
+SYSTEM: how about these two?
+USER: I want a sharp tip
+SYSTEM: how about these?
+USER: I want to practice penmanship",Chitchat,Chitchat,True,5,5+,70,False
+71261,0,user,My dog ​​died and I want to buy some model guns,Reveal,USER: My dog ​​died and I want to buy some model guns,Reveal,Reveal,True,1,1,15,False
+71261,2,user,"too little, i want to buy a big big gun!",Interpret,"USER: My dog ​​died and I want to buy some model guns
+SYSTEM: these?
+USER: too little, i want to buy a big big gun!",Interpret,Interpret,True,2,2,33,False
+71261,4,user,yeah!!!,Interpret,"USER: My dog ​​died and I want to buy some model guns
+SYSTEM: these?
+USER: too little, i want to buy a big big gun!
+SYSTEM: how about these?
+USER: yeah!!!",Interpret,Interpret,True,3,3,45,False
+71636,0,user,"Hello, I want some sockets.",Reveal,"USER: Hello, I want some sockets.",Reveal,Reveal,True,1,1,11,False
+71636,2,user,Could you recommend more products?,Reveal,"USER: Hello, I want some sockets.
+SYSTEM: These two are the search results
+USER: Could you recommend more products?",Reveal,Revise,False,2,2,27,False
+71636,4,user,I think the prices are too high.Thanks.,Reveal,"USER: Hello, I want some sockets.
+SYSTEM: These two are the search results
+USER: Could you recommend more products?
+SYSTEM: And these
+USER: I think the prices are too high.Thanks.",Reveal,Interpret,False,3,3,43,False
+71666,0,user,Hi!,Chitchat,USER: Hi!,Chitchat,Chitchat,True,1,1,6,False
+71666,2,user,I want to buy a projector for my family.,Reveal,"USER: Hi!
+SYSTEM: Hello, what do you need?
+USER: I want to buy a projector for my family.",Reveal,Reveal,True,2,2,28,False
+71666,4,user,I am not familiar with this product. Can you recommend some good brands.,Interpret,"USER: Hi!
+SYSTEM: Hello, what do you need?
+USER: I want to buy a projector for my family.
+SYSTEM: Do you have branding requirements?
+USER: I am not familiar with this product. Can you recommend some good brands.",Interpret,Interpret,True,3,3,53,False
+71666,6,user,Sony maybe better.,Interpret,"USER: Hi!
+SYSTEM: Hello, what do you need?
+USER: I want to buy a projector for my family.
+SYSTEM: Do you have branding requirements?
+USER: I am not familiar with this product. Can you recommend some good brands.
+SYSTEM: How about Samsung and Sony?<br>
+USER: Sony maybe better.",Interpret,Interpret,True,4,4,70,False
+71666,8,user,"I want a 4K resolution projector.
+",Interpret,"USER: Hi!
+SYSTEM: Hello, what do you need?
+USER: I want to buy a projector for my family.
+SYSTEM: Do you have branding requirements?
+USER: I am not familiar with this product. Can you recommend some good brands.
+SYSTEM: How about Samsung and Sony?<br>
+USER: Sony maybe better.
+SYSTEM: Are these okay?
+USER: I want a 4K resolution projector.",Interpret,Interpret,True,5,5+,87,False
+71666,10,user,Okay.,Interpret,"USER: Hi!
+SYSTEM: Hello, what do you need?
+USER: I want to buy a projector for my family.
+SYSTEM: Do you have branding requirements?
+USER: I am not familiar with this product. Can you recommend some good brands.
+SYSTEM: How about Samsung and Sony?<br>
+USER: Sony maybe better.
+SYSTEM: Are these okay?
+USER: I want a 4K resolution projector.
+SYSTEM: Are these okay?
+USER: Okay.",Interpret,Interpret,True,6,5+,97,False
+71931,0,user,I want to buy a storage box,Reveal,USER: I want to buy a storage box,Reveal,Reveal,True,1,1,11,False
+71931,2,user,"Yes, thank you.",Chitchat,"USER: I want to buy a storage box
+SYSTEM: What do you think of these?
+USER: Yes, thank you.",Chitchat,Interpret,False,2,2,27,False
+72725,0,user,hello，I want a smart TV,Reveal,USER: hello，I want a smart TV,Reveal,Reveal,True,1,1,11,False
+73477,0,user,"Hi, i want to buy some computer",Reveal,"USER: Hi, i want to buy some computer",Reveal,Reveal,True,1,1,12,False
+73477,2,user,No， maybe huawei laptop,Interpret,"USER: Hi, i want to buy some computer
+SYSTEM: any preferred brands?
+USER: No， maybe huawei laptop",Interpret,Interpret,True,2,2,26,False
+73477,4,user,Does this have a touch screen?,Interpret,"USER: Hi, i want to buy some computer
+SYSTEM: any preferred brands?
+USER: No， maybe huawei laptop
+SYSTEM: how about these two?
+USER: Does this have a touch screen?",Interpret,Interpret,True,3,3,42,False
+73477,6,user,fine,Interpret,"USER: Hi, i want to buy some computer
+SYSTEM: any preferred brands?
+USER: No， maybe huawei laptop
+SYSTEM: how about these two?
+USER: Does this have a touch screen?
+SYSTEM: yes,they can.
+USER: fine",Interpret,Interpret,True,4,4,52,False
+73582,0,user,Hello I want to buy a tablet,Reveal,USER: Hello I want to buy a tablet,Reveal,Reveal,True,1,1,11,False
+73582,2,user,I'm going to use it for notes in class,Interpret,"USER: Hello I want to buy a tablet
+SYSTEM: What kind of use?
+USER: I'm going to use it for notes in class",Interpret,Reveal,False,2,2,31,False
+73582,4,user,tablet computer please,Interpret,"USER: Hello I want to buy a tablet
+SYSTEM: What kind of use?
+USER: I'm going to use it for notes in class
+SYSTEM: how about these two?
+USER: tablet computer please",Interpret,Interpret,True,3,3,43,False
+73582,6,user,"No, I need an electronic tablet.",Interpret,"USER: Hello I want to buy a tablet
+SYSTEM: What kind of use?
+USER: I'm going to use it for notes in class
+SYSTEM: how about these two?
+USER: tablet computer please
+SYSTEM: how about these two?
+USER: No, I need an electronic tablet.",Interpret,Interpret,True,4,4,60,False
+73582,8,user,Thank you.,Interpret,"USER: Hello I want to buy a tablet
+SYSTEM: What kind of use?
+USER: I'm going to use it for notes in class
+SYSTEM: how about these two?
+USER: tablet computer please
+SYSTEM: how about these two?
+USER: No, I need an electronic tablet.
+SYSTEM: how about these two?
+USER: Thank you.",Interpret,Interpret,True,5,5+,72,False
+74188,0,user,hello,Chitchat,USER: hello,Chitchat,Chitchat,True,1,1,5,False
+74188,2,user,I want a smart TV,Reveal,"USER: hello
+SYSTEM: Hello. What do you need?
+USER: I want a smart TV",Reveal,Reveal,True,2,2,21,False
+74494,0,user,"Hello, I want to buy RA2",Reveal,"USER: Hello, I want to buy RA2",Reveal,Reveal,True,1,1,12,False
+74494,2,user,Red Alert2,Interpret,"USER: Hello, I want to buy RA2
+SYSTEM: what is RA2
+USER: Red Alert2",Interpret,Reveal,False,2,2,23,False
+74494,4,user,fine,Interpret,"USER: Hello, I want to buy RA2
+SYSTEM: what is RA2
+USER: Red Alert2
+SYSTEM: not this item
+USER: fine",Interpret,Interpret,True,3,3,31,False
+74517,0,user,"Hi, I'm looking to buy a portable camcorder",Interpret,"USER: Hi, I'm looking to buy a portable camcorder",Interpret,Reveal,False,1,1,17,False
+74517,2,user,I'm not really sure right now. Can you recommend some?,Interpret,"USER: Hi, I'm looking to buy a portable camcorder
+SYSTEM: Do you have a favorite brand?
+USER: I'm not really sure right now. Can you recommend some?",Interpret,Interpret,True,2,2,42,False
+74517,4,user,"Do you have one of those foldable, compact ones?",Interpret,"USER: Hi, I'm looking to buy a portable camcorder
+SYSTEM: Do you have a favorite brand?
+USER: I'm not really sure right now. Can you recommend some?
+SYSTEM: Okay, these you might like.
+USER: Do you have one of those foldable, compact ones?",Interpret,Interpret,True,3,3,65,False
+74517,6,user,"These all look too old, can you recommend me the DJI brand?",Interpret,"USER: Hi, I'm looking to buy a portable camcorder
+SYSTEM: Do you have a favorite brand?
+USER: I'm not really sure right now. Can you recommend some?
+SYSTEM: Okay, these you might like.
+USER: Do you have one of those foldable, compact ones?
+SYSTEM: Yeah, these might work for you.
+USER: These all look too old, can you recommend me the DJI brand?",Interpret,Interpret,True,4,4,92,False
+74517,8,user,Thank you,Interpret,"USER: Hi, I'm looking to buy a portable camcorder
+SYSTEM: Do you have a favorite brand?
+USER: I'm not really sure right now. Can you recommend some?
+SYSTEM: Okay, these you might like.
+USER: Do you have one of those foldable, compact ones?
+SYSTEM: Yeah, these might work for you.
+USER: These all look too old, can you recommend me the DJI brand?
+SYSTEM: Sorry, these are DJI cameras that fit the bill.
+USER: Thank you",Interpret,Interpret,True,5,5+,110,False
+74565,0,user,I want a mouse,Chitchat,USER: I want a mouse,Chitchat,Reveal,False,1,1,8,False
+74565,2,user,I want a wireless bluetooth mouse,Chitchat,"USER: I want a mouse
+SYSTEM: What type of mouse do you want
+USER: I want a wireless bluetooth mouse",Chitchat,Reveal,False,2,2,26,False
+74565,4,user,apple,Interpret,"USER: I want a mouse
+SYSTEM: What type of mouse do you want
+USER: I want a wireless bluetooth mouse
+SYSTEM: What brand do you want?
+USER: apple",Interpret,Interpret,True,3,3,37,False
+74565,6,user,"OK,thank you",Interpret,"USER: I want a mouse
+SYSTEM: What type of mouse do you want
+USER: I want a wireless bluetooth mouse
+SYSTEM: What brand do you want?
+USER: apple
+SYSTEM: How about this?
+USER: OK,thank you",Interpret,Chitchat,False,4,4,49,False
+74820,0,user,I want to buy a pair of sunglasses,Reveal,USER: I want to buy a pair of sunglasses,Reveal,Reveal,True,1,1,12,False
+74820,2,user,black please.,Reveal,"USER: I want to buy a pair of sunglasses
+SYSTEM: What color you prefer?
+USER: black please.",Reveal,Reveal,True,2,2,24,False
+74820,4,user,"That's great, thank you!",Chitchat,"USER: I want to buy a pair of sunglasses
+SYSTEM: What color you prefer?
+USER: black please.
+SYSTEM: What about these products?
+USER: That's great, thank you!",Chitchat,Interpret,False,3,3,41,False
+75330,0,user,can you offer me some advices for buying Down Jackets？,Reveal,USER: can you offer me some advices for buying Down Jackets？,Reveal,Reveal,True,1,1,16,False
+75330,2,user,men's ,Revise,"USER: can you offer me some advices for buying Down Jackets？
+SYSTEM: OK!Do you need a men's or women's version?
+USER: men's",Revise,Interpret,False,2,2,38,False
+75330,4,user,short one,Reveal,"USER: can you offer me some advices for buying Down Jackets？
+SYSTEM: OK!Do you need a men's or women's version?
+USER: men's
+SYSTEM: Do you need a long or short one?
+USER: short one",Reveal,Interpret,False,3,3,53,False
+75330,6,user,thank you for your advices.,Interpret,"USER: can you offer me some advices for buying Down Jackets？
+SYSTEM: OK!Do you need a men's or women's version?
+USER: men's
+SYSTEM: Do you need a long or short one?
+USER: short one
+SYSTEM: how about these!
+USER: thank you for your advices.",Interpret,Interpret,True,4,4,68,False
+75618,0,user,"Hi Hello, I want to buy a baseball bat",Reveal,"USER: Hi Hello, I want to buy a baseball bat",Reveal,Reveal,True,1,1,14,False
+75618,2,user,"I like wooden ones, please recommend me some more",Interpret,"USER: Hi Hello, I want to buy a baseball bat
+SYSTEM: i recommendation these
+USER: I like wooden ones, please recommend me some more",Interpret,Interpret,True,2,2,31,False
+75618,4,user,good,Interpret,"USER: Hi Hello, I want to buy a baseball bat
+SYSTEM: i recommendation these
+USER: I like wooden ones, please recommend me some more
+SYSTEM: how about these
+USER: good",Interpret,Interpret,True,3,3,39,False
+75718,0,user,I want to buy an electronic scale,Reveal,USER: I want to buy an electronic scale,Reveal,Reveal,True,1,1,11,False
+75718,2,user,These two are so good！,Reveal,"USER: I want to buy an electronic scale
+SYSTEM: How about these two?
+USER: These two are so good！",Reveal,Interpret,False,2,2,26,False
+76246,0,user,I want to buy a power bank,Reveal,USER: I want to buy a power bank,Reveal,Reveal,True,1,1,11,False
+76246,2,user,"iPhone.
+",Reveal,"USER: I want to buy a power bank
+SYSTEM: Got it! which type of phone are you using?
+USER: iPhone.",Reveal,Interpret,False,2,2,28,False
+77428,0,user,I want to buy a computer chair,Reveal,USER: I want to buy a computer chair,Reveal,Reveal,True,1,1,11,False
+77428,2,user,Ergonomic Chairs are too expensive. Ordinary chairs will do,Interpret,"USER: I want to buy a computer chair
+SYSTEM: How about the Ergonomic Chairs?
+USER: Ergonomic Chairs are too expensive. Ordinary chairs will do",Interpret,Interpret,True,2,2,35,False
+77428,4,user,"These two are great, thanks!",Chitchat,"USER: I want to buy a computer chair
+SYSTEM: How about the Ergonomic Chairs?
+USER: Ergonomic Chairs are too expensive. Ordinary chairs will do
+SYSTEM: Fine.let me give you some advice of office chair,which is cheap and conformtable.
+USER: These two are great, thanks!",Chitchat,Interpret,False,3,3,65,False
+7792,0,user,I'd like to buy some stationery.,Reveal,USER: I'd like to buy some stationery.,Reveal,Reveal,True,1,1,14,False
+7792,2,user,That's what I didn't say. I want to buy workbooks.,Interpret,"USER: I'd like to buy some stationery.
+SYSTEM: Can you be more specific?Like Pencil Holders
+USER: That's what I didn't say. I want to buy workbooks.",Interpret,Revise,False,2,2,44,False
+7792,4,user,No.I just want a simple workbook.,Interpret,"USER: I'd like to buy some stationery.
+SYSTEM: Can you be more specific?Like Pencil Holders
+USER: That's what I didn't say. I want to buy workbooks.
+SYSTEM: Is this what you want?
+USER: No.I just want a simple workbook.",Interpret,Interpret,True,3,3,64,False
+7792,6,user,You're missing the point.,Interpret,"USER: I'd like to buy some stationery.
+SYSTEM: Can you be more specific?Like Pencil Holders
+USER: That's what I didn't say. I want to buy workbooks.
+SYSTEM: Is this what you want?
+USER: No.I just want a simple workbook.
+SYSTEM: Do you like these two?
+USER: You're missing the point.",Interpret,Interpret,True,4,4,81,False
+7792,7,user,exercise book，ok？,Interpret,"USER: I'd like to buy some stationery.
+SYSTEM: Can you be more specific?Like Pencil Holders
+USER: That's what I didn't say. I want to buy workbooks.
+SYSTEM: Is this what you want?
+USER: No.I just want a simple workbook.
+SYSTEM: Do you like these two?
+USER: You're missing the point.
+USER: exercise book，ok？",Interpret,Interpret,True,5,5+,88,False
+7792,9,user,OK，thank you,Interpret,"USER: I'd like to buy some stationery.
+SYSTEM: Can you be more specific?Like Pencil Holders
+USER: That's what I didn't say. I want to buy workbooks.
+SYSTEM: Is this what you want?
+USER: No.I just want a simple workbook.
+SYSTEM: Do you like these two?
+USER: You're missing the point.
+USER: exercise book，ok？
+SYSTEM: I'm really sorry, but you're gonna love these.
+USER: OK，thank you",Interpret,Interpret,True,6,5+,110,False
+78361,0,user,"Hello, I want to buy maternity and baby products",Reveal,"USER: Hello, I want to buy maternity and baby products",Reveal,Reveal,True,1,1,14,False
+78361,2,user,"emm, I bought this for my baby, a pacifier.",Interpret,"USER: Hello, I want to buy maternity and baby products
+SYSTEM: hello, do these items meet you requirements?
+USER: emm, I bought this for my baby, a pacifier.",Interpret,Revise,False,2,2,41,False
+78361,4,user,good!,Interpret,"USER: Hello, I want to buy maternity and baby products
+SYSTEM: hello, do these items meet you requirements?
+USER: emm, I bought this for my baby, a pacifier.
+SYSTEM: how about these?
+USER: good!",Interpret,Interpret,True,3,3,51,False
+80117,0,user,I want to buy a piano,Reveal,USER: I want to buy a piano,Reveal,Reveal,True,1,1,10,False
+80117,2,user,traditional piano,Chitchat,"USER: I want to buy a piano
+SYSTEM: Electronic piano or traditional piano？
+USER: traditional piano",Chitchat,Reveal,False,2,2,22,False
+80117,4,user,Yamaha,Chitchat,"USER: I want to buy a piano
+SYSTEM: Electronic piano or traditional piano？
+USER: traditional piano
+SYSTEM: any prefer brand?
+USER: Yamaha",Chitchat,Chitchat,True,3,3,31,False
+80117,6,user,It's too ugly,Chitchat,"USER: I want to buy a piano
+SYSTEM: Electronic piano or traditional piano？
+USER: traditional piano
+SYSTEM: any prefer brand?
+USER: Yamaha
+SYSTEM: this is
+USER: It's too ugly",Chitchat,Chitchat,True,4,4,42,False
+80117,8,user,"I want a piano, not an electronic keyboard",Interpret,"USER: I want to buy a piano
+SYSTEM: Electronic piano or traditional piano？
+USER: traditional piano
+SYSTEM: any prefer brand?
+USER: Yamaha
+SYSTEM: this is
+USER: It's too ugly
+SYSTEM: this one?
+USER: I want a piano, not an electronic keyboard",Interpret,Interpret,True,5,5+,58,False
+80628,0,user,I want a jacket,Reveal,USER: I want a jacket,Reveal,Reveal,True,1,1,8,False
+80628,2,user,"Black leather coat, I really like the CEO of nVidia",Interpret,"USER: I want a jacket
+SYSTEM: what kind of color?
+USER: Black leather coat, I really like the CEO of nVidia",Interpret,Interpret,True,2,2,30,False
+80628,4,user,I want a short one,Interpret,"USER: I want a jacket
+SYSTEM: what kind of color?
+USER: Black leather coat, I really like the CEO of nVidia
+SYSTEM: these?
+USER: I want a short one",Interpret,Interpret,True,3,3,41,False
+80628,6,user,I want a man,Interpret,"USER: I want a jacket
+SYSTEM: what kind of color?
+USER: Black leather coat, I really like the CEO of nVidia
+SYSTEM: these?
+USER: I want a short one
+SYSTEM: these?
+USER: I want a man",Interpret,Chitchat,False,4,4,51,False
+80628,8,user,I want a men's cropped jacket,Interpret,"USER: I want a jacket
+SYSTEM: what kind of color?
+USER: Black leather coat, I really like the CEO of nVidia
+SYSTEM: these?
+USER: I want a short one
+SYSTEM: these?
+USER: I want a man
+SYSTEM: WHAT!!! you mean you wanna one for man?
+USER: I want a men's cropped jacket",Interpret,Interpret,True,5,5+,76,False
+80628,10,user,"Little Donkey Andy is very good, thank you",Interpret,"USER: I want a jacket
+SYSTEM: what kind of color?
+USER: Black leather coat, I really like the CEO of nVidia
+SYSTEM: these?
+USER: I want a short one
+SYSTEM: these?
+USER: I want a man
+SYSTEM: WHAT!!! you mean you wanna one for man?
+USER: I want a men's cropped jacket
+SYSTEM: these two?
+USER: Little Donkey Andy is very good, thank you",Interpret,Chitchat,False,6,5+,92,False
+81365,0,user,you are cute bro!,Chitchat,USER: you are cute bro!,Chitchat,Chitchat,True,1,1,9,False
+81365,2,user,scarf!!!!!,Reveal,"USER: you are cute bro!
+SYSTEM: bie bb shuo yao q
+USER: scarf!!!!!",Reveal,Interpret,False,2,2,26,False
+81365,4,user,I wanna frost blue one.,Interpret,"USER: you are cute bro!
+SYSTEM: bie bb shuo yao q
+USER: scarf!!!!!
+SYSTEM: how about these
+USER: I wanna frost blue one.",Interpret,Revise,False,3,3,39,False
+81635,0,user,I want an electronic keyboard,Reveal,USER: I want an electronic keyboard,Reveal,Reveal,True,1,1,9,False
+81635,2,user,yamaha,Reveal,"USER: I want an electronic keyboard
+SYSTEM: Do you have a favorite brand?
+USER: yamaha",Reveal,Chitchat,False,2,2,21,False
+81635,4,user,ok thank you,Chitchat,"USER: I want an electronic keyboard
+SYSTEM: Do you have a favorite brand?
+USER: yamaha
+SYSTEM: How about these yamaha keyboard?
+USER: ok thank you",Chitchat,Chitchat,True,3,3,34,False
+81946,0,user,"Hello, I want to buy a toy gun.",Reveal,"USER: Hello, I want to buy a toy gun.",Reveal,Reveal,True,1,1,14,False
+81946,2,user,OK! The second one is cool.,Reveal,"USER: Hello, I want to buy a toy gun.
+SYSTEM: How about these products
+USER: OK! The second one is cool.",Reveal,Interpret,False,2,2,30,False
+82417,0,user,hello,Chitchat,USER: hello,Chitchat,Chitchat,True,1,1,5,False
+82417,2,user,I want a suitcase,Reveal,"USER: hello
+SYSTEM: Hi, what can I do for u?
+USER: I want a suitcase",Reveal,Reveal,True,2,2,22,False
+82417,4,user,"Black, for boys, can be boarded",Interpret,"USER: hello
+SYSTEM: Hi, what can I do for u?
+USER: I want a suitcase
+SYSTEM: man or woman?
+USER: Black, for boys, can be boarded",Interpret,Interpret,True,3,3,38,False
+82882,0,user,I wanna a backpack.,Reveal,USER: I wanna a backpack.,Reveal,Reveal,True,1,1,9,False
+82882,2,user,I wanna it made in italy.,Interpret,"USER: I wanna a backpack.
+SYSTEM: How about these products
+USER: I wanna it made in italy.",Interpret,Interpret,True,2,2,24,False
+82882,4,user,I wanna black!,Interpret,"USER: I wanna a backpack.
+SYSTEM: How about these products
+USER: I wanna it made in italy.
+SYSTEM: These two products meet your needs
+USER: I wanna black!",Interpret,Interpret,True,3,3,38,False
+82882,6,user,good!,Chitchat,"USER: I wanna a backpack.
+SYSTEM: How about these products
+USER: I wanna it made in italy.
+SYSTEM: These two products meet your needs
+USER: I wanna black!
+SYSTEM: These two products meet your needs
+USER: good!",Chitchat,Chitchat,True,4,4,50,False
+84802,0,user,I want a smart watch for sleep detection,Reveal,USER: I want a smart watch for sleep detection,Reveal,Reveal,True,1,1,12,False
+84802,2,user,I prefer the one with a smaller screen,Interpret,"USER: I want a smart watch for sleep detection
+SYSTEM: these two can fit u need
+USER: I prefer the one with a smaller screen",Interpret,Interpret,True,2,2,30,False
+84802,4,user,thanks!I like it!,Interpret,"USER: I want a smart watch for sleep detection
+SYSTEM: these two can fit u need
+USER: I prefer the one with a smaller screen
+SYSTEM: this one might fit u need
+USER: thanks!I like it!",Interpret,Interpret,True,3,3,46,False
+85222,0,user,"Hello, do you have any recommendations for snacks",Chitchat,"USER: Hello, do you have any recommendations for snacks",Chitchat,Reveal,False,1,1,13,False
+85222,2,user,"I like some spicy strips the most, or some candies are also acceptable。",Interpret,"USER: Hello, do you have any recommendations for snacks
+SYSTEM: Do you have a favorite type of snack？
+USER: I like some spicy strips the most, or some candies are also acceptable。",Interpret,Interpret,True,2,2,42,False
+85222,4,user,Great！,Interpret,"USER: Hello, do you have any recommendations for snacks
+SYSTEM: Do you have a favorite type of snack？
+USER: I like some spicy strips the most, or some candies are also acceptable。
+SYSTEM: I have recommended these snacks for you.
+USER: Great！",Interpret,Interpret,True,3,3,56,False
+85956,0,user,"hello, I want a gaming computer desk",Reveal,"USER: hello, I want a gaming computer desk",Reveal,Reveal,True,1,1,12,False
+85956,2,user,"A computer desk that can hold a 32-inch monitor and a desktop. I don't know the exact size, but a high-end one will do.",Interpret,"USER: hello, I want a gaming computer desk
+SYSTEM: what height and width!
+USER: A computer desk that can hold a 32-inch monitor and a desktop. I don't know the exact size, but a high-end one will do.",Interpret,Interpret,True,2,2,54,False
+85956,4,user,I want gray or black because my case is black,Interpret,"USER: hello, I want a gaming computer desk
+SYSTEM: what height and width!
+USER: A computer desk that can hold a 32-inch monitor and a desktop. I don't know the exact size, but a high-end one will do.
+SYSTEM: these two?
+USER: I want gray or black because my case is black",Interpret,Interpret,True,3,3,71,False
+85956,6,user,"the last is very good, it can adjust height.",Interpret,"USER: hello, I want a gaming computer desk
+SYSTEM: what height and width!
+USER: A computer desk that can hold a 32-inch monitor and a desktop. I don't know the exact size, but a high-end one will do.
+SYSTEM: these two?
+USER: I want gray or black because my case is black
+SYSTEM: these?
+USER: the last is very good, it can adjust height.",Interpret,Interpret,True,4,4,88,False
+86146,0,user,I want a memory foam mattress,Reveal,USER: I want a memory foam mattress,Reveal,Reveal,True,1,1,10,False
+86146,2,user,My bed is 180x200 cm,Reveal,"USER: I want a memory foam mattress
+SYSTEM: What size do you need?
+USER: My bed is 180x200 cm",Reveal,Interpret,False,2,2,27,False
+86146,4,user,"do you have blue, I like blue",Interpret,"USER: I want a memory foam mattress
+SYSTEM: What size do you need?
+USER: My bed is 180x200 cm
+SYSTEM: How about these two, they come in many sizes, there should be something you need
+USER: do you have blue, I like blue",Interpret,Interpret,True,3,3,56,False
+86146,6,user,"thank you, i like it",Interpret,"USER: I want a memory foam mattress
+SYSTEM: What size do you need?
+USER: My bed is 180x200 cm
+SYSTEM: How about these two, they come in many sizes, there should be something you need
+USER: do you have blue, I like blue
+SYSTEM: This product is blue and comes in the size you need!
+USER: thank you, i like it",Interpret,Interpret,True,4,4,78,False
+86362,0,user,hello!,Chitchat,USER: hello!,Chitchat,Chitchat,True,1,1,6,False
+86362,2,user,I wanna a quilt!,Reveal,"USER: hello!
+SYSTEM: Hello
+USER: I wanna a quilt!",Reveal,Reveal,True,2,2,16,False
+86362,4,user,I wanna ocean blue!,Interpret,"USER: hello!
+SYSTEM: Hello
+USER: I wanna a quilt!
+SYSTEM: Are these two satisfied?
+USER: I wanna ocean blue!",Interpret,Interpret,True,3,3,30,False
+86362,6,user,"ok, good job!",Chitchat,"USER: hello!
+SYSTEM: Hello
+USER: I wanna a quilt!
+SYSTEM: Are these two satisfied?
+USER: I wanna ocean blue!
+SYSTEM: How about this
+USER: ok, good job!",Chitchat,Interpret,False,4,4,42,False
+8655,0,user,I want to buy a water glass.,Reveal,USER: I want to buy a water glass.,Reveal,Reveal,True,1,1,12,False
+8655,2,user,"No, I bought it for water.",Interpret,"USER: I want to buy a water glass.
+SYSTEM: Did you buy the cups for drinking?
+USER: No, I bought it for water.",Interpret,Revise,False,2,2,32,False
+8655,4,user,sure,Interpret,"USER: I want to buy a water glass.
+SYSTEM: Did you buy the cups for drinking?
+USER: No, I bought it for water.
+SYSTEM: Is under $50 acceptable?<br>
+USER: sure",Interpret,Interpret,True,3,3,46,False
+8655,6,user,"No, you recommend a few more.",Interpret,"USER: I want to buy a water glass.
+SYSTEM: Did you buy the cups for drinking?
+USER: No, I bought it for water.
+SYSTEM: Is under $50 acceptable?<br>
+USER: sure
+SYSTEM: Are you satisfied with that?
+USER: No, you recommend a few more.",Interpret,Interpret,True,4,4,64,False
+8655,8,user,Thank you,Interpret,"USER: I want to buy a water glass.
+SYSTEM: Did you buy the cups for drinking?
+USER: No, I bought it for water.
+SYSTEM: Is under $50 acceptable?<br>
+USER: sure
+SYSTEM: Are you satisfied with that?
+USER: No, you recommend a few more.
+SYSTEM: Are you satisfied with these?
+USER: Thank you",Interpret,Interpret,True,5,5+,76,False
+88944,0,user,hello!,Chitchat,USER: hello!,Chitchat,Chitchat,True,1,1,6,False
+88944,2,user,I wanna one thing for study.,Reveal,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.",Reveal,Reveal,True,2,2,24,False
+88944,4,user,something for taking notes? I don't know exactly.,Interpret,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.
+SYSTEM: What is the learning tool?
+USER: something for taking notes? I don't know exactly.",Interpret,Interpret,True,3,3,46,False
+88944,6,user,maybe electric?,Interpret,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.
+SYSTEM: What is the learning tool?
+USER: something for taking notes? I don't know exactly.
+SYSTEM: How about these？
+USER: maybe electric?",Interpret,Interpret,True,4,4,57,False
+88944,8,user,maybe ipad?,Interpret,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.
+SYSTEM: What is the learning tool?
+USER: something for taking notes? I don't know exactly.
+SYSTEM: How about these？
+USER: maybe electric?
+SYSTEM: how about these?
+USER: maybe ipad?",Interpret,Interpret,True,5,5+,68,False
+88944,10,user,"ipad, ipad, its brand is APPLE!",Interpret,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.
+SYSTEM: What is the learning tool?
+USER: something for taking notes? I don't know exactly.
+SYSTEM: How about these？
+USER: maybe electric?
+SYSTEM: how about these?
+USER: maybe ipad?
+SYSTEM: I'm sorry, these are all I can find. Are there any that satisfy you?
+USER: ipad, ipad, its brand is APPLE!",Interpret,Interpret,True,6,5+,100,False
+88944,12,user,fine.,Chitchat,"USER: hello!
+SYSTEM: What can I do for you?
+USER: I wanna one thing for study.
+SYSTEM: What is the learning tool?
+USER: something for taking notes? I don't know exactly.
+SYSTEM: How about these？
+USER: maybe electric?
+SYSTEM: how about these?
+USER: maybe ipad?
+SYSTEM: I'm sorry, these are all I can find. Are there any that satisfy you?
+USER: ipad, ipad, its brand is APPLE!
+SYSTEM: Sorry, I didn't find it, what else can I do for you
+USER: fine.",Chitchat,Interpret,False,7,5+,122,False
+89035,0,user,hello!,Chitchat,USER: hello!,Chitchat,Chitchat,True,1,1,6,False
+89035,2,user,I wanna a computer.,Reveal,"USER: hello!
+SYSTEM: hi,what can i help you
+USER: I wanna a computer.",Reveal,Reveal,True,2,2,22,False
+89035,4,user,"laptop, please.",Interpret,"USER: hello!
+SYSTEM: hi,what can i help you
+USER: I wanna a computer.
+SYSTEM: Do you want a laptop or a desktop?
+USER: laptop, please.",Interpret,Interpret,True,3,3,39,False
+89035,6,user,business.,Interpret,"USER: hello!
+SYSTEM: hi,what can i help you
+USER: I wanna a computer.
+SYSTEM: Do you want a laptop or a desktop?
+USER: laptop, please.
+SYSTEM: A gaming laptop or a business laptop?
+USER: business.",Interpret,Interpret,True,4,4,53,False
+89035,8,user,I wanna apple.,Interpret,"USER: hello!
+SYSTEM: hi,what can i help you
+USER: I wanna a computer.
+SYSTEM: Do you want a laptop or a desktop?
+USER: laptop, please.
+SYSTEM: A gaming laptop or a business laptop?
+USER: business.
+SYSTEM: how about these
+USER: I wanna apple.",Interpret,Interpret,True,5,5+,64,False
+89035,10,user,they are good!,Interpret,"USER: hello!
+SYSTEM: hi,what can i help you
+USER: I wanna a computer.
+SYSTEM: Do you want a laptop or a desktop?
+USER: laptop, please.
+SYSTEM: A gaming laptop or a business laptop?
+USER: business.
+SYSTEM: how about these
+USER: I wanna apple.
+SYSTEM: these?
+USER: they are good!",Interpret,Interpret,True,6,5+,74,False
+89497,0,user,I want to buy a business computer bag.,Reveal,USER: I want to buy a business computer bag.,Reveal,Reveal,True,1,1,13,False
+89497,2,user,"fine, thank you.",Interpret,"USER: I want to buy a business computer bag.
+SYSTEM: how about these three?
+USER: fine, thank you.",Interpret,Interpret,True,2,2,27,False
+89557,0,user,hello!,Chitchat,USER: hello!,Chitchat,Chitchat,True,1,1,6,False
+89557,2,user,I wanna a pen!,Reveal,"USER: hello!
+SYSTEM: hello
+USER: I wanna a pen!",Reveal,Reveal,True,2,2,16,False
+89557,4,user,"ballpoint, please.",Interpret,"USER: hello!
+SYSTEM: hello
+USER: I wanna a pen!
+SYSTEM: Do you like gel ink pens? or ballpoint pens? or Fountain Pens?<br><br>
+USER: ballpoint, please.",Interpret,Interpret,True,3,3,47,False
+89557,6,user,is it made in china?,Interpret,"USER: hello!
+SYSTEM: hello
+USER: I wanna a pen!
+SYSTEM: Do you like gel ink pens? or ballpoint pens? or Fountain Pens?<br><br>
+USER: ballpoint, please.
+SYSTEM: do you like it?
+USER: is it made in china?",Interpret,Interpret,True,4,4,62,False
+89557,8,user,looks good!,Chitchat,"USER: hello!
+SYSTEM: hello
+USER: I wanna a pen!
+SYSTEM: Do you like gel ink pens? or ballpoint pens? or Fountain Pens?<br><br>
+USER: ballpoint, please.
+SYSTEM: do you like it?
+USER: is it made in china?
+SYSTEM: this is made in china, how about this?
+USER: looks good!",Chitchat,Interpret,False,5,5+,79,False
+90138,0,user,hi!,Chitchat,USER: hi!,Chitchat,Chitchat,True,1,1,6,False
+90138,2,user,I wanna water.,Interpret,"USER: hi!
+SYSTEM: hello!
+USER: I wanna water.",Interpret,Reveal,False,2,2,16,False
+90138,4,user,"mineral water, please.",Interpret,"USER: hi!
+SYSTEM: hello!
+USER: I wanna water.
+SYSTEM: Are you asking about buying pure water or mineral water?
+USER: mineral water, please.",Interpret,Inquire,False,3,3,36,False
+90138,6,user,I wanna chinese brands.,Interpret,"USER: hi!
+SYSTEM: hello!
+USER: I wanna water.
+SYSTEM: Are you asking about buying pure water or mineral water?
+USER: mineral water, please.
+SYSTEM: how about these?
+USER: I wanna chinese brands.",Interpret,Inquire,False,4,4,49,False
+90138,8,user,fine.,Chitchat,"USER: hi!
+SYSTEM: hello!
+USER: I wanna water.
+SYSTEM: Are you asking about buying pure water or mineral water?
+USER: mineral water, please.
+SYSTEM: how about these?
+USER: I wanna chinese brands.
+SYSTEM: i can not find any mineral water of chinese brand in amazon.
+USER: fine.",Chitchat,Interpret,False,5,5+,68,False
+91152,0,user,I want to buy a pair of shoes to keep warm,Reveal,USER: I want to buy a pair of shoes to keep warm,Reveal,Reveal,True,1,1,15,False
+91152,2,user,Too ugly,Reveal,"USER: I want to buy a pair of shoes to keep warm
+SYSTEM: how about these two
+USER: Too ugly",Reveal,Chitchat,False,2,2,25,False
+91152,4,user,too ugly,Reveal,"USER: I want to buy a pair of shoes to keep warm
+SYSTEM: how about these two
+USER: Too ugly
+SYSTEM: Are these okay?
+USER: too ugly",Reveal,Interpret,False,3,3,35,False
+91586,0,user,how are you doing?,Chitchat,USER: how are you doing?,Chitchat,Chitchat,True,1,1,9,False
+91586,2,user,I wanna snack.,Reveal,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.",Reveal,Reveal,True,2,2,22,False
+91586,4,user,"meat, please.",Interpret,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.
+SYSTEM: What kind of snacks do you need? Candy or meat products?
+USER: meat, please.",Interpret,Revise,False,3,3,43,False
+91586,6,user,Chinese food?,Interpret,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.
+SYSTEM: What kind of snacks do you need? Candy or meat products?
+USER: meat, please.
+SYSTEM: how about these
+USER: Chinese food?",Interpret,Interpret,True,4,4,53,False
+91586,8,user,I wanna healthy food!,Interpret,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.
+SYSTEM: What kind of snacks do you need? Candy or meat products?
+USER: meat, please.
+SYSTEM: how about these
+USER: Chinese food?
+SYSTEM: o， these may suit you
+USER: I wanna healthy food!",Interpret,Interpret,True,5,5+,68,False
+91586,10,user,are they from china? it's said singapore?,Interpret,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.
+SYSTEM: What kind of snacks do you need? Candy or meat products?
+USER: meat, please.
+SYSTEM: how about these
+USER: Chinese food?
+SYSTEM: o， these may suit you
+USER: I wanna healthy food!
+SYSTEM: how abvout these
+USER: are they from china? it's said singapore?",Interpret,Interpret,True,6,5+,88,False
+91586,12,user,"not good, bye.",Interpret,"USER: how are you doing?
+SYSTEM: what can i help you
+USER: I wanna snack.
+SYSTEM: What kind of snacks do you need? Candy or meat products?
+USER: meat, please.
+SYSTEM: how about these
+USER: Chinese food?
+SYSTEM: o， these may suit you
+USER: I wanna healthy food!
+SYSTEM: how abvout these
+USER: are they from china? it's said singapore?
+SYSTEM: these？
+<br>
+USER: not good, bye.",Interpret,Interpret,True,7,5+,102,False
+94101,0,user,hello，i need something to eat.,Reveal,USER: hello，i need something to eat.,Reveal,Reveal,True,1,1,12,False
+94101,2,user,"i want the  cake
+",Reveal,"USER: hello，i need something to eat.
+SYSTEM: Hello, you want to buy some snacks?
+USER: i want the  cake",Reveal,Reveal,True,2,2,29,False
+94101,4,user,i do not like chocolate,Interpret,"USER: hello，i need something to eat.
+SYSTEM: Hello, you want to buy some snacks?
+USER: i want the  cake
+SYSTEM: Do you like it?
+USER: i do not like chocolate",Interpret,Interpret,True,3,3,43,False
+94101,6,user,"i like the first one,thanks
+",Interpret,"USER: hello，i need something to eat.
+SYSTEM: Hello, you want to buy some snacks?
+USER: i want the  cake
+SYSTEM: Do you like it?
+USER: i do not like chocolate
+SYSTEM: Suggest some others for you
+USER: i like the first one,thanks",Interpret,Interpret,True,4,4,59,False
+94610,0,user,hi,Chitchat,USER: hi,Chitchat,Chitchat,True,1,1,5,False
+94610,2,user,i want buy a laptop for gaming with a budget of $3000.,Reveal,"USER: hi
+SYSTEM: Hello, what do you need?
+USER: i want buy a laptop for gaming with a budget of $3000.",Reveal,Reveal,True,2,2,30,False
+94610,4,user,"every brand is ok,but i need best gpu.",Reveal,"USER: hi
+SYSTEM: Hello, what do you need?
+USER: i want buy a laptop for gaming with a budget of $3000.
+SYSTEM: What brand do you want?
+USER: every brand is ok,but i need best gpu.",Reveal,Interpret,False,3,3,52,False
+94610,6,user,can i buy a laptop with rtx 4090?,Interpret,"USER: hi
+SYSTEM: Hello, what do you need?
+USER: i want buy a laptop for gaming with a budget of $3000.
+SYSTEM: What brand do you want?
+USER: every brand is ok,but i need best gpu.
+SYSTEM: This one is slightly over your budget, but has a very good graphics card
+USER: can i buy a laptop with rtx 4090?",Interpret,Interpret,True,4,4,82,False
+94610,8,user,"ok,thank you.",Reveal,"USER: hi
+SYSTEM: Hello, what do you need?
+USER: i want buy a laptop for gaming with a budget of $3000.
+SYSTEM: What brand do you want?
+USER: every brand is ok,but i need best gpu.
+SYSTEM: This one is slightly over your budget, but has a very good graphics card
+USER: can i buy a laptop with rtx 4090?
+SYSTEM: Yes, but it will be way out of your budget.
+USER: ok,thank you.",Reveal,Interpret,False,5,5+,103,False
+94796,0,user,"how are you doing, bro? Do you have girl friends?",Chitchat,"USER: how are you doing, bro? Do you have girl friends?",Chitchat,Reveal,False,1,1,17,False
+94796,2,user,"ok, I wanna a robot.",Reveal,"USER: how are you doing, bro? Do you have girl friends?
+SYSTEM: i am a robot and i hpoe i have a girl firend.
+USER: ok, I wanna a robot.",Reveal,Interpret,False,2,2,43,False
+94796,4,user,looks handsome.,Interpret,"USER: how are you doing, bro? Do you have girl friends?
+SYSTEM: i am a robot and i hpoe i have a girl firend.
+USER: ok, I wanna a robot.
+SYSTEM: What are your needs in terms of robot features?
+USER: looks handsome.",Interpret,Interpret,True,3,3,60,False
+94796,6,user,can they have face?,Interpret,"USER: how are you doing, bro? Do you have girl friends?
+SYSTEM: i am a robot and i hpoe i have a girl firend.
+USER: ok, I wanna a robot.
+SYSTEM: What are your needs in terms of robot features?
+USER: looks handsome.
+SYSTEM: how about these?
+USER: can they have face?",Interpret,Interpret,True,4,4,73,False
+94924,0,user,"hello, bro!",Chitchat,"USER: hello, bro!",Chitchat,Chitchat,True,1,1,8,False
+94924,2,user,I wanna a backpack.,Interpret,"USER: hello, bro!
+SYSTEM: Hello, what do you need?
+USER: I wanna a backpack.",Interpret,Reveal,False,2,2,24,False
+94924,4,user,any brand is ok. I wanna it with smiles.,Interpret,"USER: hello, bro!
+SYSTEM: Hello, what do you need?
+USER: I wanna a backpack.
+SYSTEM: What brand do you want?
+USER: any brand is ok. I wanna it with smiles.",Interpret,Interpret,True,3,3,45,False
+94924,6,user,where is smiles??!!,Interpret,"USER: hello, bro!
+SYSTEM: Hello, what do you need?
+USER: I wanna a backpack.
+SYSTEM: What brand do you want?
+USER: any brand is ok. I wanna it with smiles.
+SYSTEM: I'll give you a few random recommendations.
+USER: where is smiles??!!",Interpret,Interpret,True,4,4,66,False
+94924,8,user,I like black.,Interpret,"USER: hello, bro!
+SYSTEM: Hello, what do you need?
+USER: I wanna a backpack.
+SYSTEM: What brand do you want?
+USER: any brand is ok. I wanna it with smiles.
+SYSTEM: I'll give you a few random recommendations.
+USER: where is smiles??!!
+SYSTEM: This one will meet your needs, but I don't know if it's right for you
+USER: I like black.",Interpret,Interpret,True,5,5+,94,False
+94924,10,user,good!!!,Interpret,"USER: hello, bro!
+SYSTEM: Hello, what do you need?
+USER: I wanna a backpack.
+SYSTEM: What brand do you want?
+USER: any brand is ok. I wanna it with smiles.
+SYSTEM: I'll give you a few random recommendations.
+USER: where is smiles??!!
+SYSTEM: This one will meet your needs, but I don't know if it's right for you
+USER: I like black.
+SYSTEM: But this smiley face is small
+USER: good!!!",Interpret,Interpret,True,6,5+,108,False
+95754,0,user,I want to buy a lamp. What do you recommend,Reveal,USER: I want to buy a lamp. What do you recommend,Reveal,Reveal,True,1,1,15,False
+95754,2,user,under $50,Interpret,"USER: I want to buy a lamp. What do you recommend
+SYSTEM: What price range do you want?
+USER: under $50",Interpret,Reveal,False,2,2,29,False
+95754,4,user,"That's great, thank you!",Interpret,"USER: I want to buy a lamp. What do you recommend
+SYSTEM: What price range do you want?
+USER: under $50
+SYSTEM: How about these？
+USER: That's great, thank you!",Interpret,Interpret,True,3,3,45,False
+96077,0,user,hi!,Chitchat,USER: hi!,Chitchat,Chitchat,True,1,1,6,False
+96077,2,user,"I'm fine, thank you. And you?",Chitchat,"USER: hi!
+SYSTEM: How are you?
+USER: I'm fine, thank you. And you?",Chitchat,Chitchat,True,2,2,25,False
+96077,4,user,I wanna plants.,Revise,"USER: hi!
+SYSTEM: How are you?
+USER: I'm fine, thank you. And you?
+SYSTEM: What do you want?
+USER: I wanna plants.",Revise,Reveal,False,3,3,38,False
+96077,6,user,they are too high.,Interpret,"USER: hi!
+SYSTEM: How are you?
+USER: I'm fine, thank you. And you?
+SYSTEM: What do you want?
+USER: I wanna plants.
+SYSTEM: Is this small potted plant okay?
+USER: they are too high.",Interpret,Interpret,True,4,4,55,False
+96077,8,user,good!,Interpret,"USER: hi!
+SYSTEM: How are you?
+USER: I'm fine, thank you. And you?
+SYSTEM: What do you want?
+USER: I wanna plants.
+SYSTEM: Is this small potted plant okay?
+USER: they are too high.
+SYSTEM: It's a foot tall.
+USER: good!",Interpret,Interpret,True,5,5+,68,False
+97210,0,user,"Hello, I want some pumping paper.",Reveal,"USER: Hello, I want some pumping paper.",Reveal,Reveal,True,1,1,12,False
+97210,2,user,"I want a big box of paper,please.",Reveal,"USER: Hello, I want some pumping paper.
+SYSTEM: how about these two?
+USER: I want a big box of paper,please.",Reveal,Reveal,True,2,2,31,False
+97210,4,user,I want a big box of paper.,Reveal,"USER: Hello, I want some pumping paper.
+SYSTEM: how about these two?
+USER: I want a big box of paper,please.
+SYSTEM: this is a big box
+USER: I want a big box of paper.",Reveal,Interpret,False,3,3,48,False
+97545,0,user,I want a suit,Reveal,USER: I want a suit,Reveal,Reveal,True,1,1,8,False
+97545,2,user,"Looks good, want something more luxurious",Reveal,"USER: I want a suit
+SYSTEM: Is it for men?
+USER: Looks good, want something more luxurious",Reveal,Reveal,True,2,2,24,False
+97957,0,user,you girl?,Chitchat,USER: you girl?,Chitchat,Chitchat,True,1,1,7,False
+97957,2,user,you are so rude!!!,Chitchat,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!",Chitchat,Interpret,False,2,2,23,False
+97957,4,user,I wanna dog!,Reveal,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!",Reveal,Interpret,False,3,3,34,False
+97957,6,user,yeah.,Interpret,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!
+SYSTEM: dog？
+USER: yeah.",Interpret,Interpret,True,4,4,42,False
+97957,8,user,real dogs!,Interpret,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!
+SYSTEM: dog？
+USER: yeah.
+SYSTEM: Plush toys?
+USER: real dogs!",Interpret,Interpret,True,5,5+,52,False
+97957,10,user,"ok, give me toys.",Revise,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!
+SYSTEM: dog？
+USER: yeah.
+SYSTEM: Plush toys?
+USER: real dogs!
+SYSTEM: Sorry, we don’t have this item.
+USER: ok, give me toys.",Revise,Interpret,False,6,5+,72,False
+97957,12,user,they are too ugly!,Interpret,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!
+SYSTEM: dog？
+USER: yeah.
+SYSTEM: Plush toys?
+USER: real dogs!
+SYSTEM: Sorry, we don’t have this item.
+USER: ok, give me toys.
+SYSTEM: these ？
+USER: they are too ugly!",Interpret,Interpret,True,7,5+,83,False
+97957,14,user,too ugly!,Interpret,"USER: you girl?
+SYSTEM: no, i am robot
+USER: you are so rude!!!
+SYSTEM: houhi
+USER: I wanna dog!
+SYSTEM: dog？
+USER: yeah.
+SYSTEM: Plush toys?
+USER: real dogs!
+SYSTEM: Sorry, we don’t have this item.
+USER: ok, give me toys.
+SYSTEM: these ？
+USER: they are too ugly!
+SYSTEM: these may good
+USER: too ugly!",Interpret,Chitchat,False,8,5+,93,False
+99226,0,user,hi!,Chitchat,USER: hi!,Chitchat,Chitchat,True,1,1,6,False
+99226,2,user,I wanna a glasses.,Reveal,"USER: hi!
+SYSTEM: Hello. What do you need?
+USER: I wanna a glasses.",Reveal,Reveal,True,2,2,22,False
+99226,4,user,yes!,Interpret,"USER: hi!
+SYSTEM: Hello. What do you need?
+USER: I wanna a glasses.
+SYSTEM: Are you looking for sun glasses?
+USER: yes!",Interpret,Interpret,True,3,3,35,False
+99226,6,user,I wanna one with famous stars' sign.,Interpret,"USER: hi!
+SYSTEM: Hello. What do you need?
+USER: I wanna a glasses.
+SYSTEM: Are you looking for sun glasses?
+USER: yes!
+SYSTEM: Do you like it?
+USER: I wanna one with famous stars' sign.",Interpret,Interpret,True,4,4,53,False
+99515,0,user,I wanna coffee.,Reveal,USER: I wanna coffee.,Reveal,Reveal,True,1,1,8,False
+99515,2,user,bottled.,Interpret,"USER: I wanna coffee.
+SYSTEM: What kind of coffee do you want, bottled or powdered?
+USER: bottled.",Interpret,Inquire,False,2,2,27,False
+99515,4,user,I wanna chinese brands.,Interpret,"USER: I wanna coffee.
+SYSTEM: What kind of coffee do you want, bottled or powdered?
+USER: bottled.
+SYSTEM: how about these？
+USER: I wanna chinese brands.",Interpret,Revise,False,3,3,40,False
+99515,6,user,It's not made in China!,Interpret,"USER: I wanna coffee.
+SYSTEM: What kind of coffee do you want, bottled or powdered?
+USER: bottled.
+SYSTEM: how about these？
+USER: I wanna chinese brands.
+SYSTEM: Sorry, we don't have Chinese coffee. Is foreign coffee okay?
+USER: It's not made in China!",Interpret,Interpret,True,4,4,67,False

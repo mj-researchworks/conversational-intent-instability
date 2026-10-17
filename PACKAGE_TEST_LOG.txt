@@ -1,0 +1,48 @@
+Reproducibility Package Verification Log
+Date: 2026-10-17
+
+Scope
+-----
+The package was tested from its root directory without rerunning model training.
+Outputs were written to a temporary directory so packaged reference results were
+not modified.
+
+1. Human annotation audit
+Command:
+  python Human_Annotation_Audit/calculate_human_annotation_majority_and_fleiss.py Human_Annotation_Audit <temporary-output.xlsx>
+Status: PASS
+Verified results: 100 items; Fleiss' kappa 0.893418; 89 unanimous items;
+0 three-way disagreements; 84 items preserving the inherited source label.
+
+2. CV1 paired whole-conversation bootstrap
+Command:
+  python 5Class_Original_vs_Expanded_BERT/CV1_Partial_Label_Correction_Sensitivity/cv1_correction_macro_f1_bootstrap_2000.py --output-folder <temporary-output-directory>
+Status: PASS
+Verified results: 2,000 resamples, seed 42, 166 conversations, 640 turns;
+Corrected - Expanded = +0.012341 (95% interval -0.001918 to +0.028155);
+Corrected - Original = -0.001489 (95% interval -0.020738 to +0.016540).
+Regenerated point-score and interval CSV files matched the packaged files.
+
+3. Exact Shapley calculation
+Command:
+  python Ablation/Ablation_4Class_single_split_Shapley/calculate_shapley_values.py
+Status: PASS
+Verified rounded values: A = -0.011, B = +0.015, C = +0.025.
+The Shapley sum (+0.029) matched the full-coalition-minus-baseline difference.
+
+4. Turn-wise whole-conversation bootstrap
+Command:
+  TURNWISE_OUTPUT_DIR=<temporary-output-directory> python Bootstrap/analyze_turnwise_fixed5label_conversation_bootstrap_5000.py
+Status: PASS
+Verified settings: conversation-level resampling, 5,000 replicates, seed 42,
+fixed five-label Macro F1, and zero_division=0. All regenerated numerical CSV
+files matched the packaged reference files. The regenerated metadata differed
+only in the machine-specific input path.
+
+Additional checks
+-----------------
+- All 50 notebooks parsed successfully.
+- No notebook contained a saved error output.
+- No individual package file exceeded GitHub's 100 MB file limit.
+- No obsolete translation-file reference or stale renamed-notebook reference
+  was found.

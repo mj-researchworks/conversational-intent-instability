@@ -1,0 +1,23 @@
+{
+  "input_predictions_csv": "/content/drive/MyDrive/intent/bert_test_predictions_posthoc.csv",
+  "valid_labels": [
+    "Chitchat",
+    "Interpret",
+    "Reveal",
+    "Revise",
+    "Inquire"
+  ],
+  "turn_order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5+"
+  ],
+  "macro_f1_convention": "fixed five-label Macro F1 with zero_division=0",
+  "classwise_zero_support_display_rule": "F1 displayed as NA only when TP=FP=FN=0; false positives with no true support give F1=0",
+  "bootstrap_unit": "conversation_id",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 42,
+  "ci_method": "percentile 2.5 and 97.5"
+}
