@@ -109,7 +109,7 @@ Optional environment variables are `TURNWISE_PREDICTIONS_CSV`, `TURNWISE_OUTPUT_
 
 `requirements.txt` is the single reviewer-facing dependency file for the package. It includes the common analysis and COMET-QE dependencies and the libraries required by the supplied training notebooks. CUDA-specific PyTorch builds should be installed using the index appropriate for the available GPU runtime.
 
-The shared file intentionally pins Transformers 4.46.3 because this version was used by the successful final COMET-QE run and satisfies the `<5` constraints retained in the supplied experiment notebooks. If the manuscript reports Transformers 5.10.2 for the primary training environment, that number describes the historical training runtime and should not be interpreted as the installation version for this consolidated package environment. Historical Colab notebooks retain their original installation cells as the record of their run-specific environments. The exact historical scikit-learn patch version was not preserved; this limitation is stated in `requirements.txt` rather than replaced with an invented version.
+The shared file intentionally pins Transformers 4.46.3 because this version was used by the successful final COMET-QE run and satisfies the `<5` constraints retained in the supplied experiment notebooks. Historical Colab notebooks retain their original installation cells as the record of their run-specific environments. The exact historical scikit-learn patch version was not preserved; this limitation is stated in `requirements.txt` rather than replaced with an invented version.
 
 ## Known reproduction limitations
 
