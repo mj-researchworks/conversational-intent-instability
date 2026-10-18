@@ -13,6 +13,7 @@ Most training notebooks were executed in Google Colab and retain their original 
 - Original English PSCon data: `DATA/ORIGINAL DATA/conversation_en.json`
 - Original Chinese PSCon data used for translation-quality evaluation: `Translation_Quality/conversation_cn.json`
 - Authoritative translated Chinese data: `DATA/TRANSLATED DATA/conversation_cn_translated_en_deepseek_v4flash.json`
+- Chinese-to-English translation notebook: `Translation_Quality/translation_chinese_to_english.ipynb`
 - Four-class five-fold assignments: `4Class_5cv/4class_5cv_fold_creation/5cv_4class_data/`
 - Five-class five-fold assignments: `5Class_5cv/5class_5cv_fold_creation/data_5cv/`
 - Fold-specific generated rows are stored in the corresponding `4Class_5cv` and `5Class_5cv` generated-data directories.
@@ -42,7 +43,7 @@ Table numbering refers to the current revised manuscript.
 | Tables 22–23b, three-annotator human audit | `Human_Annotation_Audit/` |
 | Table 23c, CV1 partial label-correction sensitivity | `5Class_Original_vs_Expanded_BERT/CV1_Partial_Label_Correction_Sensitivity/` and `5Class_Original_vs_Expanded_BERT/Results_Analysis/` |
 | Tables 24–25b, translation-quality evaluation | `Translation_Quality/` |
-| Table 26, within-PSCon cross-lingual comparison | `4Class_5cv/` and the Chinese-language experiment outputs retained in the relevant notebooks |
+| Table 26, within-PSCon cross-lingual comparison | English: `4Class_5cv/`; Chinese original: `4Class_5cv/Chinese_Original_5fold/4class_chinese_original_5cv_bertbase.ipynb` |
 
 ## Post-hoc analyses that do not retrain a classifier
 
@@ -88,6 +89,7 @@ Optional environment variables are `TURNWISE_PREDICTIONS_CSV`, `TURNWISE_OUTPUT_
 
 ### Translation-quality calculations
 
+- `Translation_Quality/translation_chinese_to_english.ipynb` generates the retained English translation of the original Chinese PSCon conversations using DeepSeek-V4-Flash.
 - `Translation_Quality/01_comet_qe_translation_quality_conversation_cn_translated_en.ipynb` performs COMET-QE inference. It does not train the intent classifier.
 - `Translation_Quality/02_llm_judge_translation_quality_v4flash_50samples_seed42.ipynb` contains the 50-item model-judge sampling and scoring procedure.
 - The LLM-judge sample uses seed 42, `gpt-4o-mini`, temperature 0, and `max_tokens=300`.
