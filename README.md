@@ -19,6 +19,8 @@ Most training notebooks were executed in Google Colab and retain their original 
 
 The DeepSeek V4-Flash JSON above is the only translated-English file used by the final translation-quality analysis. The COMET-QE output contains 3,056 scored turns and an overall score of 0.810 ± 0.060.
 
+DeepSeek-V4-Flash was used only for Chinese-to-English translation. Qwen2.5-1.5B, Llama-3.2-3B, and Gemma-3-1B were evaluated separately as decoder-based intent classifiers.
+
 ## Manuscript table map
 
 Table numbering refers to the current revised manuscript.
@@ -124,6 +126,7 @@ The shared file intentionally pins Transformers 4.46.3 because this version was 
 - Generated rows retain their source `conversation_id`, turn index, inherited intent, augmentation type, source user text, and source system text.
 - The human audit covers 100 CV1 generated examples from Chitchat, Revise, and Inquire only; it is not an estimate over all generated rows.
 - The corrected CV1 experiment changes only the 16 audited labels that differ from the human majority. It does not modify validation or test labels.
+- A post-hoc token-length check confirmed that none of the 652 held-out inputs exceeded the 256-token limit; therefore, no test input was truncated.
 - Saved prediction CSVs permit verification of headline metrics without rerunning model training.
 - COMET-QE and model-judge scores are translation diagnostics and do not replace bilingual human validation.
 
