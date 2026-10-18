@@ -8,7 +8,7 @@ The complete five-class task is the primary evaluation. Four-class experiments a
 
 Most training notebooks were executed in Google Colab and retain their original Colab paths. Upload or mount the corresponding package inputs when rerunning those notebooks. The standalone post-hoc scripts listed below use package-relative paths and can be run locally from the package root.
 
-## Authoritative inputs
+## Data and experiment inputs
 
 - Original English PSCon data: `DATA/ORIGINAL DATA/conversation_en.json`
 - Original Chinese PSCon data used for translation-quality evaluation: `Translation_Quality/conversation_cn.json`
