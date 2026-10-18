@@ -1,5 +1,5 @@
 Reproducibility Package Verification Log
-Date: 2026-10-17
+Date: 2026-10-18
 
 Scope
 -----
@@ -41,7 +41,7 @@ only in the machine-specific input path.
 
 Additional checks
 -----------------
-- All 49 notebooks parsed successfully.
+- All 51 notebooks parsed successfully.
 - No notebook contained a saved error output.
 - No individual package file exceeded GitHub's 100 MB file limit.
 - No obsolete translation-file reference or stale renamed-notebook reference
